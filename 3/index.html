@@ -131,12 +131,11 @@ var translations = {
 
         
         
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220408080121">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220703233808">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -151,67 +150,83 @@ var translations = {
 
     </head>
 <body class="language-en
-layout-goal-bootstrap5
+layout-goal-with-progress
 ">
 <!-- <div class="container"> -->
 
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
-    
+  
 <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:%email_contacts.suggestions">feedback</a>.
     
   </div>
 </div>
 
 </div>
 
-<header role="banner" class="">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="navbar-brand" href="/site/" id="home">
+<header role="banner" class="header-menu-left-aligned">
+  <div class="container">
+
+    <div class="logo-and-mobile-widgets">
+      <a class="navbar-brand" href="/site/" id="home">
     <img src="/site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="d-flex flex-wrap w-100 justify-content-between">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site/goals">Goals</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/site/reporting-status">Reporting Status</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/site/about">About</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/site/faq">FAQ</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/site/news">Updates</a>
-</li></ul>
-    
-                </div>
-                <div class="header-search-bar">
-                    <form class="align-self-lg-end" id="search" action="/site/search/">
-    <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Search</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
-        <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Search" id="search-btn" type="submit">
-                <i class="fa fa-search"></i>
-            </button>
-        </span>
-    </div>
-</form>
+      <div class="mobile-widgets">
+    <ul id='accessibility-nav' class='contrast-switcher'>
+        
 
-                </div>
-                <div class="header-toggles d-flex">
+    <li class="nav-link contrast contrast-high contrast-type-single">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+    </ul><div class="language-toggle-mobile">
+        <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-es">
+            <a href="/site/es/3/">
+              Español
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+    </div></div>
+    </div>
+
+    <div class="search-and-desktop-widgets">
+      <div id="search" class="menu-target">
+  <form action="/site/search/">
+    <label class="sr-only" for="indicator_search">Search</label>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+      <div class="navbar navbar-default widgets-without-menu">
+        <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
+            
 
 
 
@@ -219,13 +234,12 @@ layout-goal-bootstrap5
 
   <div class="language-toggle-container">
   
-  <div class="btn-group language-toggle-dropdown  dropdown">
-    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="fa fa-globe"></i>
-      English
-    </button>
-    <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/site/es/3/">
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-es">
+            <a href="/site/es/3/">
               Español
             </a>
           </li></ul>
@@ -233,16 +247,120 @@ layout-goal-bootstrap5
 </div>
 
 
-<a title="Enable high contrast" aria-label="Enable high contrast"
-    data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
+
+        </li>
+
+    <li class="nav-link contrast contrast-high contrast-type-single">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
 data-event-label="high"
->A</a>
-                </div>
-            </div>
-        </nav>
+
+        >A</a>
+    </li>
+
+
+        </ul>
+      </div>
     </div>
+
+    <div class="navbar navbar-default menu-without-widgets" id="main-nav">
+      <ul class="top-level">
+    <li id="menuToggle"
+        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-haspopup="true">
+        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
+    <a href="/site/goals">Goals</a>
+</li><li class="nav-link ">
+    <a href="/site/reporting-status">Reporting Status</a>
+</li><li class="nav-link ">
+    <a href="/site/about">About</a>
+</li><li class="nav-link ">
+    <a href="/site/faq">FAQ</a>
+</li><li class="nav-link ">
+    <a href="/site/news">Updates</a>
+</li><li class="language-toggle-menu-header">
+    
+
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-es">
+            <a href="/site/es/3/">
+              Español
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+</li>
+
+
+
+    <li class="nav-link contrast contrast-high contrast-type-single">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
+</ul>
+
+    </li>
+    <li id="searchToggle"
+        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-haspopup="true">
+        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <div id="search-mobile" class="menu-target">
+  <form action="/site/search/">
+    <label class="sr-only" for="indicator_search-mobile">Search</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+    </li>
+</ul>
+      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
+    <a href="/site/goals">Goals</a>
+</li><li class="nav-link ">
+    <a href="/site/reporting-status">Reporting Status</a>
+</li><li class="nav-link ">
+    <a href="/site/about">About</a>
+</li><li class="nav-link ">
+    <a href="/site/faq">FAQ</a>
+</li><li class="nav-link ">
+    <a href="/site/news">Updates</a>
+</li>
+
+</ul>
+
+    </div>
+
+  </div>
+
 </header>
 <div id="top" tabindex=-1></div>
 
@@ -251,33 +369,30 @@ data-event-label="high"
 
 
 <div class="container">
-  <nav>
-    <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
-        
-        <li class="breadcrumb-item" >
-            <a href="/site/">Home</a>
-        </li>
-        <li class="breadcrumb-item" >
-            <a href="/site/goals">Goals</a>
-        </li>
-        
-        
-    </ol>
-</nav>
+  <ol class="breadcrumb">
+  
+  <li><a href="/site/">Home</a></li>
+  <li><a href="/site/goals">Goals</a></li>
+  
+  
+</ol>
+
   
 </div>
 
 <div class="heading goal-banner goal-3">
-    <div class="container">
-        <div class="row">
-            <div class="col-4 col-md-3 col-lg-2 goal-tiles">
-                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" id="goal-3" class="goal-icon-image goal-icon-image-" />
-            </div>
-            <div class="col-8 col-md-9 col-lg-10">
-                <h1>Ensure healthy lives and promote well-being for all at all ages</h1>
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" id="goal-3" class="goal-icon-image goal-icon-image-" />
+      </div>
+      <div class="col-xs-8 col-md-9 col-lg-10">
+        <h1>
+          <span class="hidden-sm hidden-md hidden-lg">Goal 3: </span>Ensure healthy lives and promote well-being for all at all ages
+        </h1>
+      </div>
     </div>
+  </div>
 </div>
 
 
@@ -287,37 +402,28 @@ data-event-label="high"
 
 
 
-  <div class="container g-0">
-    <h2 class="goal-page-heading">Targets and indicators</h2>
+  <div class="container">
+    <h2>Targets and indicators</h2>
 
     
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.1</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.1</span>
+        </h3>
+        <span class="target-name">By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.1.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.1.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-1-1">Maternal mortality ratio</a></span>
               
@@ -325,8 +431,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -336,11 +444,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -348,16 +461,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.1.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.1.2</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-1-2">Proportion of births attended by skilled health personnel</a></span>
               
@@ -365,8 +474,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -376,42 +487,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.2</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under‐5 mortality to at least as low as 25 per 1,000 live births</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.2</span>
+        </h3>
+        <span class="target-name">By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under‐5 mortality to at least as low as 25 per 1,000 live births</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.2.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.2.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-2-1">Under‐5 mortality rate</a></span>
               
@@ -419,8 +526,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -430,11 +539,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -442,16 +556,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.2.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.2.2</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-2-2">Neonatal mortality rate</a></span>
               
@@ -459,8 +569,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -470,42 +582,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.3</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.3</span>
+        </h3>
+        <span class="target-name">By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.3.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-3-1">Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</a></span>
               
@@ -513,8 +621,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -524,11 +634,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -536,16 +651,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.3.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.2</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-3-2">Tuberculosis incidence per 100,000 population</a></span>
               
@@ -553,8 +664,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -564,11 +677,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -576,16 +694,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.3.3</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.3</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-3-3">Malaria incidence per 1,000 population</a></span>
               
@@ -593,8 +707,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -604,11 +720,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -616,16 +737,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.3.4</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.4</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-3-4">Hepatitis B incidence per 100,000 population</a></span>
               
@@ -633,8 +750,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -644,11 +763,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -656,16 +780,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.3.5</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.5</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-3-5">Number of people requiring interventions against neglected tropical diseases</a></span>
               
@@ -673,8 +793,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -684,42 +806,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.4</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.4</span>
+        </h3>
+        <span class="target-name">By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.4.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.4.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-4-1">Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease</a></span>
               
@@ -727,8 +845,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -738,11 +858,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -750,16 +875,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.4.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.4.2</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-4-2">Suicide mortality rate</a></span>
               
@@ -767,8 +888,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -778,42 +901,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.5</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.5</span>
+        </h3>
+        <span class="target-name">Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.5.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.5.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-5-1">Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders</a></span>
               
@@ -821,8 +940,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -832,11 +953,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -844,16 +970,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.5.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.5.2</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-5-2">Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol</a></span>
               
@@ -861,8 +983,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -872,42 +996,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.6</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">By 2020, halve the number of global deaths and injuries from road traffic accidents</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.6</span>
+        </h3>
+        <span class="target-name">By 2020, halve the number of global deaths and injuries from road traffic accidents</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.6.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.6.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-6-1">Death rate due to road traffic injuries</a></span>
               
@@ -915,8 +1035,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -926,42 +1048,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.7</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.7</span>
+        </h3>
+        <span class="target-name">By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.7.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.7.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-7-1">Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods</a></span>
               
@@ -969,8 +1087,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -980,11 +1100,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -992,16 +1117,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.7.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.7.2</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-7-2">Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group</a></span>
               
@@ -1009,8 +1130,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1020,42 +1143,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.8</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.8</span>
+        </h3>
+        <span class="target-name">Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.8.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.8.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-8-1">Coverage of essential health services</a></span>
               
@@ -1063,8 +1182,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1074,11 +1195,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -1086,16 +1212,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.8.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.8.2</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-8-2">Proportion of population with large household expenditures on health as a share of total household expenditure or income</a></span>
               
@@ -1103,8 +1225,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1114,42 +1238,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.9</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.9</span>
+        </h3>
+        <span class="target-name">By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.9.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-9-1">Mortality rate attributed to household and ambient air pollution</a></span>
               
@@ -1157,8 +1277,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1168,11 +1290,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -1180,16 +1307,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.9.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.2</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-9-2">Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)</a></span>
               
@@ -1197,8 +1320,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1208,11 +1333,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -1220,16 +1350,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.9.3</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.3</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-9-3">Mortality rate attributed to unintentional poisoning</a></span>
               
@@ -1237,8 +1363,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1248,42 +1376,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.a</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.a</span>
+        </h3>
+        <span class="target-name">Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.a.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.a.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-a-1">Age-standardized prevalence of current tobacco use among persons aged 15 years and older</a></span>
               
@@ -1291,8 +1415,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1302,42 +1428,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.b</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Support the research and development of vaccines and medicines for the communicable and non‐communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.b</span>
+        </h3>
+        <span class="target-name">Support the research and development of vaccines and medicines for the communicable and non‐communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.b.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-b-1">Proportion of the target population covered by all vaccines included in their national programme</a></span>
               
@@ -1345,8 +1467,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1356,11 +1480,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -1368,16 +1497,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.b.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.2</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-b-2">Total net official development assistance to medical research and basic health sectors</a></span>
               
@@ -1385,8 +1510,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1396,11 +1523,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -1408,16 +1540,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.b.3</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.3</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-b-3">Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis</a></span>
               
@@ -1425,8 +1553,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1436,42 +1566,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.c</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.c</span>
+        </h3>
+        <span class="target-name">Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.c.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.c.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-c-1">Health worker density and distribution</a></span>
               
@@ -1479,8 +1605,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1490,42 +1618,38 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
       
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Target</span> 3.d</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks</span>
-          </div>
-      </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 3.d</span>
+        </h3>
+        <span class="target-name">Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks</span>
         
 
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.d.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.d.1</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-d-1">International Health Regulations (IHR) capacity and health emergency preparedness</a></span>
               
@@ -1533,8 +1657,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1544,11 +1670,16 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
@@ -1556,16 +1687,12 @@ data-event-label="high"
           
           
           
-          
 
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
+          <div class="goal-indicator clearfix">
+            <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicator</span> 3.d.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 3.d.2</span>
               </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
               
               <span class="indicator-name"><a href="/site/3-d-2">Percentage of bloodstream infections due to selected antimicrobial-resistant organisms</a></span>
               
@@ -1573,8 +1700,10 @@ data-event-label="high"
 
 
 
-    <ul class="tags list-unstyled list-inline" aria-label="Tags"><li class="list-inline-item">
-        <span class="visually-hidden">Indicator status</span>
+    <ul class="tags" aria-label="Tags">
+    
+        <li>
+        <span class="sr-only">Indicator status</span>
         
 
 
@@ -1584,68 +1713,68 @@ data-event-label="high"
 </span>
 
 
-        </li></ul>
+        </li>
+    
+    
+    </ul>
 
 
             </div>
-            
+            <div class="goal-with-progress-right">
+              
+            </div>
             
           </div>
         
-        <hr class="goal-page-target-rule" />
+      </div>
     
-    </div>
   </div>
-
+</div>
 
 
 <footer role="contentinfo">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div id="footerLinks">
-                    <ul>
-                        <li>
-                            <a href="https://open-sdg.org">Built using Open SDG</a>
-                        </li>
-                        
-                        <li>
-                            <a href="/site/contact-us">Contact us</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
-                            
-                        </li>
-                        <li>
-                            <a href="/site/about/cookies-and-privacy/">Cookies</a>
-                            
-                        </li>
-                        
-                        
-                        
-                        <li>
-                            <a href="/site/config">Configuration</a>
-                        </li>
-                        </ul>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="footerLinks">
+          <ul>
+            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            
+              <li>
+                <a href="/site/contact-us">Contact us</a>
+                
+                </li>
+              <li>
+                
+                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
+                
+                </li>
+              <li>
+                
+                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
+                
+                </li>
+              <li>
+                <a href="/site/about/cookies-and-privacy/">Cookies</a>
+                
+                </li>
+              
+            
+            
+            <li><a href="/site/config">Configuration</a></li>
+            </ul>
         </div>
-        
+      </div>
     </div>
+    
+  </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
 
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
@@ -1671,12 +1800,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220408080121'></script>
+<script src='/site/assets/js/sdg.js?v=20220703233808'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220408080121"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220703233808"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
