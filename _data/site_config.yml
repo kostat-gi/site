@@ -5,7 +5,7 @@ analytics:
   gtag: ''
   gtm: ''
   ga_prod: ''
-bootstrap_5: true
+bootstrap_5: false
 breadcrumbs:
   goal:
     - path: /
