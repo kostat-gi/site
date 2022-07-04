@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko" class="no-js">
+<html lang="en" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://kostat-gi.github.io/data/ko',
+  remoteDataBaseUrl: 'https://kostat-gi.github.io/data/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'ko',
+  language: 'en',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>영역 1 - 자원 - 수도권 광역지표 온라인 서비스</title>
+    <title>Goal 1 - No poverty - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220704012435">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220704012813">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -149,23 +149,23 @@ var translations = {
         
 
     </head>
-<body class="language-ko
+<body class="language-en
 layout-goal-with-progress
 ">
 <!-- <div class="container"> -->
 
 
 
-<script>translations['header'] = {"default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   
 <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag"></strong>
+    <strong class="phase-tag">Alpha</strong>
     
-    문의사항은 <a href="mailto:test@example.com">이메일</a> 부탁 드립니다.
+    This is a development website. We welcome your <a href="mailto:%email_contacts.suggestions">feedback</a>.
     
   </div>
 </div>
@@ -177,15 +177,15 @@ layout-goal-with-progress
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/site/" id="home">
-    <img src="/site/assets/img/SDG_logo.png" alt="지속가능발전목표 - 17 Goals to Transform our World" />
+    <img src="/site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
     <li class="nav-link contrast contrast-high contrast-type-single">
-        <a title="고대비 가능"
-           aria-label="고대비 가능"
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -202,11 +202,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
-      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/site/en/1/">
-              English
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-ko">
+            <a href="/site/ko/1/">
+              
             </a>
           </li></ul>
   </div>
@@ -218,9 +218,9 @@ data-event-label="high"
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/site/search/">
-    <label class="sr-only" for="indicator_search">검색</label>
-    <input type="text" name="q" id="indicator_search" title="검색" /><!--
-    --><button aria-label="검색" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Search</label>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -236,11 +236,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
-      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/site/en/1/">
-              English
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-ko">
+            <a href="/site/ko/1/">
+              
             </a>
           </li></ul>
   </div>
@@ -251,8 +251,8 @@ data-event-label="high"
         </li>
 
     <li class="nav-link contrast contrast-high contrast-type-single">
-        <a title="고대비 가능"
-           aria-label="고대비 가능"
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -273,13 +273,13 @@ data-event-label="high"
     <li id="menuToggle"
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/site/goals">수도권 광역지표</a>
+    <a href="/site/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/site/reporting-status">데이터 제공현황</a>
+    <a href="/site/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/site/about">수도권 광역지표 소개</a>
+    <a href="/site/about">About</a>
 </li><li class="nav-link ">
     <a href="/site/faq">FAQ</a>
 </li><li class="nav-link ">
@@ -295,11 +295,11 @@ data-event-label="high"
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
-      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/site/en/1/">
-              English
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-ko">
+            <a href="/site/ko/1/">
+              
             </a>
           </li></ul>
   </div>
@@ -312,8 +312,8 @@ data-event-label="high"
 
 
     <li class="nav-link contrast contrast-high contrast-type-single">
-        <a title="고대비 가능"
-           aria-label="고대비 가능"
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -332,23 +332,23 @@ data-event-label="high"
     <li id="searchToggle"
         aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">검색</button>
+        <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
   <form action="/site/search/">
-    <label class="sr-only" for="indicator_search-mobile">검색</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="검색" /><!--
-    --><button aria-label="검색" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Search</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/site/goals">수도권 광역지표</a>
+    <a href="/site/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/site/reporting-status">데이터 제공현황</a>
+    <a href="/site/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/site/about">수도권 광역지표 소개</a>
+    <a href="/site/about">About</a>
 </li><li class="nav-link ">
     <a href="/site/faq">FAQ</a>
 </li><li class="nav-link ">
@@ -372,7 +372,7 @@ data-event-label="high"
   <ol class="breadcrumb">
   
   <li><a href="/site/">Home</a></li>
-  <li><a href="/site/goals">수도권 광역지표</a></li>
+  <li><a href="/site/goals">Goals</a></li>
   
   
 </ol>
@@ -384,11 +384,11 @@ data-event-label="high"
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ko/1.png" alt="자원 - 영역 1" id="goal-1" class="goal-icon-image goal-icon-image-" />
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/1.png" alt="No poverty - Goal 1" id="goal-1" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">영역 1: </span>경쟁력 지표 - 자원 영역
+          <span class="hidden-sm hidden-md hidden-lg">Goal 1: </span>End poverty in all its forms everywhere
         </h1>
       </div>
     </div>
@@ -410,9 +410,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">하위영역</span> 1.1</span>
+          <span class="target-number"><span class="sr-only">Target</span> 1.1</span>
         </h3>
-        <span class="target-name">인적 자원</span>
+        <span class="target-name">By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day</span>
         
 
           
@@ -422,10 +422,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.1.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.1.1</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-1-1">인구성장률</a></span>
+              <span class="indicator-name"><a href="/site/1-1-1">Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)</a></span>
               
 
 
@@ -440,7 +440,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -462,9 +462,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">하위영역</span> 1.2</span>
+          <span class="target-number"><span class="sr-only">Target</span> 1.2</span>
         </h3>
-        <span class="target-name">물적 자원</span>
+        <span class="target-name">By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions</span>
         
 
           
@@ -474,10 +474,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.2.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.2.1</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-2-1">고속도로 연장</a></span>
+              <span class="indicator-name"><a href="/site/1-2-1">Proportion of population living below the national poverty line, by sex and age</a></span>
               
 
 
@@ -492,7 +492,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -517,10 +517,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.2.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.2.2</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-2-2">인터넷 이용률</a></span>
+              <span class="indicator-name"><a href="/site/1-2-2">Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions</a></span>
               
 
 
@@ -535,7 +535,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -557,9 +557,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">하위영역</span> 1.3</span>
+          <span class="target-number"><span class="sr-only">Target</span> 1.3</span>
         </h3>
-        <span class="target-name">global_targets.1-3-title</span>
+        <span class="target-name">Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable</span>
         
 
           
@@ -569,10 +569,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.3.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.3.1</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-3-1">global_indicators.1-3-1-title</a></span>
+              <span class="indicator-name"><a href="/site/1-3-1">Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable</a></span>
               
 
 
@@ -587,7 +587,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -609,9 +609,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">하위영역</span> 1.4</span>
+          <span class="target-number"><span class="sr-only">Target</span> 1.4</span>
         </h3>
-        <span class="target-name">global_targets.1-4-title</span>
+        <span class="target-name">By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance</span>
         
 
           
@@ -621,10 +621,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.4.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.4.1</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-4-1">global_indicators.1-4-1-title</a></span>
+              <span class="indicator-name"><a href="/site/1-4-1">Proportion of population living in households with access to basic services</a></span>
               
 
 
@@ -639,7 +639,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -664,10 +664,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.4.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.4.2</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-4-2">global_indicators.1-4-2-title</a></span>
+              <span class="indicator-name"><a href="/site/1-4-2">Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure</a></span>
               
 
 
@@ -682,7 +682,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -704,9 +704,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">하위영역</span> 1.5</span>
+          <span class="target-number"><span class="sr-only">Target</span> 1.5</span>
         </h3>
-        <span class="target-name">global_targets.1-5-title</span>
+        <span class="target-name">By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters</span>
         
 
           
@@ -716,10 +716,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.5.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.5.1</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-5-1">global_indicators.1-5-1-title</a></span>
+              <span class="indicator-name"><a href="/site/1-5-1">Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population</a></span>
               
 
 
@@ -734,7 +734,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -759,10 +759,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.5.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.5.2</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-5-2">global_indicators.1-5-2-title</a></span>
+              <span class="indicator-name"><a href="/site/1-5-2">Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)</a></span>
               
 
 
@@ -777,7 +777,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -802,10 +802,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.5.3</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.5.3</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-5-3">global_indicators.1-5-3-title</a></span>
+              <span class="indicator-name"><a href="/site/1-5-3">Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030</a></span>
               
 
 
@@ -820,7 +820,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -845,10 +845,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.5.4</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.5.4</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-5-4">global_indicators.1-5-4-title</a></span>
+              <span class="indicator-name"><a href="/site/1-5-4">Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies</a></span>
               
 
 
@@ -863,7 +863,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -885,9 +885,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">하위영역</span> 1.a</span>
+          <span class="target-number"><span class="sr-only">Target</span> 1.a</span>
         </h3>
-        <span class="target-name">global_targets.1-a-title</span>
+        <span class="target-name">Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions</span>
         
 
           
@@ -897,10 +897,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.a.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.a.1</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-a-1">global_indicators.1-a-1-title</a></span>
+              <span class="indicator-name"><a href="/site/1-a-1">Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income</a></span>
               
 
 
@@ -915,7 +915,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -940,10 +940,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.a.2</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.a.2</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-a-2">global_indicators.1-a-2-title</a></span>
+              <span class="indicator-name"><a href="/site/1-a-2">Proportion of total government spending on essential services (education, health and social protection)</a></span>
               
 
 
@@ -958,7 +958,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -980,9 +980,9 @@ data-event-label="high"
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">하위영역</span> 1.b</span>
+          <span class="target-number"><span class="sr-only">Target</span> 1.b</span>
         </h3>
-        <span class="target-name">global_targets.1-b-title</span>
+        <span class="target-name">Create sound policy frameworks at the national, regional and international levels, based on pro-poor and gender-sensitive development strategies, to support accelerated investment in poverty eradication actions</span>
         
 
           
@@ -992,10 +992,10 @@ data-event-label="high"
           <div class="goal-indicator clearfix">
             <div class="goal-with-progress-left">
               <h4>
-                <span class="indicator-number"><span class="sr-only">지표</span> 1.b.1</span>
+                <span class="indicator-number"><span class="sr-only">Indicator</span> 1.b.1</span>
               </h4>
               
-              <span class="indicator-name"><a href="/site/1-b-1">global_indicators.1-b-1-title</a></span>
+              <span class="indicator-name"><a href="/site/1-b-1">Pro-poor public social spending</a></span>
               
 
 
@@ -1010,7 +1010,7 @@ data-event-label="high"
 
 
 <span class="status notstarted">
-    <span class="status-inner">제공예정</span>
+    <span class="status-inner">Exploring data sources</span>
 </span>
 
 
@@ -1056,7 +1056,7 @@ data-event-label="high"
                 
                 </li>
               <li>
-                <a href="/site/about/cookies-and-privacy/">쿠키</a>
+                <a href="/site/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -1099,14 +1099,14 @@ data-event-label="high"
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = '검색';</script>
+    translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220704012435'></script>
+<script src='/site/assets/js/sdg.js?v=20220704012813'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220704012435"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220704012813"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
