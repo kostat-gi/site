@@ -1262,14 +1262,6 @@
           "status": "notstarted"
         },
         {
-          "id": "11-5-3",
-          "title": "(a) Damage to critical infrastructure and (b) number of disruptions to basic services, attributed to disasters",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/11-5-3",
-          "status": "notstarted"
-        },
-        {
           "id": "11-6-1",
           "title": "global_indicators.11-6-1-title",
           "description": "",
@@ -2099,22 +2091,6 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/17-18-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-19-1",
-          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-19-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-19-2",
-          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-19-2",
           "status": "notstarted"
         }]
     }
