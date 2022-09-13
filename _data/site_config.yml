@@ -72,7 +72,7 @@ disclaimer:
 email_contacts:
   questions: test@example.com
   suggestions: test@example.com
-  functional: test@example.com
+  functional: testt@example.com
 environment: staging
 favicons: favicon.io
 footer_language_toggle: none
