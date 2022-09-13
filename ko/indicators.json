@@ -14,12 +14,20 @@
           "status": "complete"
         },
         {
+          "id": "1-1-2",
+          "title": "고등교육 이수자 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/1-1-2",
+          "status": "complete"
+        },
+        {
           "id": "1-2-1",
           "title": "고속도로 연장",
           "description": "",
           "keywords": "",
           "href": "/site/ko/1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -27,87 +35,15 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/1-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "1-3-1",
-          "title": "global_indicators.1-3-1-title",
+          "id": "1-2-3",
+          "title": "가구원당 평균 방의 개수",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/1-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-4-1",
-          "title": "global_indicators.1-4-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/1-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-4-2",
-          "title": "global_indicators.1-4-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/1-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-1",
-          "title": "global_indicators.1-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/1-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-2",
-          "title": "global_indicators.1-5-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/1-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-3",
-          "title": "global_indicators.1-5-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/1-5-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-4",
-          "title": "global_indicators.1-5-4-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/1-5-4",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-a-1",
-          "title": "global_indicators.1-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/1-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-a-2",
-          "title": "global_indicators.1-a-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/1-a-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-b-1",
-          "title": "global_indicators.1-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/1-b-1",
-          "status": "notstarted"
+          "href": "/site/ko/1-2-3",
+          "status": "complete"
         }]
     }
   },
@@ -123,7 +59,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/2-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-1-2",
@@ -131,7 +67,15 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/2-1-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "2-1-3",
+          "title": "정부의 변화 대응력",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/2-1-3",
+          "status": "complete"
         },
         {
           "id": "2-2-1",
@@ -139,7 +83,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/2-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-2",
@@ -147,7 +91,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/2-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-3",
@@ -155,79 +99,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/2-2-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-3-1",
-          "title": "global_indicators.2-3-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/2-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-3-2",
-          "title": "global_indicators.2-3-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/2-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-4-1",
-          "title": "global_indicators.2-4-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/2-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-5-1",
-          "title": "global_indicators.2-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/2-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-5-2",
-          "title": "global_indicators.2-5-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/2-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-a-1",
-          "title": "global_indicators.2-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/2-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-a-2",
-          "title": "global_indicators.2-a-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/2-a-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-b-1",
-          "title": "global_indicators.2-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/2-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-c-1",
-          "title": "global_indicators.2-c-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/2-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -243,7 +115,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
@@ -251,7 +123,15 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/3-1-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "3-1-3",
+          "title": "노동생산성",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/3-1-3",
+          "status": "complete"
         },
         {
           "id": "3-2-1",
@@ -259,7 +139,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/3-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-2",
@@ -267,199 +147,15 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "3-3-1",
-          "title": "global_indicators.3-3-1-title",
+          "id": "3-2-3",
+          "title": "지역 물가 상승률",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/3-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-2",
-          "title": "global_indicators.3-3-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-3",
-          "title": "global_indicators.3-3-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-3-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-4",
-          "title": "global_indicators.3-3-4-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-3-4",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-5",
-          "title": "global_indicators.3-3-5-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-3-5",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-4-1",
-          "title": "global_indicators.3-4-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-4-2",
-          "title": "global_indicators.3-4-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-5-1",
-          "title": "global_indicators.3-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-5-2",
-          "title": "global_indicators.3-5-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-6-1",
-          "title": "global_indicators.3-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-7-1",
-          "title": "global_indicators.3-7-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-7-2",
-          "title": "global_indicators.3-7-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-8-1",
-          "title": "global_indicators.3-8-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-8-2",
-          "title": "global_indicators.3-8-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-8-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-9-1",
-          "title": "global_indicators.3-9-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-9-2",
-          "title": "global_indicators.3-9-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-9-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-9-3",
-          "title": "global_indicators.3-9-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-9-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-a-1",
-          "title": "global_indicators.3-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-b-1",
-          "title": "global_indicators.3-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-b-2",
-          "title": "global_indicators.3-b-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-b-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-b-3",
-          "title": "global_indicators.3-b-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-b-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-c-1",
-          "title": "global_indicators.3-c-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-c-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-d-1",
-          "title": "global_indicators.3-d-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-d-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-d-2",
-          "title": "global_indicators.3-d-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/3-d-2",
-          "status": "notstarted"
+          "href": "/site/ko/3-2-3",
+          "status": "complete"
         }]
     }
   },
@@ -475,7 +171,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/4-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-1-2",
@@ -483,7 +179,15 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/4-1-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-1-3",
+          "title": "외국인 직접투자(FDI)",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/4-1-3",
+          "status": "complete"
         },
         {
           "id": "4-2-1",
@@ -491,7 +195,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/4-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-2",
@@ -499,71 +203,23 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/4-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "4-3-1",
-          "title": "global_indicators.4-3-1-title",
+          "id": "4-2-3",
+          "title": "활동하고 있는 의사",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/4-3-1",
-          "status": "notstarted"
+          "href": "/site/ko/4-2-3",
+          "status": "complete"
         },
         {
-          "id": "4-4-1",
-          "title": "global_indicators.4-4-1-title",
+          "id": "4-2-4",
+          "title": "행복지수",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/4-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-5-1",
-          "title": "global_indicators.4-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/4-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-6-1",
-          "title": "global_indicators.4-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/4-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-7-1",
-          "title": "global_indicators.4-7-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/4-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-a-1",
-          "title": "global_indicators.4-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/4-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-b-1",
-          "title": "global_indicators.4-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/4-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-c-1",
-          "title": "global_indicators.4-c-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/4-c-1",
-          "status": "notstarted"
+          "href": "/site/ko/4-2-4",
+          "status": "complete"
         }]
     }
   },
@@ -579,6 +235,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/5-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-1-2",
+          "title": "주민 1인당 자체수입액",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/5-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-1-3",
+          "title": "지자체 자산대비 부채 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/5-1-3",
           "status": "notstarted"
         },
         {
@@ -598,6 +270,46 @@
           "status": "notstarted"
         },
         {
+          "id": "5-2-3",
+          "title": "통근시간",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/5-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-4",
+          "title": "지역별 PIR",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/5-2-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-5",
+          "title": "대중교통수송분담률",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/5-2-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-6",
+          "title": "주택 소유 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/5-2-6",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-7",
+          "title": "공공임대주택 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/5-2-7",
+          "status": "notstarted"
+        },
+        {
           "id": "5-3-1",
           "title": "고등교육이수율",
           "description": "",
@@ -614,6 +326,22 @@
           "status": "notstarted"
         },
         {
+          "id": "5-3-3",
+          "title": "학교교육의 효과",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/5-3-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-3-4",
+          "title": "학교생활 만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/5-3-4",
+          "status": "notstarted"
+        },
+        {
           "id": "5-4-1",
           "title": "합계출산율",
           "description": "",
@@ -622,67 +350,51 @@
           "status": "notstarted"
         },
         {
-          "id": "5-5-1",
-          "title": "global_indicators.5-5-1-title",
+          "id": "5-4-2",
+          "title": "인구증가율",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/5-5-1",
+          "href": "/site/ko/5-4-2",
           "status": "notstarted"
         },
         {
-          "id": "5-5-2",
-          "title": "global_indicators.5-5-2-title",
+          "id": "5-4-3",
+          "title": "고령인구비율",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/5-5-2",
+          "href": "/site/ko/5-4-3",
           "status": "notstarted"
         },
         {
-          "id": "5-6-1",
-          "title": "global_indicators.5-6-1-title",
+          "id": "5-4-4",
+          "title": "인구 백만 명당 응급의료기관 수",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/5-6-1",
+          "href": "/site/ko/5-4-4",
           "status": "notstarted"
         },
         {
-          "id": "5-6-2",
-          "title": "global_indicators.5-6-2-title",
+          "id": "5-4-5",
+          "title": "건강관련 삶의 질(EQ-5D)",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/5-6-2",
+          "href": "/site/ko/5-4-5",
           "status": "notstarted"
         },
         {
-          "id": "5-a-1",
-          "title": "global_indicators.5-a-1-title",
+          "id": "5-4-6",
+          "title": "기대수명",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/5-a-1",
+          "href": "/site/ko/5-4-6",
           "status": "notstarted"
         },
         {
-          "id": "5-a-2",
-          "title": "global_indicators.5-a-2-title",
+          "id": "5-4-7",
+          "title": "부양인구비",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/5-a-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-b-1",
-          "title": "global_indicators.5-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/5-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-c-1",
-          "title": "global_indicators.5-c-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/5-c-1",
+          "href": "/site/ko/5-4-7",
           "status": "notstarted"
         }]
     }
@@ -702,11 +414,51 @@
           "status": "notstarted"
         },
         {
+          "id": "6-1-2",
+          "title": "연구개발투자비율(GDP 대비)",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/6-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-1-3",
+          "title": "창업기업 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/6-1-3",
+          "status": "notstarted"
+        },
+        {
           "id": "6-2-1",
           "title": "고용률",
           "description": "",
           "keywords": "",
           "href": "/site/ko/6-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-2-2",
+          "title": "근로여건만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/6-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-2-3",
+          "title": "근로시간",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/6-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-2-4",
+          "title": "지역별 사업체 수 및 종사자 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/6-2-4",
           "status": "notstarted"
         },
         {
@@ -726,59 +478,11 @@
           "status": "notstarted"
         },
         {
-          "id": "6-4-1",
-          "title": "global_indicators.6-4-1-title",
+          "id": "6-3-3",
+          "title": "가구순자산",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/6-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-4-2",
-          "title": "global_indicators.6-4-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/6-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-1",
-          "title": "global_indicators.6-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/6-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-2",
-          "title": "global_indicators.6-5-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/6-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-6-1",
-          "title": "global_indicators.6-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/6-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-a-1",
-          "title": "global_indicators.6-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/6-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-b-1",
-          "title": "global_indicators.6-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/6-b-1",
+          "href": "/site/ko/6-3-3",
           "status": "notstarted"
         }]
     }
@@ -806,35 +510,19 @@
           "status": "notstarted"
         },
         {
-          "id": "7-2-1",
-          "title": "global_indicators.7-2-1-title",
+          "id": "7-1-3",
+          "title": "신재생에너지 보급률",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/7-2-1",
+          "href": "/site/ko/7-1-3",
           "status": "notstarted"
         },
         {
-          "id": "7-3-1",
-          "title": "global_indicators.7-3-1-title",
+          "id": "7-1-4",
+          "title": "최종에너지 소비량",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/7-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-a-1",
-          "title": "global_indicators.7-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/7-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-b-1",
-          "title": "global_indicators.7-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/7-b-1",
+          "href": "/site/ko/7-1-4",
           "status": "notstarted"
         }]
     }
@@ -851,126 +539,6 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/8-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-2-1",
-          "title": "global_indicators.8-2-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-3-1",
-          "title": "global_indicators.8-3-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-4-1",
-          "title": "global_indicators.8-4-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-4-2",
-          "title": "global_indicators.8-4-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-5-1",
-          "title": "global_indicators.8-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-5-2",
-          "title": "global_indicators.8-5-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-6-1",
-          "title": "global_indicators.8-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-7-1",
-          "title": "global_indicators.8-7-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-8-1",
-          "title": "global_indicators.8-8-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-8-2",
-          "title": "global_indicators.8-8-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-8-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-9-1",
-          "title": "global_indicators.8-9-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-10-1",
-          "title": "global_indicators.8-10-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-10-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-10-2",
-          "title": "global_indicators.8-10-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-10-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-a-1",
-          "title": "global_indicators.8-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-b-1",
-          "title": "global_indicators.8-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/8-b-1",
           "status": "notstarted"
         }]
     }
@@ -998,6 +566,46 @@
           "status": "notstarted"
         },
         {
+          "id": "9-1-3",
+          "title": "인구 천 명당 의료기관 종사 의사수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-4",
+          "title": "기대수명",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-1-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-5",
+          "title": "스트레스 인지율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-1-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-6",
+          "title": "주관적 건강수준 인지율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-1-6",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-7",
+          "title": "비만유병률",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-1-7",
+          "status": "notstarted"
+        },
+        {
           "id": "9-2-1",
           "title": "학교생활 만족도",
           "description": "",
@@ -1011,6 +619,38 @@
           "description": "",
           "keywords": "",
           "href": "/site/ko/9-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-3",
+          "title": "고등교육이수율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-4",
+          "title": "학교교육의 효과",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-2-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-5",
+          "title": "평생교육참여율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-2-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-6",
+          "title": "학생 1인당 월평균 사교육비",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-2-6",
           "status": "notstarted"
         },
         {
@@ -1030,11 +670,59 @@
           "status": "notstarted"
         },
         {
+          "id": "9-3-3",
+          "title": "고용률",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-3-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-3-4",
+          "title": "근로시간",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-3-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-3-5",
+          "title": "실업률",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-3-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-3-6",
+          "title": "비정규직 근로자 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-3-6",
+          "status": "notstarted"
+        },
+        {
           "id": "9-4-1",
           "title": "1인당 개인소득",
           "description": "",
           "keywords": "",
           "href": "/site/ko/9-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-4-2",
+          "title": "소비생활 만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-4-3",
+          "title": "주관적 소득수준",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-4-3",
           "status": "notstarted"
         },
         {
@@ -1054,27 +742,67 @@
           "status": "notstarted"
         },
         {
-          "id": "9-a-1",
-          "title": "global_indicators.9-a-1-title",
+          "id": "9-5-3",
+          "title": "평일 여가시간 비중",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/9-a-1",
+          "href": "/site/ko/9-5-3",
           "status": "notstarted"
         },
         {
-          "id": "9-b-1",
-          "title": "global_indicators.9-b-1-title",
+          "id": "9-5-4",
+          "title": "인구 십만 명당 문화기반시설 수",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/9-b-1",
+          "href": "/site/ko/9-5-4",
           "status": "notstarted"
         },
         {
-          "id": "9-c-1",
-          "title": "global_indicators.9-c-1-title",
+          "id": "9-6-1",
+          "title": "주거환경 만족도",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/9-c-1",
+          "href": "/site/ko/9-6-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-2",
+          "title": "지역별 PIR",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-6-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-3",
+          "title": "자가보유율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-6-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-4",
+          "title": "연면적 평균 거주인수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-6-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-5",
+          "title": "공공임대주택 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-6-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-6-6",
+          "title": "월세/전세 가격지수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/9-6-6",
           "status": "notstarted"
         }]
     }
@@ -1094,6 +822,46 @@
           "status": "notstarted"
         },
         {
+          "id": "10-1-2",
+          "title": "가족관계 만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/10-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-3",
+          "title": "1인 가구 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/10-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-4",
+          "title": "유아 천 명당 보육시설 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/10-1-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-5",
+          "title": "조혼인율/조이혼율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/10-1-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-6",
+          "title": "독거노인 가구비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/10-1-6",
+          "status": "notstarted"
+        },
+        {
           "id": "10-2-1",
           "title": "기초생활보장 수급자수",
           "description": "",
@@ -1102,99 +870,27 @@
           "status": "notstarted"
         },
         {
-          "id": "10-3-1",
-          "title": "global_indicators.10-3-1-title",
+          "id": "10-2-2",
+          "title": "자원봉사참여율",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/10-3-1",
+          "href": "/site/ko/10-2-2",
           "status": "notstarted"
         },
         {
-          "id": "10-4-1",
-          "title": "global_indicators.10-4-1-title",
+          "id": "10-2-3",
+          "title": "기부율",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/10-4-1",
+          "href": "/site/ko/10-2-3",
           "status": "notstarted"
         },
         {
-          "id": "10-4-2",
-          "title": "global_indicators.10-4-2-title",
+          "id": "10-2-4",
+          "title": "사회단체참여율",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/10-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-5-1",
-          "title": "global_indicators.10-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/10-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-6-1",
-          "title": "global_indicators.10-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/10-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-1",
-          "title": "global_indicators.10-7-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/10-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-2",
-          "title": "global_indicators.10-7-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/10-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-3",
-          "title": "global_indicators.10-7-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/10-7-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-4",
-          "title": "global_indicators.10-7-4-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/10-7-4",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-a-1",
-          "title": "global_indicators.10-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/10-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-b-1",
-          "title": "global_indicators.10-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/10-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-c-1",
-          "title": "global_indicators.10-c-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/10-c-1",
+          "href": "/site/ko/10-2-4",
           "status": "notstarted"
         }]
     }
@@ -1214,6 +910,30 @@
           "status": "notstarted"
         },
         {
+          "id": "11-1-2",
+          "title": "녹지 환경 만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/11-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-1-3",
+          "title": "일반폐기물 재활용률",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/11-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-1-4",
+          "title": "재생에너지 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/ko/11-1-4",
+          "status": "notstarted"
+        },
+        {
           "id": "11-2-1",
           "title": "인구 천 명당 범죄발생건수",
           "description": "",
@@ -1222,875 +942,35 @@
           "status": "notstarted"
         },
         {
-          "id": "11-3-1",
-          "title": "global_indicators.11-3-1-title",
+          "id": "11-2-2",
+          "title": "강력볌죄 발생률",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/11-3-1",
+          "href": "/site/ko/11-2-2",
           "status": "notstarted"
         },
         {
-          "id": "11-3-2",
-          "title": "global_indicators.11-3-2-title",
+          "id": "11-2-3",
+          "title": "소방공무원 1인당 담당 주민수",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/11-3-2",
+          "href": "/site/ko/11-2-3",
           "status": "notstarted"
         },
         {
-          "id": "11-4-1",
-          "title": "global_indicators.11-4-1-title",
+          "id": "11-2-4",
+          "title": "사회안전에 대한 인식",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/11-4-1",
+          "href": "/site/ko/11-2-4",
           "status": "notstarted"
         },
         {
-          "id": "11-5-1",
-          "title": "global_indicators.11-5-1-title",
+          "id": "11-2-5",
+          "title": "교통사고 발생건수",
           "description": "",
           "keywords": "",
-          "href": "/site/ko/11-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-5-2",
-          "title": "global_indicators.11-5-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/11-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-6-1",
-          "title": "global_indicators.11-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/11-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-6-2",
-          "title": "global_indicators.11-6-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/11-6-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-7-1",
-          "title": "global_indicators.11-7-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/11-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-7-2",
-          "title": "global_indicators.11-7-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/11-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-a-1",
-          "title": "global_indicators.11-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/11-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-b-1",
-          "title": "global_indicators.11-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/11-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-b-2",
-          "title": "global_indicators.11-b-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/11-b-2",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "12",
-      "title": "global_goals.12-title",
-      "indicators": [
-        
-        {
-          "id": "12-1-1",
-          "title": "global_indicators.12-1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-2-1",
-          "title": "global_indicators.12-2-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-2-2",
-          "title": "global_indicators.12-2-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-2-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-3-1",
-          "title": "global_indicators.12-3-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-4-1",
-          "title": "global_indicators.12-4-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-4-2",
-          "title": "global_indicators.12-4-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-5-1",
-          "title": "global_indicators.12-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-6-1",
-          "title": "global_indicators.12-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-7-1",
-          "title": "global_indicators.12-7-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-8-1",
-          "title": "global_indicators.12-8-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-a-1",
-          "title": "global_indicators.12-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-b-1",
-          "title": "global_indicators.12-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-c-1",
-          "title": "global_indicators.12-c-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/12-c-1",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "13",
-      "title": "global_goals.13-title",
-      "indicators": [
-        
-        {
-          "id": "13-1-1",
-          "title": "global_indicators.13-1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/13-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-1-2",
-          "title": "global_indicators.13-1-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/13-1-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-1-3",
-          "title": "global_indicators.13-1-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/13-1-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-2-1",
-          "title": "global_indicators.13-2-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/13-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-2-2",
-          "title": "global_indicators.13-2-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/13-2-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-3-1",
-          "title": "global_indicators.13-3-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/13-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-a-1",
-          "title": "global_indicators.13-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/13-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-b-1",
-          "title": "global_indicators.13-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/13-b-1",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "14",
-      "title": "global_goals.14-title",
-      "indicators": [
-        
-        {
-          "id": "14-1-1",
-          "title": "global_indicators.14-1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/14-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-2-1",
-          "title": "global_indicators.14-2-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/14-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-3-1",
-          "title": "global_indicators.14-3-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/14-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-4-1",
-          "title": "global_indicators.14-4-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/14-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-5-1",
-          "title": "global_indicators.14-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/14-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-6-1",
-          "title": "global_indicators.14-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/14-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-7-1",
-          "title": "global_indicators.14-7-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/14-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-a-1",
-          "title": "global_indicators.14-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/14-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-b-1",
-          "title": "global_indicators.14-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/14-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-c-1",
-          "title": "global_indicators.14-c-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/14-c-1",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "15",
-      "title": "global_goals.15-title",
-      "indicators": [
-        
-        {
-          "id": "15-1-1",
-          "title": "global_indicators.15-1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-1-2",
-          "title": "global_indicators.15-1-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-1-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-2-1",
-          "title": "global_indicators.15-2-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-3-1",
-          "title": "global_indicators.15-3-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-4-1",
-          "title": "global_indicators.15-4-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-4-2",
-          "title": "global_indicators.15-4-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-5-1",
-          "title": "global_indicators.15-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-6-1",
-          "title": "global_indicators.15-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-7-1",
-          "title": "global_indicators.15-7-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-8-1",
-          "title": "global_indicators.15-8-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-9-1",
-          "title": "global_indicators.15-9-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-a-1",
-          "title": "global_indicators.15-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-b-1",
-          "title": "global_indicators.15-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-c-1",
-          "title": "global_indicators.15-c-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/15-c-1",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "16",
-      "title": "global_goals.16-title",
-      "indicators": [
-        
-        {
-          "id": "16-1-1",
-          "title": "global_indicators.16-1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-1-2",
-          "title": "global_indicators.16-1-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-1-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-1-3",
-          "title": "global_indicators.16-1-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-1-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-1-4",
-          "title": "global_indicators.16-1-4-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-1-4",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-2-1",
-          "title": "global_indicators.16-2-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-2-2",
-          "title": "global_indicators.16-2-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-2-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-2-3",
-          "title": "global_indicators.16-2-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-2-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-3-1",
-          "title": "global_indicators.16-3-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-3-2",
-          "title": "global_indicators.16-3-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-3-3",
-          "title": "global_indicators.16-3-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-3-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-4-1",
-          "title": "global_indicators.16-4-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-4-2",
-          "title": "global_indicators.16-4-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-5-1",
-          "title": "global_indicators.16-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-5-2",
-          "title": "global_indicators.16-5-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-6-1",
-          "title": "global_indicators.16-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-6-2",
-          "title": "global_indicators.16-6-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-6-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-7-1",
-          "title": "global_indicators.16-7-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-7-2",
-          "title": "global_indicators.16-7-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-8-1",
-          "title": "global_indicators.16-8-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-9-1",
-          "title": "global_indicators.16-9-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-10-1",
-          "title": "global_indicators.16-10-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-10-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-10-2",
-          "title": "global_indicators.16-10-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-10-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-a-1",
-          "title": "global_indicators.16-a-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-b-1",
-          "title": "global_indicators.16-b-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/16-b-1",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "17",
-      "title": "global_goals.17-title",
-      "indicators": [
-        
-        {
-          "id": "17-1-1",
-          "title": "global_indicators.17-1-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-1-2",
-          "title": "global_indicators.17-1-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-1-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-2-1",
-          "title": "global_indicators.17-2-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-3-1",
-          "title": "global_indicators.17-3-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-3-2",
-          "title": "global_indicators.17-3-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-4-1",
-          "title": "global_indicators.17-4-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-5-1",
-          "title": "global_indicators.17-5-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-6-1",
-          "title": "global_indicators.17-6-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-7-1",
-          "title": "global_indicators.17-7-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-8-1",
-          "title": "global_indicators.17-8-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-9-1",
-          "title": "global_indicators.17-9-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-10-1",
-          "title": "global_indicators.17-10-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-10-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-11-1",
-          "title": "global_indicators.17-11-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-11-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-12-1",
-          "title": "global_indicators.17-12-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-12-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-13-1",
-          "title": "global_indicators.17-13-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-13-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-14-1",
-          "title": "global_indicators.17-14-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-14-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-15-1",
-          "title": "global_indicators.17-15-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-15-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-16-1",
-          "title": "global_indicators.17-16-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-16-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-17-1",
-          "title": "global_indicators.17-17-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-17-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-18-1",
-          "title": "global_indicators.17-18-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-18-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-18-2",
-          "title": "global_indicators.17-18-2-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-18-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-18-3",
-          "title": "global_indicators.17-18-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/ko/17-18-3",
+          "href": "/site/ko/11-2-5",
           "status": "notstarted"
         }]
     }

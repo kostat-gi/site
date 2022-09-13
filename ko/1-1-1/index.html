@@ -140,7 +140,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220729061832">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220913044047">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -161,7 +161,7 @@ layout-indicator
 
 
 
-<script>translations['header'] = {"default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"현재 개발 작업중인 임시 사이트입니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
@@ -170,7 +170,7 @@ layout-indicator
   <div class="disclaimer-alert">
     <strong class="phase-tag"></strong>
     
-    문의사항은 <a href="mailto:test@example.com">이메일</a> 부탁 드립니다.
+    현재 개발 작업중인 임시 사이트입니다.
     
   </div>
 </div>
@@ -519,21 +519,21 @@ data-event-label="high"
   data-country="Korea"
   data-charttitle="인구성장률"
   data-charttitles="[]"
-  data-measurementunit=""
+  data-measurementunit="%"
   data-xaxislabel=""
   data-showdata="true"
-  data-graphtype="bar"
+  data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap="false"
-  data-startvalues="[]"
+  data-startvalues="[{&quot;field&quot;:&quot;지역&quot;,&quot;value&quot;:&quot;수도권&quot;}]"
   data-graphlimits="[]"
   data-stackeddisaggregation=""
   data-graphannotations="[]"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;A&quot;,&quot;B&quot;]},&quot;title&quot;:&quot;Group&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;지역&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;경기&quot;,&quot;뉴욕&quot;,&quot;도쿄&quot;,&quot;런던&quot;,&quot;베를린&quot;,&quot;서울&quot;,&quot;수도권&quot;,&quot;스톡홀롬&quot;,&quot;시드니&quot;,&quot;오사카&quot;,&quot;인천&quot;,&quot;토론토&quot;,&quot;파리&quot;]},&quot;title&quot;:&quot;지역&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
 >
@@ -570,40 +570,8 @@ data-event-label="high"
       <caption>인구성장률</caption>
       <thead>
         
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
       </thead>
       <tbody>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td class="table-value">2</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td class="table-value">2</td>
-          
-          
-        </tr>
         
       </tbody>
     </table>
@@ -615,7 +583,7 @@ data-event-label="high"
     <p>지역: </p>
     
     
-    <p>세부지표: </p>
+    <p>세부지표: %</p>
     
     
     <p>주석: </p>
@@ -919,74 +887,53 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-      
-        
-          
-      
-        
-      
-      
-      <tr>
-        <th scope="row">지 표 명 </th>
-        <td>
-          
-            <p>Indicator 1.1.1: Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-          
-      
-        
-      
-      
-      <tr>
-        <th scope="row">영   역 </th>
-        <td>
-          
-            <p>Goal 1: End poverty in all its forms everywhere</p>
-
-          
-        </td>
-        </tr>
-        
-      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
       
         
       
       
       <tr>
-        <th scope="row">하위영역 </th>
+        <th scope="row">지표분류 </th>
         <td>
           
-            <p>Target 1.1: By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day</p>
+            <p>영   역: 자원<br /> 하위영역: 인적 자원</p>
 
           
         </td>
@@ -1002,7 +949,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">지 표 명 </th>
         <td>
           
-            <p>Indicator 1.1.1: Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)</p>
+            <p>인구성장률: growth/shrinking index of the total population(2001=100)</p>
 
           
         </td>
@@ -1012,7 +959,116 @@ data-event-label="Change to indicator.sources tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">정   의 </th>
+        <td>
           
+            <p>인구성장률은 자연증가율과 사회적 증가율의 합으로 특정시점(2001년)을 기준으로 인구의 증감율을 나타내는 지표임</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">의   의 </th>
+        <td>
+          
+            <p>한 국가의 인구 및 인구성장률은 그 국가의  장·단기 국가발전 계획수립에 있어 가장 기본적이고 근원적인 기초자료로서 인구와 관련된 각종 경제·사회 정책을 수립하는데 활용됨</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">측   정 </th>
+        <td>
+          
+            <p>인구성장률 = (당해년 전체인구수÷2001년 전체인구수) x 100</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">자료출처 </th>
+        <td>
+          
+            <p>OECD.stat &gt; Regions and Cities &gt; Regional Statistics &gt; Regional Demography &gt; demographic indicators by access to city typology. country level</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">단   위 </th>
+        <td>
+          
+            <p>%</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">범   위 </th>
+        <td>
+          
+            <p>2001년 ~ 2021년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">자료다운일자 </th>
+        <td>
+          
+            <p>19 May 2022</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1151,8 +1207,8 @@ data-event-label="Change to indicator.sources tab"
             
 
             
-              <a href="https://github.com/kostat-gi/data/commit/fba2f17f4503e622dfc051d2906459fa40ea8593" target="_blank">
-                2022-04-08: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-gi/data/commit/0437e7c6014f1438c874f7b0ada2f6273c2b81c4" target="_blank">
+                2022-09-13: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1272,6 +1328,41 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">영   역 </th>
+        <td>
+          
+            <p>Goal 1: End poverty in all its forms everywhere</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">하위영역 </th>
+        <td>
+          
+            <p>Target 1.1: By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
 </table>
 
       </article>
@@ -1306,133 +1397,243 @@ data-event-label="Change to indicator.sources tab"
       
         
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
           
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </table>
 
       </article>
@@ -1565,12 +1766,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220729061832'></script>
+<script src='/site/assets/js/sdg.js?v=20220913044047'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220729061832"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220913044047"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
