@@ -71,7 +71,7 @@ disclaimer:
   hidden: false
 email_contacts:
   questions: test@example.com
-  suggestions: test@example.com
+  suggestions: testt@example.com
   functional: testt@example.com
 environment: staging
 favicons: favicon.io
