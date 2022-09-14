@@ -160,7 +160,7 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-#  - en
+  - en
   - ko
 languages_public: []
 logos: []
