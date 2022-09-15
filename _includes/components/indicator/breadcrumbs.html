@@ -1,0 +1,38 @@
+{% unless page.indicator.standalone %}
+<ol class="breadcrumb">
+  
+  {% if page.goal.number == '1' or page.goal.number == '2' or page.goal.number == '3' or page.goal.number == '4' %}
+    {% assign goal_full = page.t.general.semi_goal_A %}
+  {% elsif page.goal.number == '5' or page.goal.number == '6' or page.goal.number == '7' %}
+    {% assign goal_full = page.t.general.semi_goal_B %}
+  {% else %}
+    {% assign goal_full = page.t.general.semi_goal_C %}
+  {% endif %}
+  
+  {% if site.breadcrumbs.indicator and site.breadcrumbs.indicator.size > 0 %}
+  
+  {% for item in site.breadcrumbs.indicator %}
+    {%- assign item_path = item.path -%}
+    {%- assign item_path_first = item_path | slice: 0 %}
+    {%- if item_path_first == '/' -%}
+      {%- assign item_path = item_path | slice: 1, item_path.size -%}
+    {%- endif -%}
+    <li><a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>
+  {% endfor %}
+    {% if include.depth_level %}
+    <li><a href="{{ page.goal.url }}" title="{{ page.goal.short | escape }}">{{ goal_full | escape }} - {{ page.goal.short | escape }}</a></li>  
+    {% else %}
+    <li>{{ goal_full | escape }} - {{ page.goal.short | escape }}</li>
+    {% endif %}
+
+  {% else %}
+  <li><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
+  <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.goal.name | escape }}</a></li>
+  <li class="active">{{ page.t.general.indicator }} {{ page.indicator.name }}</li>
+  {% endif %}
+  
+  {% if include.depth_level %}
+  <li class="active">{{ page.target.name }} - {{ page.indicator.name }}</li>
+  {% endif %}
+</ol>
+{% endunless %}
