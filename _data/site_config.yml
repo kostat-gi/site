@@ -30,7 +30,7 @@ country:
   name: Korea
   adjective: Korean
 create_goals:
-  layout: goal-with-progress
+  layout: goal-by-target
   previous_next_links: false
   goals: []
 create_indicators:
