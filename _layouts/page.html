@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<!-- _layouts/page.html //-->
+
+{% assign translation_key = content | strip | strip_html %}
+{% assign translated_content = translation_key | t %}
+
+{% if page.permalink != '/key/' and page.permalink != '/about/' and page.permalink != '/faq/' and page.permalink != '/publications/' %}
+<div id="main-content" class="container" role="main">
+{% endif %}	
+
+	    <!--        <h1>{{ page.title | t }}</h1>-->
+        {% if translated_content != translation_key %}
+            {{ translated_content | markdownify }}
+        {% else %}
+            {{ content }}
+        {% endif %}
+
+{% if page.permalink != '/key/' and page.permalink != '/about/' and page.permalink != '/faq/' and page.permalink != '/publications/' %}
+</div>
+{% endif %}
