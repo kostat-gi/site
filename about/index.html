@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220915043803">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20220915052336">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -184,27 +184,12 @@ layout-page
     <ul id='accessibility-nav' class='contrast-switcher'>
         
 
-    </ul><div class="language-toggle-mobile">
-        <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
-      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/site/about/">
-              English
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-    </div></div>
+    </ul></div>
     </div>
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/site/ko/search/">
+  <form action="/site/search/">
     <label class="sr-only" for="indicator_search">검색</label>
     <input type="text" name="q" id="indicator_search" title="검색" /><!--
     --><button aria-label="검색" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -212,30 +197,7 @@ layout-page
 </div>
 
       <div class="navbar navbar-default widgets-without-menu">
-        <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
-            
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
-      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/site/about/">
-              English
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-        </li>
+        <ul class="nav navbar-nav contrast-switcher">
 
         </ul>
       </div>
@@ -248,38 +210,15 @@ layout-page
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">메뉴</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/site/ko/goals">수도권 광역지표</a>
+    <a href="/site/goals">수도권 광역지표</a>
 </li><li class="nav-link ">
-    <a href="/site/ko/reporting-status">데이터 제공현황</a>
+    <a href="/site/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link active">
-    <a href="/site/ko/about">수도권 광역지표 소개</a>
+    <a href="/site/about">수도권 광역지표 소개</a>
 </li><li class="nav-link ">
-    <a href="/site/ko/faq">FAQ</a>
+    <a href="/site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/site/ko/news">Updates</a>
-</li><li class="language-toggle-menu-header">
-    
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">한국어</span>
-      <span class="language-abbreviation">ko</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/site/about/">
-              English
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
+    <a href="/site/news">Updates</a>
 </li>
 
 
@@ -293,7 +232,7 @@ layout-page
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">검색</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/site/ko/search/">
+  <form action="/site/search/">
     <label class="sr-only" for="indicator_search-mobile">검색</label>
     <input type="text" name="q" id="indicator_search-mobile" title="검색" /><!--
     --><button aria-label="검색" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -303,15 +242,15 @@ layout-page
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/site/ko/goals">수도권 광역지표</a>
+    <a href="/site/goals">수도권 광역지표</a>
 </li><li class="nav-link ">
-    <a href="/site/ko/reporting-status">데이터 제공현황</a>
+    <a href="/site/reporting-status">데이터 제공현황</a>
 </li><li class="nav-link active">
-    <a href="/site/ko/about">수도권 광역지표 소개</a>
+    <a href="/site/about">수도권 광역지표 소개</a>
 </li><li class="nav-link ">
-    <a href="/site/ko/faq">FAQ</a>
+    <a href="/site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/site/ko/news">Updates</a>
+    <a href="/site/news">Updates</a>
 </li>
 
 </ul>
@@ -392,7 +331,7 @@ layout-page
 		  <!--            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>-->
             
               <li>
-                <a href="/site/ko/contact-us">Contact us</a>
+                <a href="/site/contact-us">Contact us</a>
                 
                 </li>
               <li>
@@ -406,13 +345,13 @@ layout-page
                 
                 </li>
               <li>
-                <a href="/site/ko/about/cookies-and-privacy/">쿠키</a>
+                <a href="/site/about/cookies-and-privacy/">쿠키</a>
                 
                 </li>
               
             
             
-            <li><a href="/site/ko/config">Configuration</a></li>
+            <li><a href="/site/config">Configuration</a></li>
             </ul>
         </div>
       </div>
@@ -447,12 +386,12 @@ layout-page
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20220915043803'></script>
+<script src='/site/assets/js/sdg.js?v=20220915052336'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20220915043803"></script><script>
+    <script src="/site/assets/js/custom.js?v=20220915052336"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
