@@ -1,0 +1,95 @@
+{% include head.html %}
+{% include header.html %}
+
+<div class="heading goal-banner goal-13">
+    <div class="container">
+        <div class="row">
+            <div class="sttl">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="icon" />
+            </div>
+            <div class="sttl">
+                <h1>{{ page.t.general.goals }}</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="main-content" class="container" role="main">
+  
+<br>
+    <div class="goal-tiles add">
+        <div class="row no-gutters">
+            <div class="col-xs-12 col-key goal-tile">
+                <a href="/site/key/">
+                    <img src="{{ site.goal_image_base }}/{{ page.language }}/key.png" id="goal-1" alt="{{ page.t.general.semi_goal_T }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+                </a>
+            </div>
+        </div>   
+        <h2 style="text-align:center;font-family: 'Nanum Gothic';font-size:20px;font-weight:bolder;line-height:30px">
+            {{ page.t.goal.description }}
+        </h2><br>
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-13 goal-titles">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/i01.png" id="goal-18" alt="{{ page.t.general.semi_goal_A }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+            </div> 
+            {% for goal in page.goals %}
+            <div class="col-xs-4 col-md-13 goal-tile">
+                <a href="{{ goal.url }}">
+                    <img src="{{ goal.icon }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+                </a>
+            </div>
+          
+          
+            {% if goal.number == "4" %}
+        </div>
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-13 goal-titles">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/i02.png" id="goal-18" alt="{{ page.t.general.semi_goal_B }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+            </div>    
+            {% endif %}
+            
+            {% if goal.number == "7" %}
+        </div>
+        <div class="row no-gutters">
+            <div class="col-xs-4 col-md-13 goal-titles">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/i03.png" id="goal-18" alt="{{ page.t.general.semi_goal_C }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+            </div>    
+            {% endif %}          
+          
+          
+          
+            {% endfor %}
+            {% comment %}
+            If there were exactly 17 goals, "pad" it with 1 more, to make it come
+            out more symmetrically.
+            {% endcomment %}
+            {% if page.goals.size == 17 %}
+            <div class="col-xs-4 col-md-2 goal-tile">
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/18.png" id="goal-18" alt="Temp" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+            </div>
+            {% endif %}
+        </div>
+    </div>
+  
+<div class="zip-download-container add" style="float:right;">
+    <a href="{{ page.remote_data_prefix }}/zip/{{ site.data.zip.filename }}"
+       class="btn btn-primary btn-download" aria-describedby="zip-download-info">
+        {{ page.t.frontpage.download_all }}
+    </a>
+    <div id="zip-download-info">
+        {{ page.t.frontpage.zip_file }} - {{ site.data.zip.size_human }}
+        {% if site.data.zip.timestamp %}
+            <br>
+            {{ page.t.metadata_fields.national_data_update_url }} - {{ site.data.zip.timestamp | t_date: 'standard' }}
+        {% endif %}
+    </div>
+</div>
+<!--// <div class="zip-download-container" style="float:left; padding: 0px 100px;">
+    <a href="{{ page.t.frontpage.indicators_download_url }}" class="btn btn-primary btn-download" aria-describedby="zip-download-info">
+        {{ page.t.frontpage.indicators_download }}
+    </a>
+</div> //-->
+
+</div>
+{% include footer.html %}
