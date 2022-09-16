@@ -73,7 +73,8 @@ email_contacts:
   questions: test@example.com
   suggestions: testt@example.com
   functional: testt@example.com
-environment: staging
+#environment: staging
+environment: ''
 favicons: favicon.io
 footer_language_toggle: none
 footer_menu:
