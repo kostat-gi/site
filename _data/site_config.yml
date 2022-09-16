@@ -77,14 +77,14 @@ environment: staging
 favicons: favicon.io
 footer_language_toggle: none
 footer_menu:
-  - path: /contact-us
-    translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
-  - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
+#  - path: /contact-us
+#    translation_key: menu.contact_us
+#  - path: 'https://twitter.com/MyTwitterAccount'
+#    translation_key: general.twitter
+#  - path: 'https://facebook.com/MyFacebookAccount'
+#    translation_key: general.facebook
+#  - path: /about/cookies-and-privacy/
+#    translation_key: menu.cookies
 frontpage_cards:
   - title: frontpage.download_all
     content: ''
@@ -220,12 +220,12 @@ metadata_tabs:
   - scope: national
     title: indicator.national_metadata
     description: indicator.national_metadata_blurb
-  - scope: global
-    title: indicator.global_metadata
-    description: indicator.global_metadata_blurb
-  - scope: sources
-    title: indicator.sources
-    description: ''
+#  - scope: global
+#    title: indicator.global_metadata
+#    description: indicator.global_metadata_blurb
+#  - scope: sources
+#    title: indicator.sources
+#    description: ''
 news:
   category_links: false
 non_global_metadata: ''
