@@ -228,7 +228,7 @@ metadata_tabs:
 #    description: ''
 news:
   category_links: false
-non_global_metadata: ''
+non_global_metadata: indicator.national_metadata
 progress_status:
   status_heading: ''
   status_types: []
