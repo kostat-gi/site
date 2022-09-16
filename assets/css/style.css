@@ -4009,3 +4009,23 @@ footer {
     border-radius: 5px 5px 5px 5px;
     width: 150px;
     height: 215px; } }
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .navbar {
+    width: 100%; }
+
+  .navbar ul.navbar-nav {
+    float: right;
+    margin-top: 40px; }
+
+  #search {
+    margin-top: -70px; } }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar {
+    width: 100%; }
+
+  .navbar ul.navbar-nav {
+    float: right;
+    margin-top: 40px; }
+
+  #search {
+    margin-top: -70px; } }
