@@ -3535,7 +3535,7 @@ body.contrast-high .breadcrumb {
     right: calc(50% - 430px - 38px - 160px + 2px);
     margin: 0;
     position: fixed;
-    top: 420px;
+    top: 520px;
     opacity: 1;
     z-index: 1;
     width: 40px; }
