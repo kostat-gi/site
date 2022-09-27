@@ -23,7 +23,7 @@
         },
         {
           "id": "1-2-1",
-          "title": "고속도로 연장",
+          "title": "국토계수당 이수자 비율",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-1",
@@ -31,7 +31,7 @@
         },
         {
           "id": "1-2-2",
-          "title": "인터넷 이용률",
+          "title": "스마트폰 보유율",
           "description": "",
           "keywords": "",
           "href": "/site/1-2-2",
@@ -55,7 +55,7 @@
         
         {
           "id": "2-1-1",
-          "title": "부정부패지수",
+          "title": "공공기관 청렴도",
           "description": "",
           "keywords": "",
           "href": "/site/2-1-1",
@@ -63,7 +63,7 @@
         },
         {
           "id": "2-1-2",
-          "title": "기업의 사업수행 용이성",
+          "title": "창업기업수 증감",
           "description": "",
           "keywords": "",
           "href": "/site/2-1-2",
@@ -71,7 +71,7 @@
         },
         {
           "id": "2-1-3",
-          "title": "정부의 변화 대응력",
+          "title": "global_indicators.2-1-3-title",
           "description": "",
           "keywords": "",
           "href": "/site/2-1-3",
@@ -119,7 +119,7 @@
         },
         {
           "id": "3-1-2",
-          "title": "GRDP 평균증가율",
+          "title": "GRDP 전년 대비 증가율",
           "description": "",
           "keywords": "",
           "href": "/site/3-1-2",
@@ -135,7 +135,7 @@
         },
         {
           "id": "3-2-1",
-          "title": "지역 고용률",
+          "title": "고용률",
           "description": "",
           "keywords": "",
           "href": "/site/3-2-1",
@@ -175,7 +175,7 @@
         },
         {
           "id": "4-1-2",
-          "title": "유학생 수",
+          "title": "외국인 중 유학생 수",
           "description": "",
           "keywords": "",
           "href": "/site/4-1-2",
@@ -183,7 +183,7 @@
         },
         {
           "id": "4-1-3",
-          "title": "외국인 직접투자(FDI)",
+          "title": "global_indicators.4-1-3-title",
           "description": "",
           "keywords": "",
           "href": "/site/4-1-3",
@@ -191,7 +191,7 @@
         },
         {
           "id": "4-2-1",
-          "title": "주거비 부담률",
+          "title": "주거환경만족도",
           "description": "",
           "keywords": "",
           "href": "/site/4-2-1",
@@ -199,7 +199,7 @@
         },
         {
           "id": "4-2-2",
-          "title": "미세먼지(PM 2.5)에 노출량",
+          "title": "초미세먼지 노출량",
           "description": "",
           "keywords": "",
           "href": "/site/4-2-2",
@@ -207,7 +207,7 @@
         },
         {
           "id": "4-2-3",
-          "title": "활동하고 있는 의사",
+          "title": "인구 천만 명당 의사 수",
           "description": "",
           "keywords": "",
           "href": "/site/4-2-3",
@@ -215,7 +215,7 @@
         },
         {
           "id": "4-2-4",
-          "title": "행복지수",
+          "title": "삶에 대한 만족도",
           "description": "",
           "keywords": "",
           "href": "/site/4-2-4",
@@ -459,7 +459,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/6-2-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-1",
