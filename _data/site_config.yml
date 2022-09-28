@@ -6,6 +6,7 @@ analytics:
   gtm: ''
   ga_prod: ''
 bootstrap_5: false
+
 breadcrumbs:
   goal:
     - path: /
