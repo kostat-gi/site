@@ -4029,3 +4029,10 @@ footer {
 
   #search {
     margin-top: -70px; } }
+.goal-banner .goal-icon {
+  margin-top: 10px; }
+.goal-banner h1 .lead-copy2 {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 26px; }
