@@ -70,14 +70,6 @@
           "status": "complete"
         },
         {
-          "id": "2-1-3",
-          "title": "global_indicators.2-1-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/2-1-3",
-          "status": "notstarted"
-        },
-        {
           "id": "2-2-1",
           "title": "인구 백만 명당 특허 출원 건수",
           "description": "",
