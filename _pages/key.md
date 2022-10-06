@@ -126,7 +126,7 @@ layout: page
 <div class="indicator-cards target goal-target col-md-6">
     <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">하위영역</label>
-        5.1
+        {{ page.t.global_targets.5-1-title }}
     </span>
     재정
 </div>
@@ -135,36 +135,12 @@ layout: page
     <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
             5.1.1
-            <span class="status notstarted">
-                <span class="status-inner">제공예정</span>
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
             </span>
         </span>
         <a href="/site/5-1-1">
-            재정자립도
-        </a>
-    </div>
-    
-    <div class="col-md-12  goal-indicator">
-        <span class="indicator-card-number">
-            5.1.2
-            <span class="status notstarted">
-                <span class="status-inner">제공예정</span>
-            </span>
-        </span>
-        <a href="/site/5-1-2">
-            주민 1인당 자체수입액
-        </a>
-    </div>
-    
-    <div class="col-md-12  goal-indicator">
-        <span class="indicator-card-number">
-            5.1.3
-            <span class="status notstarted">
-                <span class="status-inner">제공예정</span>
-            </span>
-        </span>
-        <a href="/site/5-1-3">
-            지자체 자산대비 부채 비율
+            {{ page.t.global_indicators.5-1-1-title }}
         </a>
     </div>
 </div>
@@ -174,34 +150,55 @@ layout: page
         <label class="hidden-md hidden-lg">하위영역</label>
         5.2
     </span>
-    주거/교통
+    {{ page.t.global_targets.5-2-title }}
 </div>
 
 <div class="indicator-cards col-md-6 row no-gutters">
     <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
-            5.2.1
-            <span class="status notstarted">
-                <span class="status-inner">제공예정</span>
+            5.2.3
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
             </span>
         </span>
-        <a href="/site/5-2-1">
-            주거환경만족도
+        <a href="/site/5-2-3">
+            {{ page.t.global_indicators.5-2-3-title }}
         </a>
     </div>
     
     <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
-            5.2.2
-            <span class="status notstarted">
-                <span class="status-inner">제공예정</span>
+            5.2.6
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
             </span>
         </span>
-        <a href="/site/5-2-2">
-            대중교통접근성
+        <a href="/site/5-2-6">
+            {{ page.t.global_indicators.5-2-6-title }}
         </a>
     </div>
 </div>        
-    
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        5.3
+    </span>
+    {{ page.t.global_targets.5-3-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            5.3.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/5-3-2">
+            {{ page.t.global_indicators.5-3-2-title }}
+        </a>
+    </div>
+</div>      
     
 </div>
