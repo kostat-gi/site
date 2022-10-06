@@ -24,7 +24,7 @@ layout: page
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2>자원 영역</h2>
+      <h2>{{ page.t.general_goals.1-short }} {{ page.t.general.goal }}</h2>
     </div>
     <div class="col-md-6">
       <h2>세부 지표</h2>
