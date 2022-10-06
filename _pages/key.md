@@ -309,5 +309,70 @@ layout: page
         </a>
     </div>
 </div>  
+  
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>{{ page.t.global_goals.7-short }} {{ page.t.general.goal }}</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>세부 지표</h2>
+    </div>
+</div>    
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        7.1
+    </span>
+    {{ page.t.global_targets.7-1-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            7.1.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/7-1-2">
+            {{ page.t.global_indicators.7-1-2-title }}
+        </a>
+    </div>
+</div>  
+
+<br>
+<span class="title2"># 생활지표</span>
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>{{ page.t.global_goals.8-short }} {{ page.t.general.goal }}</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>세부 지표</h2>
+    </div>
+</div>
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        8.1
+    </span>
+    {{ page.t.global_targets.8-1-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            8.1.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/8-1-1">
+            {{ page.t.global_indicators.8-1-1-title }}
+        </a>
+    </div>
+</div>      
     
 </div>
