@@ -3940,7 +3940,8 @@ footer {
 .title2 {
   color: navy;
   font-size: 20pt;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-top: 20px; }
 
 .contents_box {
   padding: 0 5%;
