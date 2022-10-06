@@ -24,7 +24,7 @@ layout: page
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2>{{ page.t.general_goals.1-short }} {{ page.t.general.goal }}</h2>
+      <h2>{{ page.t.global_goals.1-short }} {{ page.t.general.goal }}</h2>
     </div>
     <div class="col-md-6">
       <h2>세부 지표</h2>
@@ -36,7 +36,7 @@ layout: page
         <label class="hidden-md hidden-lg">하위영역</label>
         1.1
     </span>
-        인적 자원
+        {{ page.t.global_targets.1-1-title }}
 </div>
 
 <div class="indicator-cards col-md-6 row no-gutters">
@@ -48,7 +48,7 @@ layout: page
             </span>
         </span>
         <a href="/site/1-1-1">
-          인구성장률
+          {{ page.t.global_indicators.1-1-1-title }}
         </a>
     </div>
 
@@ -60,7 +60,7 @@ layout: page
             </span>
         </span>
         <a href="/site/1-1-2">
-          고등교육 이수자 비율
+          {{ page.t.global_indicators.1-1-2-title }}
         </a>
     </div>
 </div>
@@ -70,7 +70,7 @@ layout: page
         <label class="hidden-md hidden-lg">하위영역</label>
         1.2
     </span>
-    물적 자원
+    {{ page.t.global_targets.1-2-title }}
 </div>
 
 <div class="indicator-cards col-md-6 row no-gutters">
@@ -82,7 +82,7 @@ layout: page
             </span>
         </span>
         <a href="/site/1-2-1">
-          고속도로 연장
+          {{ page.t.global_indicators.1-2-1-title }}
         </a>
     </div>
     
@@ -94,7 +94,7 @@ layout: page
             </span>
         </span>
         <a href="/site/1-2-2">
-          인터넷 이용률
+          {{ page.t.global_indicators.1-2-2-title }}
         </a>
     </div>
     
@@ -106,7 +106,7 @@ layout: page
             </span>
         </span>
         <a href="/site/1-2-3">
-          가구원당 평균 방의 개수
+          {{ page.t.global_indicators.1-2-3-title }}
         </a>
     </div>
 </div>
@@ -116,7 +116,7 @@ layout: page
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-        <h2>기초 역량과 여건 영역</h2>
+        <h2>{{ page.t.global_goals.5-short }} {{ page.t.general.goal }}/h2>
     </div>
     <div class="col-md-6">
         <h2>세부 지표</h2>
