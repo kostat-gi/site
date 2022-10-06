@@ -111,7 +111,7 @@ layout: page
     </div>
 </div>
 
-<br>
+<br><br>
 <span class="title2"># 발전지표</span>
     
 <div class="visible-md-block visible-lg-block">
@@ -341,7 +341,7 @@ layout: page
     </div>
 </div>  
 
-<br>
+<br><br>
 <span class="title2"># 생활지표</span>
     
 <div class="visible-md-block visible-lg-block">
