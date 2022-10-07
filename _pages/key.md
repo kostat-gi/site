@@ -528,4 +528,57 @@ layout: page
     </div>
 </div> 
     
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>{{ page.t.global_goals.10-short }} {{ page.t.general.goal }}</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>세부 지표</h2>
+    </div>
+</div>
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        10.1
+    </span>
+    {{ page.t.global_targets.10-1-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            10.1.6
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/10-1-6">
+            {{ page.t.global_indicators.10-1-6-title }}
+        </a>
+    </div>
+</div>  
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        10.2
+    </span>
+    {{ page.t.global_targets.10-2-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            10.2.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/10-2-1">
+            {{ page.t.global_indicators.10-2-1-title }}
+        </a>
+    </div>
+</div>
+    
 </div>
