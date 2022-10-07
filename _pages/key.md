@@ -111,7 +111,7 @@ layout: page
     </div>
 </div>
 
-
+<header role="banner" class="header-default"> </header>
     
 <div class="title2">※ 발전지표</div>
     
