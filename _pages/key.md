@@ -111,6 +111,9 @@ layout: page
     </div>
 </div>
 
+</div>  
+<div id="main-content" class="container goal-indicators goal-1 goal-by-target" role="main">
+    
 <div class="title2">※ 발전지표</div>
     
 <div class="visible-md-block visible-lg-block">
@@ -340,6 +343,9 @@ layout: page
     </div>
 </div>  
 
+</div>  
+<div id="main-content" class="container goal-indicators goal-1 goal-by-target" role="main">
+    
 <div class="title2">※ 생활지표</div>
     
 <div class="visible-md-block visible-lg-block">
