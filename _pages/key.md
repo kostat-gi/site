@@ -12,7 +12,7 @@ layout: page
                 <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" />
             </div>
             <div class="sttl">
-                <h1>수도권 광역지표 - 핵심지표</h1>
+                <h1>핵심지표</h1>
             </div>
         </div>
     </div>
