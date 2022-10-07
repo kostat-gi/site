@@ -342,7 +342,7 @@ layout: page
     </div>
 </div>  
 
-<span class="header_line">test</span>
+<div class="header_line">test</div>
     
 <div class="title2">※ 생활지표</div>
     
