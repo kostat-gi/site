@@ -3941,7 +3941,9 @@ footer {
   color: navy;
   font-size: 20pt;
   font-weight: 600;
-  margin-top: 20px; }
+  margin-top: 20px;
+  border-top-width: 2px;
+  border-top-style: solid; }
 
 .contents_box {
   padding: 0 5%;
