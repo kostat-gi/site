@@ -111,7 +111,7 @@ layout: page
     </div>
 </div>
 
-<span class="header_line">test</span>
+<div class="part_line">test</div>
    
 <div class="title2">※ 발전지표</div>
     
