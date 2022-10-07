@@ -111,8 +111,7 @@ layout: page
     </div>
 </div>
 
-<header role="banner" class="header-default"> </header>
-    
+   
 <div class="title2">※ 발전지표</div>
     
 <div class="visible-md-block visible-lg-block">
