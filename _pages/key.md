@@ -20,7 +20,7 @@ layout: page
 
 <div id="main-content" class="container goal-indicators goal-1 goal-by-target" role="main">
 
-<div class="title2"># 경쟁력지표</div>
+<div class="title2">※ 경쟁력지표</div>
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
@@ -111,7 +111,7 @@ layout: page
     </div>
 </div>
 
-<div class="title2"># 발전지표</div>
+<div class="title2">※ 발전지표</div>
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
@@ -340,7 +340,7 @@ layout: page
     </div>
 </div>  
 
-<div class="title2"># 생활지표</div>
+<div class="title2">※ 생활지표</div>
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
