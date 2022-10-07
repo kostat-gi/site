@@ -3944,7 +3944,8 @@ footer {
   margin-top: 20px; }
 
 .header_line {
-  background: #fff url(../img/newbg.png) top left repeat-x; }
+  background: #fff url(../img/newbg.png) top left repeat-x;
+  width: 100%; }
 
 .contents_box {
   padding: 0 5%;
