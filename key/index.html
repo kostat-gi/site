@@ -133,7 +133,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221007015232">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221007020444">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -275,7 +275,7 @@ layout-page
                 <img src="https://kostat-gi.github.io/site/assets/img/goals/ko/sub_title.png" alt="아이콘" />
             </div>
             <div class="sttl">
-                <h1>핵심지표</h1>
+                <h1>수도권 광역지표 - 핵심지표</h1>
             </div>
         </div>
     </div>
@@ -639,6 +639,51 @@ layout-page
     </div>
 </div>      
     
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>개인생활 영역</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>세부 지표</h2>
+    </div>
+</div>
+    
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        9.1
+    </span>
+    건강
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            9.1.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/9-1-2">
+            인구 십만 명당 자살률
+        </a>
+    </div>
+</div>  
+    
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            9.1.7
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/9-1-7">
+            비만유병률
+        </a>
+    </div>
+</div>  
+    
 </div>
 
         
@@ -688,12 +733,12 @@ layout-page
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221007015232'></script>
+<script src='/site/assets/js/sdg.js?v=20221007020444'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221007015232"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221007020444"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
