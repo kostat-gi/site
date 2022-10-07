@@ -31,6 +31,19 @@ A. 수도권 광역지표는 광역 생활권인 수도권의 경쟁력과 주�
 A. 다른 나라 대도시와의 비교가 가능한 경쟁력지표는 4개 영역, 8개 하위 영역, 24개의 세부지표로 구성되어 있습니다. 
 <br /><br />
 	</p>
+	<span class="title">플랫폼 개발 매뉴얼</span>
+<p class="contents">
+<br>
+SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세한 정보를 얻으실 수 있습니다.
+한국, 영국, 미국 등 Open SDG 기반 플랫폼 소스는 누구나 활용할 수 있습니다.
+<br><br>
+* Wiki <a href="https://github.com/ONSdigital/sdg-indicators/wiki" target="_blank">[바로가기]</a><br>
+ → 개발 단계별 설명, 기술적 요구사항, 기본 프로그램 설치 방법 등
+<br><br>
+* Open SDG <a href="https://open-sdg.readthedocs.io/" target="_blank">[바로가기]</a><br>
+ → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등
+</p>
+	
 </div>
 
 </div>
