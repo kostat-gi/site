@@ -17,14 +17,14 @@ layout: page
         </div>
     </div>
 </div>
-<div class="heading goal-banner goal-1">
+<div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
             <div class="col-xs-3 col-md-13 col-lg-2 goal-tiles">
-                <img src="https://kostat-gi.github.io/site/assets/img/goals/ko/1.png" alt="자원 - 영역 1" id="goal-1" class="goal-icon-image goal-icon-image-" />
+                <img src="https://kostat-gi.github.io/site/assets/img/goals/ko/i01.png" alt="경쟁력 지표" id="goal-13" class="goal-icon-image goal-icon-image-" />
             </div>
             <div class="col-8 col-md-9 col-lg-10">
-                <h1>경쟁력 지표 - 자원 영역</h1>
+                <h1></h1>
             </div>
         </div>
     </div>
