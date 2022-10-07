@@ -111,6 +111,7 @@ layout: page
     </div>
 </div>
 
+<span class="header_line">test</span>
    
 <div class="title2">※ 발전지표</div>
     
@@ -341,6 +342,7 @@ layout: page
     </div>
 </div>  
 
+<span class="header_line">test</span>
     
 <div class="title2">※ 생활지표</div>
     
