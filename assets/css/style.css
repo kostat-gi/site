@@ -3941,7 +3941,11 @@ footer {
   color: navy;
   font-size: 20pt;
   font-weight: 600;
+  margin-top: 20px; }
+
+.part_line {
   margin-top: 20px;
+  margin-bottom: 20px;
   background: #fff url(../img/newbg.png) top left repeat-x; }
 
 .contents_box {
