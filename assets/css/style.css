@@ -3946,7 +3946,7 @@ footer {
 .part_line {
   margin-top: 20px;
   margin-bottom: 20px;
-  background: #fff url(../img/newbg.png) top left repeat-x; }
+  background: #fff url(../img/newbg.png) bottom left repeat-x; }
 
 .contents_box {
   padding: 0 5%;
