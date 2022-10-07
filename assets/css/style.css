@@ -3369,6 +3369,9 @@ header {
     header .container .navbar-default {
       border: none; }
 
+header_line {
+  background: #fff url(../img/newbg.png) top left repeat-x; }
+
 .breadcrumb {
   margin-bottom: 15px; }
   .breadcrumb a {
@@ -3941,9 +3944,7 @@ footer {
   color: navy;
   font-size: 20pt;
   font-weight: 600;
-  margin-top: 20px;
-  border-top-width: 2px;
-  border-top-style: solid; }
+  margin-top: 20px; }
 
 .contents_box {
   padding: 0 5%;
