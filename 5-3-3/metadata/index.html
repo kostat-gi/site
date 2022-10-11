@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221007051410">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221011003333">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -514,16 +514,88 @@ layout-config-builder
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_definitions', "<b>영   역</b>: 기초역량과 여건<br> <b>하위영역</b>: 교육/훈련");
+        var propertyEditor = editor.getEditor('root.computation_definitions');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_definitions');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_definitions'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_name_sub', "학교교육의 효과");
+        var propertyEditor = editor.getEditor('root.indicator_name_sub');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_name_sub');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_name_sub'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_definition', "13세 이상 인구 중 현재 학교교육이 생활·직업·취업에의 활용에 효과가 있다고 응답한 비율");
+        var propertyEditor = editor.getEditor('root.indicator_definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_importance', "학교 교육효과에 대한 국민들의 주관적 의식을 파악 가능");
+        var propertyEditor = editor.getEditor('root.indicator_importance');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_importance');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_importance'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_calculations', "(“매우 효과있음”, “약간 효과있음” 응답자수÷전체 응답자수)×100<br> * 응답자 수: 가구원 가중값 적용<br> * 2011년 부터 13세 이상으로 조사 대상 변경");
+        var propertyEditor = editor.getEditor('root.computation_calculations');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_calculations');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_calculations'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('statistics_name', "통계청, 「사회조사」<br> (시도 자료) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1SSED064R&conn_path=I2<br> (수도권 자료 - 사회조사 MD 활용) https://mdis.kostat.go.kr/index.do");
+        var propertyEditor = editor.getEditor('root.statistics_name');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: statistics_name');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.statistics_name'));
 
     
@@ -540,16 +612,88 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_coverage', "시도");
+        var propertyEditor = editor.getEditor('root.computation_coverage');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_coverage');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_coverage'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_download', "-");
+        var propertyEditor = editor.getEditor('root.data_download');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_download');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_download'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_provision_year', "2000년, 2004년, 2008년~2020년(짝수년)");
+        var propertyEditor = editor.getEditor('root.data_provision_year');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_provision_year');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_provision_year'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_preparation_year', "2012년~2020년(짝수년)<br> * 2011년 부터 조사 대상 변경: 15세 이상에서 13세 이상으로 확대");
+        var propertyEditor = editor.getEditor('root.data_preparation_year');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_preparation_year');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_preparation_year'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_generation_cycle', "2년");
+        var propertyEditor = editor.getEditor('root.data_generation_cycle');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_generation_cycle');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_generation_cycle'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('update_cycle', "조사기준년도 11월");
+        var propertyEditor = editor.getEditor('root.update_cycle');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: update_cycle');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.update_cycle'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -620,12 +764,60 @@ layout-config-builder
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/kostat-gi/data/commit/f090a3b0e22e027c3d7f43681ea8babb1db20c51");
+        var propertyEditor = editor.getEditor('root.national_data_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url_text', "2022-09-28: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_data_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/da7f34b4e86954364eb061c87e52bc563275ca2a");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-11: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url_text'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_name'));
@@ -746,12 +938,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221007051410'></script>
+<script src='/site/assets/js/sdg.js?v=20221011003333'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221007051410"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221011003333"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
