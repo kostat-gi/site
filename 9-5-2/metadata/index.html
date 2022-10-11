@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221011003333">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221011015928">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -514,21 +514,93 @@ layout-config-builder
     }
 
     // Set values according to this site's configuration.
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_definitions', "<b>영   역</b>: 개인생활<br> <b>하위영역</b>: 문화/여가");
+        var propertyEditor = editor.getEditor('root.computation_definitions');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_definitions');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_definitions'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_name_sub', "일생활균형지수");
+        var propertyEditor = editor.getEditor('root.indicator_name_sub');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_name_sub');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_name_sub'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_definition', "일, 생활, 제도 및 지자체 관심도 등 4개 영역, 24개 지표에 대해 실태조사를 통해 산출한 점수");
+        var propertyEditor = editor.getEditor('root.indicator_definition');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_definition');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_definition'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_importance', "대외환경 변화에 따라 새로운 근무방식이 생기면서 일·생활 균형에 대한 사회적 관심을 반영함");
+        var propertyEditor = editor.getEditor('root.indicator_importance');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_importance');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_importance'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_calculations', "24개 세부지표별로 설정한 기준값(지표별 추세를 고려한 2023년 추정값 중 최대치) 대비 해당 연도에 도달한 정도를 점수화");
+        var propertyEditor = editor.getEditor('root.computation_calculations');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_calculations');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_calculations'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('statistics_name', "고용노동부<br> (2019) https://www.korea.kr/news/pressReleaseView.do?newsId=156429973<br> (2018) http://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=10629<br> (2017) http://www.aurum.re.kr/Research/PostView.aspx?mm=1&ss=1&pid=16040#.YPestOgzZPY");
+        var propertyEditor = editor.getEditor('root.statistics_name');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: statistics_name');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.statistics_name'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_units', "");
+        var currentValue = normalizeCurrentValue('computation_units', "점");
         var propertyEditor = editor.getEditor('root.computation_units');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -540,16 +612,88 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('computation_coverage', "시도");
+        var propertyEditor = editor.getEditor('root.computation_coverage');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: computation_coverage');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_coverage'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_download', "-");
+        var propertyEditor = editor.getEditor('root.data_download');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_download');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_download'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_provision_year', "2017년~2020년");
+        var propertyEditor = editor.getEditor('root.data_provision_year');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_provision_year');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_provision_year'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_preparation_year', "2017년~2020년");
+        var propertyEditor = editor.getEditor('root.data_preparation_year');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_preparation_year');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_preparation_year'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_generation_cycle', "-");
+        var propertyEditor = editor.getEditor('root.data_generation_cycle');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_generation_cycle');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_generation_cycle'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('update_cycle', "-");
+        var propertyEditor = editor.getEditor('root.update_cycle');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: update_cycle');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.update_cycle'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -620,12 +764,60 @@ layout-config-builder
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.OTHER_DOC'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/kostat-gi/data/commit/34f887bbc105c2d588a0621ae42c1bf6a016f804");
+        var propertyEditor = editor.getEditor('root.national_data_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_data_update_url_text', "2022-09-28: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_data_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_data_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_update_url_text'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/b37252109ac344c67488dc389a65248e5700b07c");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-11: see changes on GitHub");
+        var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: national_metadata_update_url_text');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_update_url_text'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_name'));
@@ -746,12 +938,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221011003333'></script>
+<script src='/site/assets/js/sdg.js?v=20221011015928'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221011003333"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221011015928"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
