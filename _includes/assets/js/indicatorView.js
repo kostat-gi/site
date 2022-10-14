@@ -14,6 +14,8 @@ var indicatorView = function (model, options) {
   this._decimalSeparator = options.decimalSeparator;
 
   var chartHeight = screen.height < options.maxChartHeight ? screen.height : options.maxChartHeight;
+  
+          alert('dddd');
 
   $('.plot-container', this._rootElement).css('height', chartHeight + 'px');
 
@@ -775,7 +777,7 @@ var indicatorView = function (model, options) {
         });
       //var blob = new Blob([tableCsv], {
       var blob = new Blob(["\ufeff"+tableCsv], {
-        type: 'text/csv;charset=utf8'
+        type: 'text/csv;charset=utf-8'
       });
       if (window.navigator && window.navigator.msSaveBlob) {
         // Special behavior for IE.
