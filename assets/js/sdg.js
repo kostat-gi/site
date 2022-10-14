@@ -3005,7 +3005,6 @@ var indicatorView = function (model, options) {
 
   var chartHeight = screen.height < options.maxChartHeight ? screen.height : options.maxChartHeight;
   
-          alert('dddd');
 
   $('.plot-container', this._rootElement).css('height', chartHeight + 'px');
 
@@ -3799,8 +3798,9 @@ var indicatorView = function (model, options) {
   this.updateChartDownloadButton = function(table) {
     if (typeof this._chartDownloadButton !== 'undefined') {
       var tableCsv = this.toCsv(table);
-      var blob = new Blob([tableCsv], {
-        type: 'text/csv;charset=utf8'
+      //var blob = new Blob([tableCsv], {
+      var blob = new Blob(["\ufeff"+tableCsv], {
+        type: 'text/csv;charset=utf-8'
       });
       var fileName = this._chartDownloadButton.attr('download');
       if (window.navigator && window.navigator.msSaveBlob) {
