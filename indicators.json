@@ -140,14 +140,6 @@
           "keywords": "",
           "href": "/site/3-2-2",
           "status": "complete"
-        },
-        {
-          "id": "3-2-3",
-          "title": "global_indicators.3-2-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/3-2-3",
-          "status": "notstarted"
         }]
     }
   },
@@ -172,14 +164,6 @@
           "keywords": "",
           "href": "/site/4-1-2",
           "status": "complete"
-        },
-        {
-          "id": "4-1-3",
-          "title": "global_indicators.4-1-3-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/4-1-3",
-          "status": "notstarted"
         },
         {
           "id": "4-2-1",
@@ -294,14 +278,6 @@
           "status": "complete"
         },
         {
-          "id": "5-2-7",
-          "title": "global_indicators.5-2-7-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/5-2-7",
-          "status": "complete"
-        },
-        {
           "id": "5-3-1",
           "title": "고등교육이수자 비율",
           "description": "",
@@ -379,14 +355,6 @@
           "description": "",
           "keywords": "",
           "href": "/site/5-4-6",
-          "status": "complete"
-        },
-        {
-          "id": "5-4-7",
-          "title": "global_indicators.5-4-7-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/5-4-7",
           "status": "complete"
         }]
     }
@@ -590,14 +558,6 @@
           "status": "complete"
         },
         {
-          "id": "9-1-7",
-          "title": "global_indicators.9-1-7-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/9-1-7",
-          "status": "complete"
-        },
-        {
           "id": "9-2-1",
           "title": "학교생활 만족도",
           "description": "",
@@ -636,14 +596,6 @@
           "keywords": "",
           "href": "/site/9-2-5",
           "status": "notstarted"
-        },
-        {
-          "id": "9-2-6",
-          "title": "global_indicators.9-2-6-title",
-          "description": "",
-          "keywords": "",
-          "href": "/site/9-2-6",
-          "status": "complete"
         },
         {
           "id": "9-3-1",
@@ -747,7 +699,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/9-5-4",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-6-1",
