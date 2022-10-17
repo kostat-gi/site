@@ -74,6 +74,9 @@ layout: page
       </div>
    </div>
 </div>
+	
+<!--//  여기서부터는 게시판 형태 출력 소스임 - 자료가 많을 경우에 주석 제거 후 
+	
 <div class="search_form">
    <div class="search_div">
       <input type="text" class="srh_input" name="search_input" placeholder="제목검색"/>
@@ -586,7 +589,7 @@ layout: page
       </ul>
    </div>   
 </div>
-
+//-->  
 
 <h2>### 주요 글로벌 웹사이트</h2>
 
