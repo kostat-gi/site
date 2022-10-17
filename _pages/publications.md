@@ -23,9 +23,9 @@ layout: page
 </div>
 <div id="main-content" class="container" role="main">
     <div class="contents_box">
-	    <div style="margin-top: 30px;">
-	<span class="title2">발간(참고자료) 목록</span>
-	    </div>
+        <div style="margin-top: 30px;">
+            <span class="title2">발간(참고자료) 목록</span>
+        </div>
     </div>
 		
 	
@@ -75,7 +75,7 @@ layout: page
    </div>
 </div>
 	
-{{ <!--//  여기서부터는 게시판 형태 출력 소스임 - 자료가 많을 경우에 주석 제거 후 
+{{ <!--//  여기서부터는 게시판 형태 출력 소스임 - 자료가 많을 경우에 제거 후 사용 -->
 	
 <div class="search_form">
    <div class="search_div">
@@ -589,39 +589,18 @@ layout: page
       </ul>
    </div>   
 </div>
-//-->  
-}}
 
-<h2>### 주요 글로벌 웹사이트</h2>
+}}  <!-- 여기까지 게시판 소스 -->
 
-<span class="title">－**[IAEG-SDGs(Inter-agency and Expert Group on SDG Indicators)](https://unstats.un.org/sdgs/iaeg-sdgs/)** : 글로벌 지표 프레임워크 개발, 이행을 위해 조직. 공식적인 글로벌 SDG 정보 수록</span>
+	
+    <div class="contents_box">
+        <div style="margin-top: 30px;">
+            <span class="title2">사이트 구축 참고자료</span>
+        </div>
+	** [Open-SDG 플랫폼] https://open-sdg.readthedocs.io/<br>
+	** [한국의 SDGs 데이터 플랫폼] https://kostat-sdg-kor.github.io/sdg-indicators/
+        
+    </div>	
 
-－**[UN World Data Forum](https://unstats.un.org/unsd/undataforum/)** : 지속가능발전 데이터 및 통계 개선을 목표로 한 세계 최대 규모의 협력 플랫폼
-
-－**[HLPF(High-Level Political Forum)](https://sustainabledevelopment.un.org/hlpf)** : SDGs 이행 점검, 후속 정책 논의를 위해 개설된 UN 차원의 플랫폼
-
-－**[UNESCAP(UN The Economic and Social Commission for Asia and the Pacific)](https://www.unescap.org/)** : UN 아시아 태평양 경제사회위원회
-
-－**[UNESCAP-ENEA(UN ESCAP East and North-East Asia Office)](https://www.unescap.org/subregional-office/east-north-east-asia)** : UN 아시아 태평양 경제사회위원회 동북아 사무소
-
-－**[UNECE(UN Economic Commission for Europe)](https://www.unece.org/info/ece-homepage.html)** : 유엔 유럽 경제 위원회
-
-－**[UNECA(UN Economic Commission for Africa)](https://www.uneca.org/)** : 유엔 아프리카 경제 위원회
-
-<br>
-### 해외 플랫폼
-
-－**[독일](http://sdg-indikatoren.de/): http://sdg-indikatoren.de/**
-
-－**[영국](https://sdgdata.gov.uk/): https://sdgdata.gov.uk/**
-
-－**[미국](https://sdg.data.gov/): https://sdg.data.gov/**
-
-－**[아일랜드](https://irelandsdg.geohive.ie/): https://irelandsdg.geohive.ie/**
-
-－**[폴란드](https://sdg.gov.pl/): https://sdg.gov.pl/**
-
-－**[멕시코](http://agenda2030.mx/#/home): http://agenda2030.mx/#/home**
- <br>	
 
 </div>	
