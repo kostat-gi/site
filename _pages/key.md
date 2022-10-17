@@ -73,18 +73,6 @@ layout: page
             {{ page.t.global_indicators.5-2-3-title }}
         </a>
     </div>
-    
-    <div class="col-md-12  goal-indicator">
-        <span class="indicator-card-number">
-            5.2.6
-            <span class="status complete">
-                <span class="status-inner">이용가능</span>
-            </span>
-        </span>
-        <a href="/site/5-2-6">
-            {{ page.t.global_indicators.5-2-6-title }}
-        </a>
-    </div>
 </div>        
 
 <div class="indicator-cards target goal-target col-md-6">
@@ -98,13 +86,13 @@ layout: page
 <div class="indicator-cards col-md-6 row no-gutters">
     <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
-            5.3.2
+            5.3.4
             <span class="status complete">
                 <span class="status-inner">이용가능</span>
             </span>
         </span>
-        <a href="/site/5-3-2">
-            {{ page.t.global_indicators.5-3-2-title }}
+        <a href="/site/5-3-4">
+            {{ page.t.global_indicators.5-3-4-title }}
         </a>
     </div>
 </div>      
@@ -127,18 +115,6 @@ layout: page
         </span>
         <a href="/site/5-4-1">
             {{ page.t.global_indicators.5-4-1-title }}
-        </a>
-    </div>
-    
-    <div class="col-md-12  goal-indicator">
-        <span class="indicator-card-number">
-            5.4.3
-            <span class="status complete">
-                <span class="status-inner">이용가능</span>
-            </span>
-        </span>
-        <a href="/site/5-4-3">
-            {{ page.t.global_indicators.5-4-3-title }}
         </a>
     </div>
 </div>      
@@ -207,13 +183,13 @@ layout: page
 <div class="indicator-cards col-md-6 row no-gutters">
     <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
-            6.3.2
+            6.3.3
             <span class="status complete">
                 <span class="status-inner">이용가능</span>
             </span>
         </span>
-        <a href="/site/6-3-2">
-            {{ page.t.global_indicators.6-3-2-title }}
+        <a href="/site/6-3-3">
+            {{ page.t.global_indicators.6-3-3-title }}
         </a>
     </div>
 </div>  
@@ -313,17 +289,6 @@ layout: page
             {{ page.t.global_indicators.9-1-2-title }}
         </a>
     </div>
-    <div class="col-md-12  goal-indicator">
-        <span class="indicator-card-number">
-            9.1.7
-            <span class="status complete">
-                <span class="status-inner">이용가능</span>
-            </span>
-        </span>
-        <a href="/site/9-1-7">
-            {{ page.t.global_indicators.9-1-7-title }}
-        </a>
-    </div>
 </div>  
     
 <div class="indicator-cards target goal-target col-md-6">
@@ -359,13 +324,13 @@ layout: page
 <div class="indicator-cards col-md-6 row no-gutters">
     <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
-            9.3.4
+            9.3.2
             <span class="status complete">
                 <span class="status-inner">이용가능</span>
             </span>
         </span>
-        <a href="/site/9-3-4">
-            {{ page.t.global_indicators.9-3-4-title }}
+        <a href="/site/9-3-2">
+            {{ page.t.global_indicators.9-3-2-title }}
         </a>
     </div>
 </div> 
@@ -381,13 +346,13 @@ layout: page
 <div class="indicator-cards col-md-6 row no-gutters">
     <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
-            9.4.1
+            9.4.3
             <span class="status complete">
                 <span class="status-inner">이용가능</span>
             </span>
         </span>
-        <a href="/site/9-4-1">
-            {{ page.t.global_indicators.9-4-1-title }}
+        <a href="/site/9-4-3">
+            {{ page.t.global_indicators.9-4-3-title }}
         </a>
     </div>
 </div> 
@@ -456,13 +421,13 @@ layout: page
 <div class="indicator-cards col-md-6 row no-gutters">
     <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
-            10.1.6
+            10.1.2
             <span class="status complete">
                 <span class="status-inner">이용가능</span>
             </span>
         </span>
-        <a href="/site/10-1-6">
-            {{ page.t.global_indicators.10-1-6-title }}
+        <a href="/site/10-1-2">
+            {{ page.t.global_indicators.10-1-2-title }}
         </a>
     </div>
 </div>  
@@ -478,13 +443,13 @@ layout: page
 <div class="indicator-cards col-md-6 row no-gutters">
     <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
-            10.2.1
+            10.2.2
             <span class="status complete">
                 <span class="status-inner">이용가능</span>
             </span>
         </span>
-        <a href="/site/10-2-1">
-            {{ page.t.global_indicators.10-2-1-title }}
+        <a href="/site/10-2-2">
+            {{ page.t.global_indicators.10-2-2-title }}
         </a>
     </div>
 </div>
