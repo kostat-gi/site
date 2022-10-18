@@ -235,10 +235,10 @@ layout: page
     
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-        <h2>{{ page.t.global_goals.8-short }} {{ page.t.general.goal }}</h2>
+        <h2>- {{ page.t.global_goals.8-short }} {{ page.t.general.goal }}</h2>
     </div>
     <div class="col-md-6">
-        <h2>세부 지표</h2>
+        <h2>&nbsp;</h2>
     </div>
 </div>
     
@@ -264,15 +264,17 @@ layout: page
     </div>
 </div>      
     
+<div class="under_line">&nbsp;</div>
+    
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
         <h2>{{ page.t.global_goals.9-short }} {{ page.t.general.goal }}</h2>
     </div>
     <div class="col-md-6">
-        <h2>세부 지표</h2>
+        <h2>&nbsp;</h2>
     </div>
 </div>
-    
+
 <div class="indicator-cards target goal-target col-md-6">
     <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">하위영역</label>
@@ -405,12 +407,14 @@ layout: page
     </div>
 </div> 
     
+<div class="under_line">&nbsp;</div>
+    
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
         <h2>{{ page.t.global_goals.10-short }} {{ page.t.general.goal }}</h2>
     </div>
     <div class="col-md-6">
-        <h2>세부 지표</h2>
+        <h2>&nbsp;</h2>
     </div>
 </div>
     
@@ -458,12 +462,14 @@ layout: page
     </div>
 </div>
     
+<div class="under_line">&nbsp;</div>
+    
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
         <h2>{{ page.t.global_goals.11-short }} {{ page.t.general.goal }}</h2>
     </div>
     <div class="col-md-6">
-        <h2>세부 지표</h2>
+        <h2>&nbsp;</h2>
     </div>
 </div>
     
