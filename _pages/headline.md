@@ -119,6 +119,9 @@ layout: page
     </div>
 </div>      
     
+<div class="under_line">&nbsp;</div>
+    
+    
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
         <h2>{{ page.t.global_goals.6-short }} {{ page.t.general.goal }}</h2>
