@@ -3948,6 +3948,11 @@ footer {
   margin-bottom: 40px;
   background: #fff url(../img/newbg.png) bottom left repeat-x; }
 
+.under_line {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: #fff url(../img/underline.png) bottom left repeat-x; }
+
 .contents_box {
   padding: 0 5%;
   line-height: 200%; }
