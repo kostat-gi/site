@@ -33,7 +33,7 @@ layout: page
 
 <div class="indicator-cards target goal-target col-md-6">
     <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg">하위영역</label>
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.5-short }}</label>
         5.1
     </span>
     {{ page.t.global_targets.5-1-title }}
@@ -55,7 +55,7 @@ layout: page
   
 <div class="indicator-cards target goal-target col-md-6">
     <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg">하위영역</label>
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.5-short }}</label>
         5.2
     </span>
     {{ page.t.global_targets.5-2-title }}
@@ -77,7 +77,7 @@ layout: page
 
 <div class="indicator-cards target goal-target col-md-6">
     <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg">하위영역</label>
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.5-short }}</label>
         5.3
     </span>
     {{ page.t.global_targets.5-3-title }}
@@ -99,7 +99,7 @@ layout: page
     
 <div class="indicator-cards target goal-target col-md-6">
     <span class="indicator-card-number">
-        <label class="hidden-md hidden-lg">하위영역</label>
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.5-short }}</label>
         5.4
     </span>
     {{ page.t.global_targets.5-4-title }}
