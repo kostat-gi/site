@@ -30,7 +30,6 @@ layout: page
                 우리나라 최대 대도시권이자 광역 생활권인 수도권 단위로 작성된 통계지표입니다.
              </div><br><br>
          </p>
-         <br>
          <span class="title">수도권 광역지표의 의의</span>		
          <br><br>
          <p class="contents">
@@ -49,10 +48,19 @@ layout: page
               ※ 궁금하신 사항이나, 정보 바로잡기 문의는 전화 02-2110-7762, 7771로 연락바랍니다.
             </div>
          </p>
+         <span class="title">지표체계와 구성</span>		
+         <br><br>
+         <p class="contents">
+            ○ 
+            <div style="margin-left:13px; margin-top:-40px">
+                수도권 광역지표는 경쟁력지표, 발전지표, 생활지표로 구성되어 있습니다.
+            </div>
+         </p>
+
          <div class="goal-tiles add">
             <div class="row no-gutters">
                <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/intro_about.png" id="goal-18" alt="수도권 광역지표" />
+                  <img src="/site/assets/img/about_01.jpg" id="goal-18" alt="수도권 광역지표" />
                </div>
             </div>
          </div>
