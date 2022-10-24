@@ -24,10 +24,10 @@ layout: page
          <br><br>
          <p class="contents">
             ○ 광역지표란 광역 지역을 단위로 해당 광역의 상태와 변화를 통계자료에 근거한 수치로 요약해서 보여주는 것입니다.<br>
-            <span style="margin-left:10px">
+            <div style="margin-left:10px">
                 수도권 광역지표는 행정구역(서울, 경기, 인천) 위주로 작성된 기존 통계지표의 한계를 보완하여, 
                 우리나라 최대 대도시권이자 광역 생활권인 수도권 단위로 작성된 통계지표입니다.
-             </span><br><br>
+             </div><br><br>
          </p>
          <br>
          <span class="title">수도권 광역지표의 의의</span>		
