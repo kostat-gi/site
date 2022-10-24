@@ -60,7 +60,7 @@ layout: page
          <div class="goal-tiles add">
             <div class="row no-gutters">
                <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/about_01.jpg" id="goal-18" alt="수도권 광역지표" />
+                  <img src="/site/assets/img/about_01.jpg" id="goal-18" alt="수도권 광역지표 체계" />
                </div>
             </div>
          </div>
@@ -75,31 +75,31 @@ layout: page
          <div class="goal-tiles add">
             <div class="row no-gutters">
                <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/about_02.jpg" id="goal-18" alt="수도권 광역지표" />
+                  <img src="/site/assets/img/about_02.jpg" id="goal-18" alt="수도권 광역지표 구성" />
                </div>
             </div>
          </div>
-
+         <br>
          <div class="goal-tiles add">
             <div class="row no-gutters">
                <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/about_03.jpg" id="goal-18" alt="수도권 광역지표" />
+                  <img src="/site/assets/img/about_03.jpg" id="goal-18" alt="1.경쟁력지표" />
                </div>
             </div>
          </div>
-         
+         <br>
          <div class="goal-tiles add">
             <div class="row no-gutters">
                <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/about_04.jpg" id="goal-18" alt="수도권 광역지표" />
+                  <img src="/site/assets/img/about_04.jpg" id="goal-18" alt="2.발전지표" />
                </div>
             </div>
          </div>
-         
+         <br>
          <div class="goal-tiles add">
             <div class="row no-gutters">
                <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/about_05.jpg" id="goal-18" alt="수도권 광역지표" />
+                  <img src="/site/assets/img/about_05.jpg" id="goal-18" alt="3.생활지표" />
                </div>
             </div>
          </div>
