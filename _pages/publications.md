@@ -594,9 +594,10 @@ layout: page
 }}  <!-- 여기까지 게시판 소스 -->
 
     <div class="contents_box" style="font-size:20px">
-	[국가통계포털] <a href="https://kosis.kr/index/index.do" target="_blank">https://kosis.kr/index/index.do</a><br>
-	[국가지표체계(K-indicator)] <a href="https://www.index.go.kr/unify/main.do?clasCd=10&web=" target="_blank">https://www.index.go.kr/</a><br>
-        [마이크로데이터 통합서비스] <a href="https://mdis.kostat.go.kr/index.do" target="_blank">https://mdis.kostat.go.kr/index.do</a>
+	<b>[국가통계포털]</b> <a href="https://kosis.kr/index/index.do" target="_blank">https://kosis.kr/index/index.do</a><br>
+	<b>[국가지표체계(K-indicator)]</b>  <a href="https://www.index.go.kr/unify/main.do?clasCd=10&web=" target="_blank">https://www.index.go.kr/</a><br>
+        <b>[마이크로데이터 통합서비스]</b>  <a href="https://mdis.kostat.go.kr/index.do" target="_blank">https://mdis.kostat.go.kr/index.do</a><br>
+	<b>[질별관리청/지역사회건강조사]</b>  <a href="https://chs.kdca.go.kr/chs/index.do" target="_blank">https://www.index.go.kr/</a><br>
     </div>	
 	
     <div class="contents_box">
