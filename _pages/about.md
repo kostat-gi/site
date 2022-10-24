@@ -40,11 +40,11 @@ layout: page
              또한, 수도권에서 경제활동 등 다양한 기능 간의 상호의존도가 높아져서 도시로부터 인접도시들이 연결된 광역(Megapolis)의 중요성이 커지고 있습니다.
             </div>
             ○ 
-            <div style="margin-left:13px;">
+            <div style="margin-left:13px; margin-top:-30px">
               이러한 광역권내 문제 해결을 위한 정책 추진시 그 결과를 평가하고 환류할 수 있는 증거가 필요한 바, 수도권 광역지표가 그 측정 도구가 될 것입니다.
             </div>
             ○ 
-            <div style="margin-left:13px;">
+            <div style="margin-left:13px; margin-top:-30px">
               이로써 지자체, 지역연구기관, 지역 시민은 증거기반의 정책 의사결정과 의사소통에 도움이 되기를 바랍니다.<br>
               ※ 궁금하신 사항이나, 정보 바로잡기 문의는 전화 02-2110-7762, 7771로 연락바랍니다.
             </div>
