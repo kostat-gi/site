@@ -57,7 +57,7 @@ A7. 정기적으로는 매년 업데이트 하되, 가급적 공표시기에 맞
 	<span class="title">플랫폼 개발 매뉴얼</span>
 <p class="contents">
 <br>
-SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세한 정보를 얻으실 수 있습니다.
+SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세한 정보를 얻으실 수 있습니다.<br>
 한국, 영국, 미국 등 Open SDG 기반 플랫폼 소스는 누구나 활용할 수 있습니다.
 <br>
 * Wiki <a href="https://github.com/ONSdigital/sdg-indicators/wiki" target="_blank">[바로가기]</a><br>
