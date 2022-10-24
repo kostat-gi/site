@@ -64,7 +64,7 @@ layout: page
                </div>
             </div>
          </div>
-         <br><br>
+
          <p class="contents">
             ○ 
             <div style="margin-left:13px; margin-top:-40px">
@@ -79,8 +79,30 @@ layout: page
                </div>
             </div>
          </div>
-         <br><br>
+
+         <div class="goal-tiles add">
+            <div class="row no-gutters">
+               <div class="col-xs-12 goal-tile">
+                  <img src="/site/assets/img/about_03.jpg" id="goal-18" alt="수도권 광역지표" />
+               </div>
+            </div>
+         </div>
          
+         <div class="goal-tiles add">
+            <div class="row no-gutters">
+               <div class="col-xs-12 goal-tile">
+                  <img src="/site/assets/img/about_04.jpg" id="goal-18" alt="수도권 광역지표" />
+               </div>
+            </div>
+         </div>
+         
+         <div class="goal-tiles add">
+            <div class="row no-gutters">
+               <div class="col-xs-12 goal-tile">
+                  <img src="/site/assets/img/about_05.jpg" id="goal-18" alt="수도권 광역지표" />
+               </div>
+            </div>
+         </div>
          
       </div>
    </div>
