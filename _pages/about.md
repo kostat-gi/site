@@ -46,7 +46,7 @@ layout: page
             <div style="margin-left:13px; margin-top:-30px">
               이로써 지자체, 지역연구기관, 지역 시민은 증거기반의 정책 의사결정과 의사소통에 도움이 되기를 바랍니다.<br>
               ※ 궁금하신 사항이나, 정보 바로잡기 문의는 전화 02-2110-7762, 7771로 연락바랍니다.
-            </div>
+            </div><br><br>
          </p>
          <span class="title">지표체계와 구성</span>		
          <br><br>
@@ -64,12 +64,24 @@ layout: page
                </div>
             </div>
          </div>
-         <br>
+         <br><br>
          <p class="contents">
-            다른 나라 대도시와의 비교가 가능한 경쟁력지표는 4개 영역, 8개 하위 영역, 21개의 세부지표로 구성되어 있으며,<br>
-            수도권의 발전 모습을 나타내는 발전지표는 3개 영역, 8개 하위 영역, 33개 세부지표로 구성되어 있다.<br>
-            마지막으로 수도권 주민들의 생활상을 볼 수 있는 생활지표는 4개 영역, 11개 하위 영역, 49개 세부지표로 구성되어 있다.
+            ○ 
+            <div style="margin-left:13px; margin-top:-40px">
+               지표는 총 3개 부문, 11개 영역, 27개 하위영역, 103개 지표로 구성되어 있습니다.
+            </div>
          </p>
+
+         <div class="goal-tiles add">
+            <div class="row no-gutters">
+               <div class="col-xs-12 goal-tile">
+                  <img src="/site/assets/img/about_02.jpg" id="goal-18" alt="수도권 광역지표" />
+               </div>
+            </div>
+         </div>
+         <br><br>
+         
+         
       </div>
    </div>
 </div>
