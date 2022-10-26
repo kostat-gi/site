@@ -24,7 +24,7 @@ layout: page
 <div id="main-content" class="container" role="main">
     <div class="contents_box">
         <div style="margin-top: 30px;">
-            <span class="title2">발간(참고자료) 목록</span>
+            <span class="title2">발간(참고)자료 목록</span>
         </div>
     </div>
 		
@@ -603,6 +603,8 @@ layout: page
         <b>[마이크로데이터 통합서비스]</b>  <a href="https://mdis.kostat.go.kr/index.do" target="_blank">https://mdis.kostat.go.kr/index.do</a><br>
 	<b>[질병관리청/지역사회건강조사]</b>  <a href="https://chs.kdca.go.kr/chs/index.do" target="_blank">https://www.index.go.kr/</a><br>
     </div>	
+	
+<div class="part_line">&nbsp;</div>
 	
     <div class="contents_box">
         <div style="margin-top: 30px;">
