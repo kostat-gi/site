@@ -53,7 +53,6 @@ layout: page
       </div>
    </div>
 	
-<div class="part_line">&nbsp;</div>
 	
 <!--
    <div class="item">
@@ -78,6 +77,8 @@ layout: page
    </div>
 -->
 </div>
+	
+<div class="part_line">&nbsp;</div>
 	
 {{ <!--//  여기서부터는 게시판 형태 출력 소스임 - 자료가 많을 경우에 제거 후 사용 -->
 	
