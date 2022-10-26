@@ -52,6 +52,9 @@ layout: page
           <p> 2020년 수도권 광역지표 개발<br>연구 보고서<br></p>
       </div>
    </div>
+	
+<div class="part_line">&nbsp;</div>
+	
 <!--
    <div class="item">
       <div>
