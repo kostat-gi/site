@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221027051951">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221027054936">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -612,18 +612,6 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_units'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('computation_coverage', "2001년 ~ 2021년");
-        var propertyEditor = editor.getEditor('root.computation_coverage');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: computation_coverage');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_coverage'));
 
     
@@ -642,22 +630,22 @@ layout-config-builder
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_provision_year'));
 
-    propertyEditorAccessibilityFixes(editor.getEditor('root.data_preparation_year'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.data_generation_cycle'));
-
     
       try {
-        var currentValue = normalizeCurrentValue('update_cycle', "-");
-        var propertyEditor = editor.getEditor('root.update_cycle');
+        var currentValue = normalizeCurrentValue('data_preparation_year', "2001년 ~ 2021년");
+        var propertyEditor = editor.getEditor('root.data_preparation_year');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
       }
       catch (e) {
         console.log(e.message);
-        console.log('Unable to set config key: update_cycle');
+        console.log('Unable to set config key: data_preparation_year');
       }
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_preparation_year'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_generation_cycle'));
+
     propertyEditorAccessibilityFixes(editor.getEditor('root.update_cycle'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -758,7 +746,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/7199d56aeb50335deec4cee02067794e9b80baac");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/b7f206d4175f23afa867cf497b70f0c35bd3d647");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -902,12 +890,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221027051951'></script>
+<script src='/site/assets/js/sdg.js?v=20221027054936'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221027051951"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221027054936"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
