@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028010405">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028013204">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -526,7 +526,7 @@ function copyUrl(){
   data-country="Korea"
   data-charttitle="인구 부양비"
   data-charttitles="[]"
-  data-measurementunit="세"
+  data-measurementunit="%"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -590,7 +590,7 @@ function copyUrl(){
     <p>지역: </p>
     
     
-    <p>세부지표: 세</p>
+    <p>세부지표: %</p>
     
     
     <p>주석: </p>
@@ -947,7 +947,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>세</dd>
+        <dd>%</dd>
         
 
         
@@ -990,7 +990,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>세</dd>
+        <dd>%</dd>
         
 
         
@@ -1119,7 +1119,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">지 표 명 </th>
         <td>
           
-            <p>기대수명</p>
+            <p>인구 부양비</p>
 
           
         </td>
@@ -1135,7 +1135,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">정   의 </th>
         <td>
           
-            <p>0세의 출생자가 향후 생존할 것으로 기대되는 평균 생존연수</p>
+            <p>생산가능인구(15-64세) 대비 소년인구(0-14세)와 노인인구(65세 이상)의 비율</p>
 
           
         </td>
@@ -1151,7 +1151,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">의   의 </th>
         <td>
           
-            <p>인구의 건강상태를 나타내며 보건·의료정책수립, 보험료율, 인명피해 보상비 산정의 기초자료 및 장래인구추계 작성, 국가·지역 간 경제·사회·보건수준 비교의 기초자료로 활용이 가능</p>
+            <p>생산가능인구가 부양해야 하는 사회경제적 부담 정도를 의미<br />인구의 연령구조를 반영하여 사회경제적 구조를 파악하고 전망하는데 유용함</p>
 
           
         </td>
@@ -1167,7 +1167,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">측   정 </th>
         <td>
           
-            <p>총 생존년수÷0세의 생존자수(*추가보정계산 필요)   연령별 사망률 -&gt; 연령별 사망확률 -&gt; 생존자수 -&gt; 정지인구 -&gt; 기대수명</p>
+            <p>((15세미만인구+65세이상인구)÷15~64세 인구)×100<br /> * 인구: 주민등록연앙인구</p>
 
           
         </td>
@@ -1183,7 +1183,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료출처 </th>
         <td>
           
-            <p>국민건강보험공단<br /> https://www.data.go.kr/data/15039778/fileData.do</p>
+            <p>통계청, 「인구동향조사」<br /> https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1B040M5&amp;conn_path=I3</p>
 
           
         </td>
@@ -1199,7 +1199,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">공표단위 </th>
         <td>
           
-            <p>세</p>
+            <p>%</p>
 
           
         </td>
@@ -1228,10 +1228,10 @@ data-event-label="Change to indicator.national_metadata tab"
       
       
       <tr>
-        <th scope="row" style="white-space: nowrap">자료다운일자 </th>
+        <th scope="row" style="white-space: nowrap">자료다운일자/<br>자료갱신일 </th>
         <td>
           
-            <p>2022년 8월 18일</p>
+            <p>/ 2022년 2월 16일</p>
 
           
         </td>
@@ -1247,7 +1247,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료제공년도 </th>
         <td>
           
-            <p>2004년 ~ 2019년</p>
+            <p>1993년~2021년<br /> * 시도 단위: 1996년~  / 시군구 단위: 1998년~</p>
 
           
         </td>
@@ -1263,7 +1263,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료작성년도 </th>
         <td>
           
-            <p>2004년 ~ 2019년</p>
+            <p>2001년 ~ 2021년</p>
 
           
         </td>
@@ -1289,20 +1289,7 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
-      
-      
-      <tr>
-        <th scope="row" style="white-space: nowrap">업데이트시기 </th>
-        <td>
           
-            <p>익익년 8월 말</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1450,8 +1437,8 @@ data-event-label="Change to indicator.national_metadata tab"
             
 
             
-              <a href="https://github.com/kostat-gi/data/commit/da7f34b4e86954364eb061c87e52bc563275ca2a" target="_blank">
-                2022-10-11: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-gi/data/commit/6ea7c09af0afbc5d640fce21d8e5eddb3246d3ac" target="_blank">
+                2022-10-28: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1654,12 +1641,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221028010405'></script>
+<script src='/site/assets/js/sdg.js?v=20221028013204'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221028010405"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028013204"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
