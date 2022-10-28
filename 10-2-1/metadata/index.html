@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028013204">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028072745">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -682,18 +682,6 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_generation_cycle'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('update_cycle', "-");
-        var propertyEditor = editor.getEditor('root.update_cycle');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: update_cycle');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.update_cycle'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -794,7 +782,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/5089691a78607cde93d9dc62da6c76efaaa0c3ca");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/9f001ed8a1083827153e6da88e32c31814ad5aae");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -808,7 +796,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-11: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-28: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -938,12 +926,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221028013204'></script>
+<script src='/site/assets/js/sdg.js?v=20221028072745'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221028013204"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028072745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

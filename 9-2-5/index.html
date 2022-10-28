@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028013204">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028072745">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -526,7 +526,7 @@ function copyUrl(){
   data-country="Korea"
   data-charttitle="1인당 사교육비"
   data-charttitles="[]"
-  data-measurementunit="%"
+  data-measurementunit="만원"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -590,7 +590,7 @@ function copyUrl(){
     <p>지역: </p>
     
     
-    <p>세부지표: %</p>
+    <p>세부지표: 만원</p>
     
     
     <p>주석: </p>
@@ -947,7 +947,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>%</dd>
+        <dd>만원</dd>
         
 
         
@@ -990,7 +990,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>%</dd>
+        <dd>만원</dd>
         
 
         
@@ -1119,7 +1119,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">지 표 명 </th>
         <td>
           
-            <p>평생교육참여율</p>
+            <p>1인당 사교육비</p>
 
           
         </td>
@@ -1135,7 +1135,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">정   의 </th>
         <td>
           
-            <p>25~79세 성인이 평생 학습프로그램에 등록건수 비율</p>
+            <p>초중고 학생들이 학교의 정규교육과정 이외에 사적인 수요에 의해서 학교밖에서 받는 보충교육을 위해 개인이 부담하는 비용</p>
 
           
         </td>
@@ -1151,7 +1151,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">의   의 </th>
         <td>
           
-            <p>성인의 지역별 교육과 훈련에서의 격차를 파악할 수 있음</p>
+            <p>사교육 영역이 넓어지는 현 상황에서 사교육비 경감대책 및 공교육 내실화 등 교육정책 수립 및 사교육 연구에 기초 자료로 활용이 가능함</p>
 
           
         </td>
@@ -1167,7 +1167,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">측   정 </th>
         <td>
           
-            <p>(평생교육학습자 수÷25~79세 인구)×100<br /> *인구: 행정안전부, 주민등록인구현황(평생교육통계 매년 5월 1일조사로, 인구수 기준을 4월로 설정)</p>
+            <p>초중고 사교육비(가중치고려)÷초중고 학생수</p>
 
           
         </td>
@@ -1183,7 +1183,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료출처 </th>
         <td>
           
-            <p>한국교육개발원(교육기본통계), 행정안전부(주민등록인구현황)<br /> (분자) 교육통계서비스(https://kess.kedi.re.kr/index) &gt; 교육통계 &gt; 평생통계 &gt; 기관유형별 &gt; 평생학습관 &gt; 행정구별 학습자수<br /> (분모) https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1B04005N&amp;conn_path=I2</p>
+            <p>통계청, 교육부, 「초중고사교육비조사」<br /> https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1PE105&amp;conn_path=I3</p>
 
           
         </td>
@@ -1199,7 +1199,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">공표단위 </th>
         <td>
           
-            <p>%</p>
+            <p>만원</p>
 
           
         </td>
@@ -1215,7 +1215,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">공표범위 </th>
         <td>
           
-            <p>시군구</p>
+            <p>시도</p>
 
           
         </td>
@@ -1231,7 +1231,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료다운일자/<br>자료갱신일 </th>
         <td>
           
-            <p>-</p>
+            <p>2022년 7월 21일</p>
 
           
         </td>
@@ -1247,7 +1247,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료제공년도 </th>
         <td>
           
-            <p>2011~2020</p>
+            <p>2017년 ~ 2021년</p>
 
           
         </td>
@@ -1263,7 +1263,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료작성년도 </th>
         <td>
           
-            <p>2011~2020</p>
+            <p>2009년~2021년    * 2007년~2008년 시도 코드 없음</p>
 
           
         </td>
@@ -1289,20 +1289,7 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
-      
-      
-      <tr>
-        <th scope="row" style="white-space: nowrap">업데이트시기 </th>
-        <td>
           
-            <p>-</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1450,8 +1437,8 @@ data-event-label="Change to indicator.national_metadata tab"
             
 
             
-              <a href="https://github.com/kostat-gi/data/commit/b37252109ac344c67488dc389a65248e5700b07c" target="_blank">
-                2022-10-11: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-gi/data/commit/46b118a94974aca3ab9fbbd91c22e08d4b922b8c" target="_blank">
+                2022-10-28: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1654,12 +1641,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221028013204'></script>
+<script src='/site/assets/js/sdg.js?v=20221028072745'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221028013204"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028072745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

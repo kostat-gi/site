@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028013204">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028072745">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -530,7 +530,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name_sub', "소방공무원 1인당 담당 주민수");
+        var currentValue = normalizeCurrentValue('indicator_name_sub', "소방공무원 1인당 담당 주민 수");
         var propertyEditor = editor.getEditor('root.indicator_name_sub');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -794,7 +794,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/ded9005352b50ed72335476936540837d970f3e5");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/aa071f93c8b18e5a960c78c74badd27ab7df2832");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -808,7 +808,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-11: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-28: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -938,12 +938,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221028013204'></script>
+<script src='/site/assets/js/sdg.js?v=20221028072745'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221028013204"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028072745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

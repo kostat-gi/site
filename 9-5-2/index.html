@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028013204">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028072745">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -526,7 +526,7 @@ function copyUrl(){
   data-country="Korea"
   data-charttitle="1일 평균 여가시간"
   data-charttitles="[]"
-  data-measurementunit="점"
+  data-measurementunit="시간"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -590,7 +590,7 @@ function copyUrl(){
     <p>지역: </p>
     
     
-    <p>세부지표: 점</p>
+    <p>세부지표: 시간</p>
     
     
     <p>주석: </p>
@@ -947,7 +947,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>점</dd>
+        <dd>시간</dd>
         
 
         
@@ -990,7 +990,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>점</dd>
+        <dd>시간</dd>
         
 
         
@@ -1119,7 +1119,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">지 표 명 </th>
         <td>
           
-            <p>일생활균형지수</p>
+            <p>1일 평균 여가시간</p>
 
           
         </td>
@@ -1135,7 +1135,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">정   의 </th>
         <td>
           
-            <p>일, 생활, 제도 및 지자체 관심도 등 4개 영역, 24개 지표에 대해 실태조사를 통해 산출한 점수</p>
+            <p>지난 1년 동안 평일 하루 평균 여가시간</p>
 
           
         </td>
@@ -1151,7 +1151,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">의   의 </th>
         <td>
           
-            <p>대외환경 변화에 따라 새로운 근무방식이 생기면서 일·생활 균형에 대한 사회적 관심을 반영함</p>
+            <p>여가환경변화에 따라 국민의 여가수요에 미치는 활동실태를 분석하여 생활양식의 변화 및 삶의 질 수준 파악이 가능함</p>
 
           
         </td>
@@ -1167,7 +1167,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">측   정 </th>
         <td>
           
-            <p>24개 세부지표별로 설정한 기준값(지표별 추세를 고려한 2023년 추정값 중 최대치) 대비 해당 연도에 도달한 정도를 점수화</p>
+            <p>1년 중 평일 근로시간외 여가시간의 평균</p>
 
           
         </td>
@@ -1183,7 +1183,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료출처 </th>
         <td>
           
-            <p>고용노동부<br /> (2019) https://www.korea.kr/news/pressReleaseView.do?newsId=156429973<br /> (2018) http://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=10629<br /> (2017) http://www.aurum.re.kr/Research/PostView.aspx?mm=1&amp;ss=1&amp;pid=16040#.YPestOgzZPY</p>
+            <p>문화체육관광부, 「국민여가활동조사」<br /> https://kosis.kr/statHtml/statHtml.do?orgId=113&amp;tblId=DT_113_STBL_1026934&amp;conn_path=I3</p>
 
           
         </td>
@@ -1199,7 +1199,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">공표단위 </th>
         <td>
           
-            <p>점</p>
+            <p>시간</p>
 
           
         </td>
@@ -1231,7 +1231,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료다운일자/<br>자료갱신일 </th>
         <td>
           
-            <p>-</p>
+            <p>2022년 7월 20일</p>
 
           
         </td>
@@ -1247,7 +1247,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료제공년도 </th>
         <td>
           
-            <p>2017년~2020년</p>
+            <p>2014년, 2016년, 2018년~2021년</p>
 
           
         </td>
@@ -1263,7 +1263,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료작성년도 </th>
         <td>
           
-            <p>2017년~2020년</p>
+            <p>2014년, 2016년, 2018년~2021년</p>
 
           
         </td>
@@ -1279,7 +1279,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료생성주기 </th>
         <td>
           
-            <p>-</p>
+            <p>1년, 2년</p>
 
           
         </td>
@@ -1289,20 +1289,7 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
-      
-      
-      <tr>
-        <th scope="row" style="white-space: nowrap">업데이트시기 </th>
-        <td>
           
-            <p>-</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1450,8 +1437,8 @@ data-event-label="Change to indicator.national_metadata tab"
             
 
             
-              <a href="https://github.com/kostat-gi/data/commit/b37252109ac344c67488dc389a65248e5700b07c" target="_blank">
-                2022-10-11: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-gi/data/commit/73427df96287039a43a797bb21825f55ce7e979e" target="_blank">
+                2022-10-28: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1654,12 +1641,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221028013204'></script>
+<script src='/site/assets/js/sdg.js?v=20221028072745'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221028013204"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028072745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

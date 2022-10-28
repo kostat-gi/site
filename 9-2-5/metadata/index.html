@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028013204">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028072745">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -530,7 +530,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name_sub', "평생교육참여율");
+        var currentValue = normalizeCurrentValue('indicator_name_sub', "1인당 사교육비");
         var propertyEditor = editor.getEditor('root.indicator_name_sub');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -544,7 +544,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_definition', "25~79세 성인이 평생 학습프로그램에 등록건수 비율");
+        var currentValue = normalizeCurrentValue('indicator_definition', "초중고 학생들이 학교의 정규교육과정 이외에 사적인 수요에 의해서 학교밖에서 받는 보충교육을 위해 개인이 부담하는 비용");
         var propertyEditor = editor.getEditor('root.indicator_definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -558,7 +558,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_importance', "성인의 지역별 교육과 훈련에서의 격차를 파악할 수 있음");
+        var currentValue = normalizeCurrentValue('indicator_importance', "사교육 영역이 넓어지는 현 상황에서 사교육비 경감대책 및 공교육 내실화 등 교육정책 수립 및 사교육 연구에 기초 자료로 활용이 가능함");
         var propertyEditor = editor.getEditor('root.indicator_importance');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -572,7 +572,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_calculations', "(평생교육학습자 수÷25~79세 인구)×100<br> *인구: 행정안전부, 주민등록인구현황(평생교육통계 매년 5월 1일조사로, 인구수 기준을 4월로 설정)");
+        var currentValue = normalizeCurrentValue('computation_calculations', "초중고 사교육비(가중치고려)÷초중고 학생수");
         var propertyEditor = editor.getEditor('root.computation_calculations');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -586,7 +586,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('statistics_name', "한국교육개발원(교육기본통계), 행정안전부(주민등록인구현황)<br> (분자) 교육통계서비스(https://kess.kedi.re.kr/index) > 교육통계 > 평생통계 > 기관유형별 > 평생학습관 > 행정구별 학습자수<br> (분모) https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B04005N&conn_path=I2");
+        var currentValue = normalizeCurrentValue('statistics_name', "통계청, 교육부, 「초중고사교육비조사」<br> https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PE105&conn_path=I3");
         var propertyEditor = editor.getEditor('root.statistics_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -600,7 +600,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_units', "%");
+        var currentValue = normalizeCurrentValue('computation_units', "만원");
         var propertyEditor = editor.getEditor('root.computation_units');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -614,7 +614,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_coverage', "시군구");
+        var currentValue = normalizeCurrentValue('computation_coverage', "시도");
         var propertyEditor = editor.getEditor('root.computation_coverage');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -628,7 +628,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('data_download', "-");
+        var currentValue = normalizeCurrentValue('data_download', "2022년 7월 21일");
         var propertyEditor = editor.getEditor('root.data_download');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -642,7 +642,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('data_provision_year', "2011~2020");
+        var currentValue = normalizeCurrentValue('data_provision_year', "2017년 ~ 2021년");
         var propertyEditor = editor.getEditor('root.data_provision_year');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -656,7 +656,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('data_preparation_year', "2011~2020");
+        var currentValue = normalizeCurrentValue('data_preparation_year', "2009년~2021년    * 2007년~2008년 시도 코드 없음");
         var propertyEditor = editor.getEditor('root.data_preparation_year');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -682,18 +682,6 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_generation_cycle'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('update_cycle', "-");
-        var propertyEditor = editor.getEditor('root.update_cycle');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: update_cycle');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.update_cycle'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -794,7 +782,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/b37252109ac344c67488dc389a65248e5700b07c");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/46b118a94974aca3ab9fbbd91c22e08d4b922b8c");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -808,7 +796,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-11: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-28: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -938,12 +926,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221028013204'></script>
+<script src='/site/assets/js/sdg.js?v=20221028072745'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221028013204"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028072745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
