@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221027054936">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028010405">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -526,7 +526,7 @@ function copyUrl(){
   data-country="Korea"
   data-charttitle="삶의 만족도"
   data-charttitles="[]"
-  data-measurementunit="점"
+  data-measurementunit="%"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -590,7 +590,7 @@ function copyUrl(){
     <p>지역: </p>
     
     
-    <p>세부지표: 점</p>
+    <p>세부지표: %</p>
     
     
     <p>주석: </p>
@@ -947,7 +947,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>점</dd>
+        <dd>%</dd>
         
 
         
@@ -990,7 +990,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>점</dd>
+        <dd>%</dd>
         
 
         
@@ -1113,7 +1113,20 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">지 표 명 </th>
+        <td>
           
+            <p>삶의 만족도</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1122,7 +1135,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">정   의 </th>
         <td>
           
-            <p>11점 척도의 삶의 만족도 문항을 세계 공통 문항으로 주민들에게 질문하여 평균값을 해당 지역별로 산정</p>
+            <p>13세 이상 인구 중 경제적인 면, 가족관계, 직업, 건강 등을 전반적으로 느끼는 만족감(행복도)에 대한 비율</p>
 
           
         </td>
@@ -1154,7 +1167,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">측   정 </th>
         <td>
           
-            <p>11점 척도의 삶의 만족도 문항을 세계 공통 문항으로 주민들에게 질문하여 평균값을 해당 지역별로 산정</p>
+            <p>(“매우 만족”, “약간 만족” 응답자수÷전체 응답자수)×100<br /> * 응답자 수: 가구원 가중값 적용</p>
 
           
         </td>
@@ -1170,7 +1183,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료출처 </th>
         <td>
           
-            <p>World Happiness Report(2020)</p>
+            <p>통계청, 「사회조사」 <br /> 사회조사 MD 활용(https://mdis.kostat.go.kr/index.do)</p>
 
           
         </td>
@@ -1186,7 +1199,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">공표단위 </th>
         <td>
           
-            <p>점</p>
+            <p>%</p>
 
           
         </td>
@@ -1202,7 +1215,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">공표범위 </th>
         <td>
           
-            <p>2020년</p>
+            <p>시도</p>
 
           
         </td>
@@ -1218,13 +1231,52 @@ data-event-label="Change to indicator.national_metadata tab"
           
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">자료작성년도 </th>
+        <td>
           
+            <p>2011년 ~ 2021년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">자료생성주기 </th>
+        <td>
           
+            <p>1년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">업데이트시기 </th>
+        <td>
           
+            <p>조사기준 년도 11월</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1372,8 +1424,8 @@ data-event-label="Change to indicator.national_metadata tab"
             
 
             
-              <a href="https://github.com/kostat-gi/data/commit/076e05da53993558f746c1757162397a85a72855" target="_blank">
-                2022-09-16: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-gi/data/commit/bc30428365050d0dfdac833751891d7bb5d76e24" target="_blank">
+                2022-10-28: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1576,12 +1628,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221027054936'></script>
+<script src='/site/assets/js/sdg.js?v=20221028010405'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221027054936"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028010405"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

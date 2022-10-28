@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221027054936">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028010405">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -530,7 +530,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name_sub', "지역별 PIR");
+        var currentValue = normalizeCurrentValue('indicator_name_sub', "PIR");
         var propertyEditor = editor.getEditor('root.indicator_name_sub');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -572,7 +572,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_calculations', "평균 주택 가격÷평균 가구 소득");
+        var currentValue = normalizeCurrentValue('computation_calculations', "평균 주택 가격÷평균 가구 소득<br> 수도권 자료: 원자료 입수 불가,  ∑{시도 PIR×(시도 가구당 연평균 경상소득/수도권 가구당 연평균 경상소득)}으로 산출 ");
         var propertyEditor = editor.getEditor('root.computation_calculations');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -682,18 +682,6 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_generation_cycle'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('update_cycle', "-");
-        var propertyEditor = editor.getEditor('root.update_cycle');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: update_cycle');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.update_cycle'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -794,7 +782,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/da7f34b4e86954364eb061c87e52bc563275ca2a");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/72100cfa44df9572e92b07f896664d5269f96dc0");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -808,7 +796,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-11: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-28: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -938,12 +926,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221027054936'></script>
+<script src='/site/assets/js/sdg.js?v=20221028010405'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221027054936"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028010405"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

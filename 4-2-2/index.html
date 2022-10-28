@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221027054936">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028010405">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1113,7 +1113,20 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">지 표 명 </th>
+        <td>
           
+            <p>초미세먼지 대기오염도</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1122,7 +1135,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">정   의 </th>
         <td>
           
-            <p>PM 2.5로 정의된 미세먼지의 연간 측정량을 지역 공간, 인구를 고려하여 산정함</p>
+            <p>입자의 크기가 2.5μg 이하인 미세먼지</p>
 
           
         </td>
@@ -1154,7 +1167,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">측   정 </th>
         <td>
           
-            <p>PM 2.5로 정의된 미세먼지의 연간 측정량을 지역 공간, 인구를 고려하여 산정함</p>
+            <p>전국 측정소의 측정자료의 월별 PM 2.5 측정량(유효 측정값 75% 이상)의 평균</p>
 
           
         </td>
@@ -1170,7 +1183,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료출처 </th>
         <td>
           
-            <p>OECD.stat &gt; Regions and cities &gt; Metropolitan areas &gt; Environment</p>
+            <p>환경부, 「대기환경연보」<br /> https://kosis.kr/statHtml/statHtml.do?orgId=106&amp;tblId=DT_106N_03_0200176&amp;conn_path=I3</p>
 
           
         </td>
@@ -1202,7 +1215,29 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">공표범위 </th>
         <td>
           
-            <p>2005년, 2010년~2019년</p>
+            <p>시군구</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">자료작성년도 </th>
+        <td>
+          
+            <p>2015년 ~ 2020년</p>
 
           
         </td>
@@ -1215,10 +1250,10 @@ data-event-label="Change to indicator.national_metadata tab"
       
       
       <tr>
-        <th scope="row" style="white-space: nowrap">자료다운일자 </th>
+        <th scope="row" style="white-space: nowrap">자료생성주기 </th>
         <td>
           
-            <p>18 May 2022</p>
+            <p>매월</p>
 
           
         </td>
@@ -1226,15 +1261,6 @@ data-event-label="Change to indicator.national_metadata tab"
         
       
   
-      
-        
-          
-      
-        
-          
-      
-        
-          
       
         
           
@@ -1385,8 +1411,8 @@ data-event-label="Change to indicator.national_metadata tab"
             
 
             
-              <a href="https://github.com/kostat-gi/data/commit/076e05da53993558f746c1757162397a85a72855" target="_blank">
-                2022-09-16: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-gi/data/commit/a7c090b7a77cad9b36016349d34f81ca6c031e3c" target="_blank">
+                2022-10-28: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1589,12 +1615,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221027054936'></script>
+<script src='/site/assets/js/sdg.js?v=20221028010405'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221027054936"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028010405"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

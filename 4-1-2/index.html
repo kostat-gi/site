@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221027054936">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028010405">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1113,7 +1113,20 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">지 표 명 </th>
+        <td>
           
+            <p>유학생 수</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1122,7 +1135,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">정   의 </th>
         <td>
           
-            <p>해당 지역의 고등교육 기관에 등록한 외국 학생의 수로 산정</p>
+            <p>유학(D2) 체류자격이 있는 외국인</p>
 
           
         </td>
@@ -1154,7 +1167,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">측   정 </th>
         <td>
           
-            <p>고등교육기관에 등록한 외국인 유학생 수</p>
+            <p>공항만의 출입국 심사를 통해 생성</p>
 
           
         </td>
@@ -1170,7 +1183,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">자료출처 </th>
         <td>
           
-            <p>OECD.stat &gt; Education and Training &gt; Education at a glance &gt; Students, access to education and participation &gt; Enrollment of international students by country of origin</p>
+            <p>법무부, 「출입국자및체류외국인통계」<br /> https://kosis.kr/statHtml/statHtml.do?orgId=111&amp;tblId=DT_1B040A11&amp;conn_path=I3</p>
 
           
         </td>
@@ -1202,7 +1215,29 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">공표범위 </th>
         <td>
           
-            <p>2005년, 2010년~2019년</p>
+            <p>시군구</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">자료작성년도 </th>
+        <td>
+          
+            <p>2010년 ~ 2021년</p>
 
           
         </td>
@@ -1215,10 +1250,10 @@ data-event-label="Change to indicator.national_metadata tab"
       
       
       <tr>
-        <th scope="row" style="white-space: nowrap">자료다운일자 </th>
+        <th scope="row" style="white-space: nowrap">자료생성주기 </th>
         <td>
           
-            <p>23 May 2022</p>
+            <p>매년</p>
 
           
         </td>
@@ -1228,16 +1263,20 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
-          
       
-        
-          
       
-        
+      <tr>
+        <th scope="row" style="white-space: nowrap">업데이트시기 </th>
+        <td>
           
+            <p>익년 7월</p>
+
+          
+        </td>
+        </tr>
+        
       
-        
-          
+  
       
         
           
@@ -1385,8 +1424,8 @@ data-event-label="Change to indicator.national_metadata tab"
             
 
             
-              <a href="https://github.com/kostat-gi/data/commit/076e05da53993558f746c1757162397a85a72855" target="_blank">
-                2022-09-16: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-gi/data/commit/602dc64f6670cb543b91446b751807f353dcc178" target="_blank">
+                2022-10-28: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1589,12 +1628,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221027054936'></script>
+<script src='/site/assets/js/sdg.js?v=20221028010405'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221027054936"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028010405"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

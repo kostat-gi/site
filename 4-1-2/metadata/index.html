@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221027054936">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028010405">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -528,11 +528,23 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_definitions'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('indicator_name_sub', "유학생 수");
+        var propertyEditor = editor.getEditor('root.indicator_name_sub');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: indicator_name_sub');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.indicator_name_sub'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_definition', "해당 지역의 고등교육 기관에 등록한 외국 학생의 수로 산정");
+        var currentValue = normalizeCurrentValue('indicator_definition', "유학(D2) 체류자격이 있는 외국인");
         var propertyEditor = editor.getEditor('root.indicator_definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -560,7 +572,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_calculations', "고등교육기관에 등록한 외국인 유학생 수");
+        var currentValue = normalizeCurrentValue('computation_calculations', "공항만의 출입국 심사를 통해 생성");
         var propertyEditor = editor.getEditor('root.computation_calculations');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -574,7 +586,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('statistics_name', "OECD.stat > Education and Training > Education at a glance > Students, access to education and participation > Enrollment of international students by country of origin");
+        var currentValue = normalizeCurrentValue('statistics_name', "법무부, 「출입국자및체류외국인통계」<br> https://kosis.kr/statHtml/statHtml.do?orgId=111&tblId=DT_1B040A11&conn_path=I3");
         var propertyEditor = editor.getEditor('root.statistics_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -602,7 +614,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_coverage', "2005년, 2010년~2019년");
+        var currentValue = normalizeCurrentValue('computation_coverage', "시군구");
         var propertyEditor = editor.getEditor('root.computation_coverage');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -614,26 +626,50 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_coverage'));
 
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_download'));
+
+    propertyEditorAccessibilityFixes(editor.getEditor('root.data_provision_year'));
+
     
       try {
-        var currentValue = normalizeCurrentValue('data_download', "23 May 2022");
-        var propertyEditor = editor.getEditor('root.data_download');
+        var currentValue = normalizeCurrentValue('data_preparation_year', "2010년 ~ 2021년");
+        var propertyEditor = editor.getEditor('root.data_preparation_year');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
         
       }
       catch (e) {
         console.log(e.message);
-        console.log('Unable to set config key: data_download');
+        console.log('Unable to set config key: data_preparation_year');
       }
-    propertyEditorAccessibilityFixes(editor.getEditor('root.data_download'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.data_provision_year'));
-
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_preparation_year'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_generation_cycle', "매년");
+        var propertyEditor = editor.getEditor('root.data_generation_cycle');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_generation_cycle');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_generation_cycle'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('update_cycle', "익년 7월");
+        var propertyEditor = editor.getEditor('root.update_cycle');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: update_cycle');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.update_cycle'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -734,7 +770,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/076e05da53993558f746c1757162397a85a72855");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/602dc64f6670cb543b91446b751807f353dcc178");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -748,7 +784,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-09-16: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-28: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -878,12 +914,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221027054936'></script>
+<script src='/site/assets/js/sdg.js?v=20221028010405'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221027054936"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028010405"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

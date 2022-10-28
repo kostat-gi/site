@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221027054936">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20221028010405">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -530,7 +530,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name_sub', "대중교통수송분담률");
+        var currentValue = normalizeCurrentValue('indicator_name_sub', "주택소유 가구 비율");
         var propertyEditor = editor.getEditor('root.indicator_name_sub');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -544,7 +544,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_definition', "전체유발통해에 대하여 수단별(버스, 지하철)분담률");
+        var currentValue = normalizeCurrentValue('indicator_definition', "일반가구 대비 주택소유 가구 비율");
         var propertyEditor = editor.getEditor('root.indicator_definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -558,7 +558,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_importance', "생산활동에 따른 유통의 효율성을 가늠함");
+        var currentValue = normalizeCurrentValue('indicator_importance', "지역별 주택소유 가구의 특성이 반영되어 세밀한 지역 주택시장 여건을 나타냄");
         var propertyEditor = editor.getEditor('root.indicator_importance');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -572,7 +572,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_calculations', "(수단별 통행량÷전체 통행수)×100");
+        var currentValue = normalizeCurrentValue('computation_calculations', "(주택소유가구÷총가구(일반가구))×100");
         var propertyEditor = editor.getEditor('root.computation_calculations');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -586,7 +586,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('statistics_name', "경기도교통정보센터, 「가구통행실태조사」<br> https://gits.gg.go.kr/gtdb/web/trafficDb/newzone/HB003/2/IN_OUT/3_IN_OUT_MODE.do");
+        var currentValue = normalizeCurrentValue('statistics_name', "통계청(주택소유통계)<br> https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1OH0402&conn_path=I2");
         var propertyEditor = editor.getEditor('root.statistics_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -614,7 +614,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_coverage', "시군구(전국없음)");
+        var currentValue = normalizeCurrentValue('computation_coverage', "2015년 시도, 2016년~ 시군구");
         var propertyEditor = editor.getEditor('root.computation_coverage');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -626,23 +626,11 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.computation_coverage'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('data_download', "-");
-        var propertyEditor = editor.getEditor('root.data_download');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: data_download');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_download'));
 
     
       try {
-        var currentValue = normalizeCurrentValue('data_provision_year', "2002년, 2006년, 2010년, 2016년");
+        var currentValue = normalizeCurrentValue('data_provision_year', "2015년~2020년");
         var propertyEditor = editor.getEditor('root.data_provision_year');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -656,7 +644,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('data_preparation_year', "2002년, 2006년, 2010년, 2016년");
+        var currentValue = normalizeCurrentValue('data_preparation_year', "2015년~2020년");
         var propertyEditor = editor.getEditor('root.data_preparation_year');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -670,7 +658,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('data_generation_cycle', "4년, 6년");
+        var currentValue = normalizeCurrentValue('data_generation_cycle', "1년");
         var propertyEditor = editor.getEditor('root.data_generation_cycle');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -684,7 +672,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('update_cycle', "-");
+        var currentValue = normalizeCurrentValue('update_cycle', "익년 12월");
         var propertyEditor = editor.getEditor('root.update_cycle');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -794,7 +782,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/da7f34b4e86954364eb061c87e52bc563275ca2a");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url', "https://github.com/kostat-gi/data/commit/8f7b000ad9dd4342072cef86f94554267dca5f0a");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -808,7 +796,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-11: see changes on GitHub");
+        var currentValue = normalizeCurrentValue('national_metadata_update_url_text', "2022-10-28: see changes on GitHub");
         var propertyEditor = editor.getEditor('root.national_metadata_update_url_text');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -938,12 +926,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20221027054936'></script>
+<script src='/site/assets/js/sdg.js?v=20221028010405'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20221027054936"></script><script>
+    <script src="/site/assets/js/custom.js?v=20221028010405"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
