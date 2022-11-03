@@ -601,7 +601,7 @@ layout: page
 	<b>[국가통계포털]</b> <a href="https://kosis.kr/index/index.do" target="_blank">https://kosis.kr/index/index.do</a><br>
 	<b>[국가지표체계(K-indicator)]</b>  <a href="https://www.index.go.kr/unify/main.do?clasCd=10&web=" target="_blank">https://www.index.go.kr/</a><br>
         <b>[마이크로데이터 통합서비스]</b>  <a href="https://mdis.kostat.go.kr/index.do" target="_blank">https://mdis.kostat.go.kr/index.do</a><br>
-	<b>[질병관리청/지역사회건강조사]</b>  <a href="https://chs.kdca.go.kr/chs/index.do" target="_blank">https://www.index.go.kr/</a><br>
+	<b>[질병관리청/지역사회건강조사]</b>  <a href="https://chs.kdca.go.kr/chs/index.do" target="_blank">https://chs.kdca.go.kr/chs/index.do</a><br>
     </div>	
 	
 <div class="part_line">&nbsp;</div>
@@ -611,7 +611,7 @@ layout: page
             <span class="title2">사이트 구축 참고자료</span>
         </div>
 	** [Open-SDG 플랫폼] <a href="https://open-sdg.readthedocs.io/" target="_blank">https://open-sdg.readthedocs.io/</a><br>
-	** [한국의 SDGs 데이터 플랫폼] <a href="https://kostat-sdg-kor.github.io/sdg-indicators/" target="_blank">https://kostat-sdg-kor.github.io/sdg-indicators/</a>
+	** [한국의 SDGs 데이터 플랫폼] <a href="https://kostat-sdg-kor.github.io/sdg-indicators" target="_blank">https://kostat-sdg-kor.github.io/</a>
         
     </div>	
 
