@@ -27,8 +27,16 @@ layout: page
             <span class="title2">발간(참고)자료 목록</span>
         </div>
     </div>
-		
+
+    <br>
+    <div class="contents_box" style="font-size:20px">
+	<b>[2022 수도권 광역지표 분석 보고서]</b> <a href="https://kosis.kr/index/index.do" target="_blank">바로가기</a><br>
+	<b>[보도자료]</b> <a href="https://kosis.kr/index/index.do" target="_blank">바로가기</a>
+    </div>	
 	
+<div class="part_line">&nbsp;</div>
+	
+<!--	
 <br/>
 <div class="top_div">
    <div class="item">
@@ -61,7 +69,7 @@ layout: page
           <p> 2020년 수도권 광역지표 개발<br>연구 보고서<br></p>
       </div>
    </div>
-	
+-->	
 	
 <!--
    <div class="item">
@@ -85,8 +93,9 @@ layout: page
       </div>
    </div>
 -->
+<!--
 </div>
-	
+-->	
 <div class="under_line">&nbsp;</div>
 	
 {{ <!--//  여기서부터는 게시판 형태 출력 소스임 - 자료가 많을 경우에 제거 후 사용 -->
