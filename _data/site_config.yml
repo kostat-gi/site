@@ -72,7 +72,7 @@ disclaimer:
   hidden: false
 email_contacts:
   questions: test@example.com
-  suggestions: testt@example.com
+  suggestions: test@example.com
   functional: testt@example.com
 #environment: staging
 environment: ''
