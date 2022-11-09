@@ -30,8 +30,8 @@ layout: page
 
     <br>
     <div class="contents_box" style="font-size:20px">
-	<b>[2022 수도권 광역지표 분석 보고서]</b> <a href="https://kosis.kr/index/index.do" target="_blank">바로가기</a><br>
-	<b>[보도자료]</b> <a href="https://kosis.kr/index/index.do" target="_blank">바로가기</a>
+	<b>[2022 수도권 광역지표 분석 보고서]</b> <a href="" target="_blank">바로가기</a><br>
+	<b>[보도자료]</b> <a href="" target="_blank">바로가기</a>
     </div>	
 	
 <!--<div class="part_line">&nbsp;</div>-->
