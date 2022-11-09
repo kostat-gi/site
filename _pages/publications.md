@@ -31,7 +31,7 @@ layout: page
     <br>
     <div class="contents_box" style="font-size:20px">
 	<b>[2022 수도권 광역지표 분석 보고서]</b> <a href="https://kostat-gi.github.io/site/assets/img/report/2022_수도권_광역지표_분석_보고서.pdf" target="_blank">바로가기</a><br>
-	<b>[보도자료]</b> <a href="" target="_blank">바로가기</a>
+	<b>[보도자료]</b> <a href="https://kostat-gi.github.io/site/assets/img/report/수도권_광역지표_개발_및_온라인_시범서비스_시작.pdf" target="_blank">수도권 광역지표 개발 및 온라인 시범서비스 시작</a>
     </div>	
 	
 <!--<div class="part_line">&nbsp;</div>-->
