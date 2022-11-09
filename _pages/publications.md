@@ -34,7 +34,7 @@ layout: page
 	<b>[보도자료]</b> <a href="https://kosis.kr/index/index.do" target="_blank">바로가기</a>
     </div>	
 	
-<div class="part_line">&nbsp;</div>
+<!--<div class="part_line">&nbsp;</div>-->
 	
 <!--	
 <br/>
