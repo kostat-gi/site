@@ -40,14 +40,6 @@ layout: page
 <!--	
 <br/>
 <div class="top_div">
-   <div class="item">
-      <div>
-          <a href="https://kostat-gi.github.io/site/assets/img/report/2022년_수도권_광역지표_개발_연구_보고서.pdf" target="_blank">
-            2022 수도권 광역지표 분석 보고서
-          </a>
-      </div>
-   </div>	
-	
 	
    <div class="item">
       <div>
@@ -83,6 +75,7 @@ layout: page
          <p>The Sustainable Development Goals Report 2021<br></p>
       </div>
    </div>
+
    <div class="item">
       <div>
           <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/15.pdf">
