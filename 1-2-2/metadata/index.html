@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230126040558">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230131043324">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -585,7 +585,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('statistics_name', "과학기술정보통신부 「인터넷이용실태조사」<br> 미디어통계포털(stat.kisdi.re.kr) > 한국미디어패널조사 > 원시자료/유저가이드 ");
+        var currentValue = normalizeCurrentValue('statistics_name', "https://kosis.kr/statHtml/statHtml.do?orgId=127&tblId=DT_MH001_MI002&vw_cd=MT_ZTITLE&list_id=N1_23&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE <br> MDIS(https://mdis.kostat.go.kr/index.do) > 자료이용 > 다운로드 서비스 > 과학기술정보통신부 - 인터넷이용조사");
         var propertyEditor = editor.getEditor('root.statistics_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -631,7 +631,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('data_preparation_year', "2015년 ~ 2020년");
+        var currentValue = normalizeCurrentValue('data_preparation_year', "2015년 ~ 2021년");
         var propertyEditor = editor.getEditor('root.data_preparation_year');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -729,7 +729,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/kostat-gi/data/commit/c859dddcd410ba43aad36f10bf227d416a6430dd");
+        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/kostat-gi/data/commit/f9da1b6acd3375427187402102587f909c00f22c");
         var propertyEditor = editor.getEditor('root.national_data_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -859,12 +859,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230126040558'></script>
+<script src='/site/assets/js/sdg.js?v=20230131043324'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230126040558"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230131043324"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
