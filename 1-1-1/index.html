@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230224054107">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230224060955">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -526,7 +526,7 @@ function copyUrl(){
   data-country="Korea"
   data-charttitle="인구성장지수"
   data-charttitles="[]"
-  data-measurementunit="2001년 = 100"
+  data-measurementunit="%"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -590,7 +590,7 @@ function copyUrl(){
     <p>지역: </p>
     
     
-    <p>세부지표: 2001년 = 100</p>
+    <p>세부지표: %</p>
     
     
     <p>주석: </p>
@@ -947,7 +947,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>2001년 = 100</dd>
+        <dd>%</dd>
         
 
         
@@ -990,7 +990,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>2001년 = 100</dd>
+        <dd>%</dd>
         
 
         
@@ -1135,7 +1135,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">정   의 </th>
         <td>
           
-            <p>인구성장률은 자연증가율과 사회적 증가율의 합으로 특정시점(2001년)을 기준으로 인구의 증감률을 나타내는 지표임</p>
+            <p>2001년 기준, 인구의 증감률</p>
 
           
         </td>
@@ -1151,7 +1151,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">의   의 </th>
         <td>
           
-            <p>한 국가의 인구 및 인구성장률은 그 국가의  장·단기 국가발전 계획수립에 있어 가장 기본적이고 근원적인 기초자료로서 인구와 관련된 각종 경제·사회 정책을 수립하는데 활용됨</p>
+            <p>인구 및 인구의 증감률은 그 국가의 장ㆍ단기 국가발전 계획수립에 있어 가장 기본적이고 근원적인 기초자료로서 인구와 관련된 각종 경제ㆍ사회 정책을 수립하는데 활용됨니다.</p>
 
           
         </td>
@@ -1199,7 +1199,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">단   위 </th>
         <td>
           
-            <p>2001년 = 100</p>
+            <p>%</p>
 
           
         </td>
@@ -1209,7 +1209,20 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">지역범위 </th>
+        <td>
           
+            <p>권역</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1234,7 +1247,20 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row" style="white-space: nowrap">작성주기 </th>
+        <td>
           
+            <p>1년</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1552,12 +1578,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230224054107'></script>
+<script src='/site/assets/js/sdg.js?v=20230224060955'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230224054107"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230224060955"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
