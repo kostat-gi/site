@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230228042118">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230228070835">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1135,7 +1135,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">정   의 </th>
         <td>
           
-            <p>입자의 크기가 2.5μg 이하인 미세먼지</p>
+            <p>권역별 도심(거주)지역의 평균 초미세먼지(입자크기 2.5μg 이하인 미세먼지) 농도</p>
 
           
         </td>
@@ -1167,7 +1167,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">산   식 </th>
         <td>
           
-            <p>전국 측정소의 측정자료의 월별 PM 2.5 측정량(유효 측정값 75% 이상)의 평균</p>
+            <p>∑월별 초미세먼지 농도÷12</p>
 
           
         </td>
@@ -1183,7 +1183,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">원출처 </th>
         <td>
           
-            <p>환경부, 「대기환경연보」<br /> https://kosis.kr/statHtml/statHtml.do?orgId=106&amp;tblId=DT_106N_03_0200176&amp;conn_path=I3</p>
+            <p>환경부 「대기환경연보」<br /> <a href="https://kosis.kr/statHtml/statHtml.do?orgId=106&amp;tblId=DT_106N_03_0200176&amp;conn_path=I3" target="_blank">&lt;URL 바로가기&gt;</a></p>
 
           
         </td>
@@ -1215,7 +1215,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">지역범위 </th>
         <td>
           
-            <p>시군구</p>
+            <p>권역</p>
 
           
         </td>
@@ -1253,7 +1253,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">작성주기 </th>
         <td>
           
-            <p>매월</p>
+            <p>1년</p>
 
           
         </td>
@@ -1578,12 +1578,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230228042118'></script>
+<script src='/site/assets/js/sdg.js?v=20230228070835'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230228042118"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230228070835"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
