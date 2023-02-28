@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230228002451">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230228012836">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -530,7 +530,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name_sub', "지식집약 서비스 활동 근로자 비율: Share of employment in knowledge-intensive services");
+        var currentValue = normalizeCurrentValue('indicator_name_sub', "지식집약 서비스 활동 근로자 비율");
         var propertyEditor = editor.getEditor('root.indicator_name_sub');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -544,7 +544,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_definition', "취업자 중에서 정보통신, 금융, 전문과학 및 기술서비스, 교육서비스, 보건 및 사회복지, 예술활동에 참여하는 비율로 산정");
+        var currentValue = normalizeCurrentValue('indicator_definition', "지식집약 서비스 활동(정보통신, 금융, 전문과학 및 기술서비스, 교육서비스, 보건 및 사회복지, 예술활동 등)에 종사하는 근로자 비율");
         var propertyEditor = editor.getEditor('root.indicator_definition');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -572,7 +572,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_calculations', "(지식집약 서비스활동 근로자수/경제활동인구) x 100");
+        var currentValue = normalizeCurrentValue('computation_calculations', "(지식집약 서비스 활동 취업자 수÷취업자)x100");
         var propertyEditor = editor.getEditor('root.computation_calculations');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -586,7 +586,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('statistics_name', "통계청, 「인구총조사」<br> https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PD2001&vw_cd=MT_ZTITLE&list_id=A11_2015_1_001_010&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE");
+        var currentValue = normalizeCurrentValue('statistics_name', "통계청 「인구총조사」<br> <a href=\"https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1PD2001&vw_cd=MT_ZTITLE&list_id=A11_2015_1_001_010&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE\" target=\"_blank\">&lt;URL 바로가기&gt;</a>");
         var propertyEditor = editor.getEditor('root.statistics_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -614,7 +614,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_coverage', "시도");
+        var currentValue = normalizeCurrentValue('computation_coverage', "권역");
         var propertyEditor = editor.getEditor('root.computation_coverage');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -644,6 +644,18 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_preparation_year'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('data_generation_cycle', "5년");
+        var propertyEditor = editor.getEditor('root.data_generation_cycle');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: data_generation_cycle');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_generation_cycle'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.update_cycle'));
@@ -848,12 +860,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230228002451'></script>
+<script src='/site/assets/js/sdg.js?v=20230228012836'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230228002451"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230228012836"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
