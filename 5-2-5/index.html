@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230306020414">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230307011728">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1183,7 +1183,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">원출처 </th>
         <td>
           
-            <p>통계청(주택소유통계)<br /> https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1OH0402&amp;conn_path=I2</p>
+            <p>통계청 「주택소유통계」<br /> <a href="https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1OH0402&amp;conn_path=I2" target="_blank">&lt;URL 바로가기&gt;</a></p>
 
           
         </td>
@@ -1215,7 +1215,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">지역범위 </th>
         <td>
           
-            <p>2016년 시도, 2016년~ 시군구</p>
+            <p>시군구</p>
 
           
         </td>
@@ -1263,20 +1263,7 @@ data-event-label="Change to indicator.national_metadata tab"
   
       
         
-      
-      
-      <tr>
-        <th scope="row" style="white-space: nowrap">업데이트시기 </th>
-        <td>
           
-            <p>익년 12월</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
       
         
           
@@ -1591,12 +1578,12 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230306020414'></script>
+<script src='/site/assets/js/sdg.js?v=20230307011728'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230306020414"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230307011728"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
