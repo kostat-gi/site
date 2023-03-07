@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230307013337">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230307044246">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -658,18 +658,6 @@ layout-config-builder
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.data_generation_cycle'));
 
-    
-      try {
-        var currentValue = normalizeCurrentValue('update_cycle', "조사기준년도 익년 12월");
-        var propertyEditor = editor.getEditor('root.update_cycle');
-        propertyEditor.setValue(null);
-        propertyEditor.setValue(currentValue);
-        
-      }
-      catch (e) {
-        console.log(e.message);
-        console.log('Unable to set config key: update_cycle');
-      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.update_cycle'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -872,12 +860,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230307013337'></script>
+<script src='/site/assets/js/sdg.js?v=20230307044246'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230307013337"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230307044246"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
