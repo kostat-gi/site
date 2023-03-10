@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230310053842">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230310062337">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -586,7 +586,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('statistics_name', "통계청 「주택소유통계」<br> <a href=\"https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1OH0501&conn_path=I3\" target=\"_blank\">&lt;URL 바로가기&gt;</a><br> <a href=\"https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1OH0503&conn_path=I2\" target=\"_blank\">&lt;URL 바로가기&gt;</a>");
+        var currentValue = normalizeCurrentValue('statistics_name', "통계청 「주택소유통계」<br> (개인단위) <a href=\"https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1OH0501&conn_path=I3\" target=\"_blank\">&lt;URL 바로가기&gt;</a><br> (관내인 및 외지인 소유) <a href=\"https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1OH0503&conn_path=I2\" target=\"_blank\">&lt;URL 바로가기&gt;</a>");
         var propertyEditor = editor.getEditor('root.statistics_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -860,12 +860,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230310053842'></script>
+<script src='/site/assets/js/sdg.js?v=20230310062337'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230310053842"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230310062337"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

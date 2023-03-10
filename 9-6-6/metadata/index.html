@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230310053842">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230310062337">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -586,7 +586,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('statistics_name', "한국부동산원 「전국주택가격동향조사」<br> 부동산통계정보(https://www.reb.or.kr/r-one/main.do) > 전국주택가격동향조사");
+        var currentValue = normalizeCurrentValue('statistics_name', "한국부동산원 「전국주택가격동향조사」<br> <a href=\"https://www.reb.or.kr/r-one/main.do\" target=\"_blank\">부동산통계정보</a> > 전국주택가격동향조사");
         var propertyEditor = editor.getEditor('root.statistics_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -860,12 +860,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230310053842'></script>
+<script src='/site/assets/js/sdg.js?v=20230310062337'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230310053842"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230310062337"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
