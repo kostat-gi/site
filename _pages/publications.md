@@ -60,7 +60,5 @@ layout: page
 	** [Open-SDG 플랫폼] <a href="https://open-sdg.readthedocs.io/" target="_blank">https://open-sdg.readthedocs.io/</a><br>
 	** [한국의 SDGs 데이터 플랫폼] <a href="https://kostat-sdg-kor.github.io/sdg-indicators" target="_blank">https://kostat-sdg-kor.github.io/</a>
         
-    </div>	
-
-
+    </div>
 </div>
