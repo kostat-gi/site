@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230404235332">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230405000721">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -586,7 +586,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('statistics_name', "한국에너지공단 「신재생에너지 보급 및 산업통계」, 한국전력공사 「한국전력통계」<br> (신재생에너지 보급 및 산업통계) <a href=\"https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=TX_33701_A005&conn_path=I2\" target=\"_blank\">&lt;URL 바로가기&gt;</a><br> (한국전력통계) <a href=\"https://home.kepco.co.kr/kepco/KO/ntcob/ntcobView.do?boardSeq=21051405&parnScrpSeq=21047466&depth=0&boardNo=0&boardCd=BRD_000099&replyRole=&pageIndex=1&searchKeyword=&searchCondition=&menuCd=FN05030103&sati_cmnt=%ED%86%B5%EA%B3%84%EA%B4%80%EB%A0%A8+%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD+%EB%B0%8F+%EA%B8%B0%ED%83%80%EC%82%AC%ED%95%AD+%EC%9E%85%EB%A0%A5&sati_email=&chk_sati_cmnt_def=1\" target=\"_blank\">&lt;URL 바로가기&gt;</a>");
+        var currentValue = normalizeCurrentValue('statistics_name', "*한국에너지공단 「신재생에너지 보급 및 산업통계」, 한국전력공사 「한국전력통계」<br> (신재생에너지 보급 및 산업통계) <a href=\"https://kosis.kr/statHtml/statHtml.do?orgId=337&tblId=TX_33701_A005&conn_path=I2\" target=\"_blank\">&lt;URL 바로가기&gt;</a><br> (한국전력통계) <a href=\"https://home.kepco.co.kr/kepco/KO/ntcob/ntcobView.do?boardSeq=21051405&parnScrpSeq=21047466&depth=0&boardNo=0&boardCd=BRD_000099&replyRole=&pageIndex=1&searchKeyword=&searchCondition=&menuCd=FN05030103&sati_cmnt=%ED%86%B5%EA%B3%84%EA%B4%80%EB%A0%A8+%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD+%EB%B0%8F+%EA%B8%B0%ED%83%80%EC%82%AC%ED%95%AD+%EC%9E%85%EB%A0%A5&sati_email=&chk_sati_cmnt_def=1\" target=\"_blank\">&lt;URL 바로가기&gt;</a>");
         var propertyEditor = editor.getEditor('root.statistics_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -632,7 +632,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('data_preparation_year', "2009년~2020년");
+        var currentValue = normalizeCurrentValue('data_preparation_year', "2009년~2021년");
         var propertyEditor = editor.getEditor('root.data_preparation_year');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -860,12 +860,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230404235332'></script>
+<script src='/site/assets/js/sdg.js?v=20230405000721'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230404235332"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230405000721"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
