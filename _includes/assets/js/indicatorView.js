@@ -50,7 +50,7 @@ var indicatorView = function (model, options) {
       }
     });
     
-    if ($(".fields").length) {
+    if ($("#fields").length) {
       console.log("aaa");
     }
     
