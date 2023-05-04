@@ -51,7 +51,7 @@ var indicatorView = function (model, options) {
     });
     
     if ($('h6').length) {
-      $('h6').append('<div class="no-data-hint" style="margin-top: 10px; color: blue;">※ 지역선택은 최대 12개까지 가능합니다.</div>');
+      $('h6').append('<div style="margin-top: 10px; color: blue;">※ 지역선택은 최대 12개까지 가능합니다.</div>');
     }
     
   });
