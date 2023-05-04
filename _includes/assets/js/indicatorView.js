@@ -50,8 +50,8 @@ var indicatorView = function (model, options) {
       }
     });
     
-    if ($("#fields").length) {
-      $("#fields").append("※ 지역선택은 최대 12개까지 가능합니다.");
+    if ($("h6").length) {
+      $("h6").append("※ 지역선택은 최대 12개까지 가능합니다.");
     }
     
   });
