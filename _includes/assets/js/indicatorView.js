@@ -49,6 +49,11 @@ var indicatorView = function (model, options) {
         $main.removeClass('indicator-main-full');
       }
     });
+    
+    if ($(".fields").length) {
+      console.log("aaa");
+    }
+    
   });
 
   this._model.onDataComplete.attach(function (sender, args) {
