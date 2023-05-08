@@ -20,7 +20,7 @@ layout: page
 <div id="main-content" class="container" role="main">
    <div class="contents_box">
       <div style="margin-top: 30px;">
-         <span class="title">수도권 광역지표란?</span>
+         <img src="/site/assets/img/infographic01.png" id="goal-18" alt="경쟁력지표 인포그래픽" />
          <br><br>
          <p class="contents">
             ○ 
