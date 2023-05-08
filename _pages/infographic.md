@@ -1,5 +1,5 @@
 ---
-title: 수도권 광역지표 소개
+title: 인포그래픽
 language: ko
 permalink: /infographic/
 layout: page
@@ -12,7 +12,7 @@ layout: page
                 <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" />
             </div>
             <div class="sttl">
-                <h1>수도권 광역지표 소개</h1>
+                <h1>인포그래픽</h1>
             </div>
         </div>
     </div>
