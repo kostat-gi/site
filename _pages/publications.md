@@ -16,7 +16,7 @@ layout: page
                 <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" />
             </div>
             <div class="sttl">
-                <h1>발간(참고)자료</h1>
+                <h1>자료실</h1>
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@ layout: page
 <div id="main-content" class="container" role="main">
     <div class="contents_box">
         <div style="margin-top: 30px;">
-            <span class="title2">발간(참고)자료 목록</span>
+            <span class="title2">자료실</span>
         </div>
     </div>
 
