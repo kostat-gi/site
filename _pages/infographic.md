@@ -5,6 +5,8 @@ permalink: /infographic/
 layout: page
 ---
 
+<link rel="stylesheet" href="https://kostat-gi.github.io/site/assets/css/infographic.css">
+
 <div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
@@ -18,7 +20,7 @@ layout: page
     </div>
 </div>
 <div id="main-content" class="container" role="main">
-   <div class="contents_box">
+   <div class="contents">
        <ul>
            <li>경쟁력지표</li>
            <li>발전지표</li>
