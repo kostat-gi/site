@@ -19,8 +19,6 @@ layout: page
 </div>
 <div id="main-content" class="container" role="main">
    <div class="contents_box">
-      <div style="margin-top: 30px;">
-         <img src="/site/assets/img/infographic01.png" width="1000" id="goal-18" alt="경쟁력지표 인포그래픽" />        
-      </div>
+       <img src="/site/assets/img/infographic01.png" width="100%" id="goal-18" alt="경쟁력지표 인포그래픽" />
    </div>
 </div>
