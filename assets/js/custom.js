@@ -33,4 +33,5 @@ function closeWin() {
 }
 
 $("#search-btn").click(function() {
+    $("#indicator_search").text($("#indicator_search").toUpperCase());
 });
