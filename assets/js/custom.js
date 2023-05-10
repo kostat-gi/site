@@ -35,6 +35,5 @@ function closeWin() {
 $("#search-btn").click(function() {
     var text = $("#indicator_search").text();
     var url = 'https://kostat-gi.github.io/site/search/?q=' + text.toUpperCase();
-    alert(url);
     location.href=url;
 });
