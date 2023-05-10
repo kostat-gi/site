@@ -33,5 +33,4 @@ function closeWin() {
 }
 
 $("#search-btn").click(function() {
-  alert("test");
 });
