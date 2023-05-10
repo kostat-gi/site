@@ -31,3 +31,7 @@ function closeWin() {
     }
     document.all['divpop'].style.visibility = "hidden";
 }
+
+$("#search-btn").click(function() {
+  alert("test");
+});
