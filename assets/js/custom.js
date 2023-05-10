@@ -32,7 +32,7 @@ function closeWin() {
     document.all['divpop'].style.visibility = "hidden";
 }
 
-$(document).on('keypress', '#indicator_search', function() {
+$(document).on('keyup', '#indicator_search', function() {
     $("input[name=q]").eq(1).val($("input[name=q]").eq(1).val().toUpperCase());
     console.log($("input[name=q]").eq(1).val());
 });
