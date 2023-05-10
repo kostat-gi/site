@@ -33,5 +33,6 @@ function closeWin() {
 }
 
 $("#search-btn").click(function() {
-    $("#indicator_search").text($("#indicator_search").toUpperCase());
+    var text = $("#indicator_search").text();
+    $("#indicator_search").text(text.toUpperCase());
 });
