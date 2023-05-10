@@ -33,7 +33,7 @@ function closeWin() {
 }
 
 $(document).on('keypress', '#indicator_search', function() {
-    var text = $("#indicator_search").value.toUpperCase();
-    $("#indicator_search").value = text;
+    var text = $("#indicator_search").value;
+    $("#indicator_search").value = text.toUpperCase();
     console.log($("#indicator_search").value);
 });
