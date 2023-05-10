@@ -34,5 +34,5 @@ function closeWin() {
 
 $(document).on('keypress', '#indicator_search', function() {
     //$("input[name=q]").val($("input[name=q]").val().toUpperCase());
-    console.log($("input[name=q]").val());
+    console.log($("input[name=q]").eq(1).val());
 });
