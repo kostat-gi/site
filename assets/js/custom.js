@@ -32,8 +32,7 @@ function closeWin() {
     document.all['divpop'].style.visibility = "hidden";
 }
 
-$("#search-btn").click(function() {
+$(document).on('keypress', '#indicator_search', function() {
     var text = $("#indicator_search").text();
-    var url = 'https://kostat-gi.github.io/site/search/?q=' + text.toUpperCase();
-    location.href=url;
+    $("#indicator_search").text(text.toUpperCase());
 });
