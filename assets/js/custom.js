@@ -35,4 +35,5 @@ function closeWin() {
 $(document).on('keypress', '#indicator_search', function() {
     var text = $("#indicator_search").text();
     $("#indicator_search").text(text.toUpperCase());
+    console.log($("#indicator_search").text());
 });
