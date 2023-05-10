@@ -31,7 +31,3 @@ function closeWin() {
     }
     document.all['divpop'].style.visibility = "hidden";
 }
-
-$("#search-btn").click(function() {
-  console.log("aa");
-});
