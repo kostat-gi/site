@@ -36,4 +36,7 @@ exclude:
   - README
   - README.md
   - LICENSE
-
+  
+search_index_boost:
+  - field: title
+    boost: 10
