@@ -23,7 +23,7 @@ layout: page
        <ul class="ulBtn">
            <li class="liunSelect"><a href="https://kostat-gi.github.io/site/infographic">경쟁력지표</a><</li>
            <li class="liunSelect"><a href="https://kostat-gi.github.io/site/infographic1">발전지표</a></li>
-           <li class="liSelect">생활지표</a></li>
+           <li class="liSelect">생활지표</li>
        </ul>
        <img src="/site/assets/img/infographic03.png" width="100%" id="goal-18" alt="생활지표 인포그래픽" />
    </div>
