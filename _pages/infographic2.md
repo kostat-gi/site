@@ -21,7 +21,7 @@ layout: page
 <div id="main-content" class="container" role="main">
    <div class="contents">
        <ul class="ulBtn">
-           <li class="liunSelect"><a href="https://kostat-gi.github.io/site/infographic">경쟁력지표</a><</li>
+           <li class="liunSelect"><a href="https://kostat-gi.github.io/site/infographic">경쟁력지표</a></li>
            <li class="liunSelect"><a href="https://kostat-gi.github.io/site/infographic1">발전지표</a></li>
            <li class="liSelect">생활지표</li>
        </ul>
