@@ -22,9 +22,9 @@ layout: page
 <div id="main-content" class="container" role="main">
    <div class="contents">
        <ul class="ulBtn">
-           <li class="liunSelect"><a href="https://kostat-gi.github.io/site/infographic">경쟁력지표</a><</li>
+           <li class="liunSelect"><a href="https://kostat-gi.github.io/site/infographic">경쟁력지표</a></li>
            <li class="liSelect">발전지표</li>
-           <li class="liUnSelect"><a href="https://kostat-gi.github.io/site/infographic2">생활지표</li>
+           <li class="liUnSelect"><a href="https://kostat-gi.github.io/site/infographic2">생활지표</a></li>
        </ul>
        <img src="/site/assets/img/infographic02.png" width="100%" id="goal-18" alt="발전지표 인포그래픽" />
    </div>
