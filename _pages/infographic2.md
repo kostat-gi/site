@@ -4,7 +4,6 @@ language: ko
 permalink: /infographic2/
 layout: page
 ---
-
 <link rel="stylesheet" href="https://kostat-gi.github.io/site/assets/css/infographic.css">
 
 <div class="heading goal-banner goal-13">
@@ -21,10 +20,10 @@ layout: page
 </div>
 <div id="main-content" class="container" role="main">
    <div class="contents">
-       <ul>
-           <li>경쟁력지표</li>
-           <li>발전지표</li>
-           <li>생활지표</li>
+       <ul class="ulBtn">
+           <li class="liunSelect"><a href="https://kostat-gi.github.io/site/infographic">경쟁력지표</a><</li>
+           <li class="liunSelect"><a href="https://kostat-gi.github.io/site/infographic1">발전지표</a></li>
+           <li class="liSelect">생활지표</a></li>
        </ul>
        <img src="/site/assets/img/infographic03.png" width="100%" id="goal-18" alt="생활지표 인포그래픽" />
    </div>
