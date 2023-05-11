@@ -21,10 +21,10 @@ layout: page
 </div>
 <div id="main-content" class="container" role="main">
    <div class="contents">
-       <ul>
-           <li>경쟁력지표</li>
-           <li>발전지표</li>
-           <li>생활지표</li>
+       <ul class="ulBtn">
+           <li class="liSelect">경쟁력지표</li>
+           <li class="liUnSelect">발전지표</li>
+           <li class="liUnSelect">생활지표</li>
        </ul>
        <img src="/site/assets/img/infographic01.png" width="100%" id="goal-18" alt="경쟁력지표 인포그래픽" />
    </div>
