@@ -23,8 +23,8 @@ layout: page
    <div class="contents">
        <ul class="ulBtn">
            <li class="liSelect">경쟁력지표</li>
-           <li class="liUnSelect">발전지표</li>
-           <li class="liUnSelect">생활지표</li>
+           <li class="liUnSelect"><a href="https://kostat-gi.github.io/site/infographic1">발전지표</a></li>
+           <li class="liUnSelect"><a href="https://kostat-gi.github.io/site/infographic2">생활지표</a></li>
        </ul>
        <img src="/site/assets/img/infographic01.png" width="100%" id="goal-18" alt="경쟁력지표 인포그래픽" />
    </div>
