@@ -1,5 +1,5 @@
 ---
-title: 발간(참고)자료
+title: 자료실 - 수도권 광역지표
 language: ko
 permalink: /publications/
 layout: page
