@@ -3603,10 +3603,10 @@ body.contrast-high .breadcrumb {
   color: #fff;
   font-size: 12px; }
 
+/* .article-share .qr { background-color: #000000; color: #ffffff; font-size: 24px; } */
 .article-share .qr {
-  background-color: #000000;
-  color: #ffffff;
-  font-size: 24px; }
+  background: url(https://kostat-gi.github.io/site/assets/img/qr.png);
+  background-size: 40px 40px; }
 
 button, input, optgroup, select, textarea {
   font-family: inherit;
