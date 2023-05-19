@@ -1,9 +1,9 @@
-.title { font-size: 18px; color: #2929d1; }
+.title { position: relative; padding-left: 12px; font-size: 18px; color: #2929d1; }
 .title::before { 
     content: '';
     display: block;
     width: 4px;
-    height: 15px;
+    height: 18px;
     position: absolute;
     left: 0px;
     top: 50%;
