@@ -112,7 +112,7 @@ layout: page
                         </td>
                         <td>3</td>
                         <td>8</td>
-                        <td>33/td>
+                        <td>33</td>
                      </tr>
                      <tr>
                         <td>생활지표</td>
@@ -120,8 +120,8 @@ layout: page
                            물질적 생활, 내 삶의 기회 등 양적 개념과 일상적 삶의 질 등 질적 개념을 포함하여 광역주민들의 생활을 다면적으로 측정
                         </td>
                         <td>4</td>
-                        <td>11/td>
-                        <td>49<d>
+                        <td>11</td>
+                        <td>49</td>
                      </tr>                     
                   </table>
                </div>
