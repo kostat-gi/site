@@ -84,9 +84,6 @@ layout: page
                지표는 총 3개 부문, 11개 영역, 27개 하위영역, 103개 지표로 구성되어 있습니다.
             </div>
          </p>
-
-         <div class="goal-tiles add">
-            <div class="row no-gutters">
                <div class="col-xs-12 goal-tile">
                   <table>
                      <tr>
@@ -124,8 +121,6 @@ layout: page
                         <td>49</td>
                      </tr>                     
                   </table>
-               </div>
-            </div>
          </div>
       </div>
    </div>
