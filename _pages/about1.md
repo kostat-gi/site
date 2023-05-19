@@ -58,8 +58,8 @@ layout: page
 
          <div class="goal-tiles add">
             <div class="row no-gutters">
-               <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/indicator.jpg" id="goal-18" style="width: auto" alt="수도권 광역지표 체계" />
+               <div class="col-xs-12 goal-tile center">
+                  <img src="/site/assets/img/indicator.jpg" id="goal-18" style="width: 85%" alt="수도권 광역지표 체계" />
                </div>
             </div>
          </div>
