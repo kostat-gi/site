@@ -87,7 +87,7 @@ layout: page
             </div>
          </p>
                <div class="col-xs-12 goal-tile">
-                  <table>
+                  <table class="aboutTable">
                      <colgroup>
                         <col style="width:10%">
                         <col style="width:60%">
@@ -96,11 +96,11 @@ layout: page
                         <col style="width:10%">
                      </colgroup>
                      <tr>
-                        <th>부문</th>
-                        <th>지표정의</th>
-                        <th>영역(11)</th>
-                        <th>하위영역(27)</th>
-                        <th>세부지표(103)</th>
+                        <th class="aboutTh">부문</th>
+                        <th class="aboutTh">지표정의</th>
+                        <th class="aboutTh">영역(11)</th>
+                        <th class="aboutTh">하위영역(27)</th>
+                        <th class="aboutTh">세부지표(103)</th>
                      </tr>
                      <tr>
                         <td>경쟁력지표</td>
