@@ -21,7 +21,6 @@ layout: page
    <div class="contents_box">
       <div style="margin-top: 30px;">
          <span class="title">수도권 광역지표란?</span>
-         <br><br>
          <p class="contents">
             ○ 
             <div style="margin-left:13px; margin-top:-40px">
@@ -31,7 +30,6 @@ layout: page
              </div><br><br>
          </p>
          <span class="title">수도권 광역지표의 의의</span>		
-         <br><br>
          <p class="contents">
             ○ 
             <div style="margin-left:13px; margin-top:-40px">
@@ -49,7 +47,6 @@ layout: page
             </div><br><br>
          </p>
          <span class="title">지표체계와 구성</span>		
-         <br><br>
          <p class="contents">
             ○ 
             <div style="margin-left:13px; margin-top:-40px">
@@ -60,7 +57,7 @@ layout: page
          <div class="goal-tiles add">
             <div class="row no-gutters">
                <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/about_01.jpg" id="goal-18" alt="수도권 광역지표 체계" />
+                  <img src="/site/assets/img/indicator.jpg" id="goal-18" style="width: auto" alt="수도권 광역지표 체계" />
                </div>
             </div>
          </div>
