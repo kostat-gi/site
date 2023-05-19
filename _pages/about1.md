@@ -88,35 +88,45 @@ layout: page
          <div class="goal-tiles add">
             <div class="row no-gutters">
                <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/about_02.jpg" id="goal-18" alt="수도권 광역지표 구성" />
+                  <table>
+                     <tr>
+                        <th>부문</th>
+                        <th>지표정의</th>
+                        <th>영역(11)</th>
+                        <th>하위영역(27)</th>
+                        <th>세부지표(103)</th>
+                     </tr>
+                     <tr>
+                        <td>경쟁력지표</td>
+                        <td>
+                           국내외적으로 다른 광역에 비해 더 우수한 자원과 역량을 갖춘 결과 물질/비물질적으로 반영하고 내외적으로 매력을 발휘할 수 있는 상태 측정
+                        </td>
+                        <td>4</td>
+                        <td>8</td>
+                        <td>21</td>
+                     </tr>
+                     <tr>
+                        <td>발전지표</td>
+                        <td>
+                           경제 발전 결과로 일자리와 소득이 증가하고 주민 욕구 충족이 가능하도록 광역단위의 경제 및 사회체계가 부작용 없이 활발하고 효율적으로 기능을 하는 상태 및 과정을 측정
+                        </td>
+                        <td>3</td>
+                        <td>8</td>
+                        <td>33/td>
+                     </tr>
+                     <tr>
+                        <td>생활지표</td>
+                        <td>
+                           물질적 생활, 내 삶의 기회 등 양적 개념과 일상적 삶의 질 등 질적 개념을 포함하여 광역주민들의 생활을 다면적으로 측정
+                        </td>
+                        <td>4</td>
+                        <td>11/td>
+                        <td>49<d>
+                     </tr>                     
+                  </table>
                </div>
             </div>
          </div>
-         <br>
-         <div class="goal-tiles add">
-            <div class="row no-gutters">
-               <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/about_03.jpg" id="goal-18" alt="1.경쟁력지표" />
-               </div>
-            </div>
-         </div>
-         <br>
-         <div class="goal-tiles add">
-            <div class="row no-gutters">
-               <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/about_04.jpg" id="goal-18" alt="2.발전지표" />
-               </div>
-            </div>
-         </div>
-         <br>
-         <div class="goal-tiles add">
-            <div class="row no-gutters">
-               <div class="col-xs-12 goal-tile">
-                  <img src="/site/assets/img/about_05.jpg" id="goal-18" alt="3.생활지표" />
-               </div>
-            </div>
-         </div>
-         
       </div>
    </div>
 </div>
