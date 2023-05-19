@@ -86,6 +86,13 @@ layout: page
          </p>
                <div class="col-xs-12 goal-tile">
                   <table>
+                     <colgroup>
+                        <col style="width:10%">
+                        <col style="width:60%">
+                        <col style="width:10%">
+                        <col style="width:10%">
+                        <col style="width:10%">
+                     </colgroup>
                      <tr>
                         <th>부문</th>
                         <th>지표정의</th>
