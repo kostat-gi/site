@@ -5,6 +5,8 @@ permalink: /about1/
 layout: page
 ---
 
+<link rel="stylesheet" href="https://kostat-gi.github.io/site/assets/css/about.css">
+
 <div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
