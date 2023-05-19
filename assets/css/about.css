@@ -1,3 +1,16 @@
+.title { font-size: 18px; color: #2929d1; }
+.title:before { 
+    content: '';
+    display: block;
+    width: 4px;
+    height: 15px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #2929d1;
+}
+
 table { border-top: 1px solid #0050a3; }
 table th { background: #e5eef7; border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px; text-align: center; }
 table td { border: 1px solid #ddd; padding: 10px; }
