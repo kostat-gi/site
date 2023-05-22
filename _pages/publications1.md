@@ -7,7 +7,7 @@ layout: page
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://kostat-gi.github.io/site/assets/js/publications.js"></script>
-<link rel="stylesheet" href="https://kostat-gi.github.io/site/assets/css/publications.css">
+<link rel="stylesheet" href="https://kostat-gi.github.io/site/assets/css/publications1.css">
 
 <div class="heading goal-banner goal-13">
     <div class="container">
