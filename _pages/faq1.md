@@ -24,7 +24,7 @@ layout: page
 <div class="contents_box">
 	<p class="contents">
 		
-<div class="ask">
+<div class="ask" style="margin-top: 40px">
    <span style="font-size: 2rem">Q1. 수도권 광역지표를 누가, 언제 만들었나요?</span>
 </div>
 <div class="answer">
