@@ -36,11 +36,11 @@ layout: page
 	
 <!--<div class="part_line">&nbsp;</div>-->
 	
-{{ include components/publications/book.html }}	
+{& include components/publications/book.html %}	
 	
 <div class="under_line">&nbsp;</div>
 	
-{{ include components/publications/board.html }}
+{% include components/publications/board.html %}
 
     <div class="contents_box" style="font-size:20px">
 	<b>[국가통계포털]</b> <a href="https://kosis.kr/index/index.do" target="_blank">https://kosis.kr/index/index.do</a><br>
