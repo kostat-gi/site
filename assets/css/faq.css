@@ -1,0 +1,13 @@
+.ask {
+   padding: 10px 15px;
+   border: 1px solid #ebebeb;
+   border-left: 5px solid #378ecb;
+   border-radius: 2px;
+   background: #f9f9f9;
+}
+.answer {
+   padding: 20px 10px 20px;
+   height: 100%;
+   border: 2px solid #ebebeb;
+   border-top: 1px solid #ebebeb;
+}
