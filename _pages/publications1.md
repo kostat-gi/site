@@ -24,7 +24,7 @@ layout: page
 <div id="main-content" class="container" role="main">
     <div class="contents_box">
         <div style="margin-top: 30px;">
-            <span class="title">자료실</span>
+            <span class="title">읽을거리</span>
         </div>
     </div>
 
@@ -38,7 +38,7 @@ layout: page
 	
 {% include components/publications/book.html %}	
 	
-<div class="under_line">&nbsp;</div>
+<div class="part_line">&nbsp;</div>
 	
 {{ include components/publications/board.html }}
 
