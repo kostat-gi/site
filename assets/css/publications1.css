@@ -1,0 +1,12 @@
+.title { position: relative; padding-left: 12px; font-size: 24px; color: #2929d1; }
+.title::before { 
+    content: '';
+    display: block;
+    width: 4px;
+    height: 24px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #2929d1;
+}
