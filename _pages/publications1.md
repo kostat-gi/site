@@ -36,12 +36,10 @@ layout: page
 	
 <!--<div class="part_line">&nbsp;</div>-->
 	
-<!--//  책꽂이 형태 출력 소스임 - 필요시 수정 후 사용 --> 
 {{ include components/publications/book.html }}	
 	
 <div class="under_line">&nbsp;</div>
 	
-<!--//  게시판 형태 출력 소스임 - 자료가 많을 경우에 수정 후 사용 --> 
 {{ include components/publications/board.html }}
 
     <div class="contents_box" style="font-size:20px">
