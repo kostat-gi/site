@@ -66,10 +66,9 @@ layout: page
 <div class="answer">
    정기적으로는 매년 업데이트 하되, 가급적 공표시기에 맞춰 최신 자료로 갱신할 예정입니다. 해당지표에서 「지표정의」란에 데이터 갱신이력을 남겼습니다.
 </div>
-		
-		
 	</p>
-		<br>
+	
+<div class="box">
 	<span class="title">플랫폼 개발 매뉴얼</span>
 <p class="contents">
 <br>
@@ -82,6 +81,7 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 * Open SDG <a href="https://open-sdg.readthedocs.io/" target="_blank">[바로가기]</a><br>
  → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등
 </p>
+<div>
 	
 </div>
 
