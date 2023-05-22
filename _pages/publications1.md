@@ -36,7 +36,7 @@ layout: page
 	
 <!--<div class="part_line">&nbsp;</div>-->
 	
-{& include components/publications/book.html %}	
+{% include components/publications/book.html %}	
 	
 <div class="under_line">&nbsp;</div>
 	
