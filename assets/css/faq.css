@@ -12,3 +12,8 @@
    border: 2px solid #ebebeb;
    border-top: 1px solid #ebebeb;
 }
+.box {
+   padding: 20px;
+   border: 10px solid #e4eff8;
+   margin-bottom: 40px;
+}
