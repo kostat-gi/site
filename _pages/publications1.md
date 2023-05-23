@@ -50,7 +50,7 @@ layout: page
 	[지표누리(국가지표체계)]  <a href="https://www.index.go.kr/unity/potal/indicator/ProgressIndicator.do?cdNo=210" target="_blank">https://www.index.go.kr/</a><br>
         [마이크로데이터 통합서비스]  <a href="https://mdis.kostat.go.kr/index.do" target="_blank">https://mdis.kostat.go.kr/index.do</a><br>
 	[질병관리청/지역사회건강조사]  <a href="https://chs.kdca.go.kr/chs/index.do" target="_blank">https://chs.kdca.go.kr/chs/index.do</a><br>
-    </div>	
+    </div>
 	
 <div class="part_line">&nbsp;</div>
 	
