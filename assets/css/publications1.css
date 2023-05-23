@@ -10,3 +10,7 @@
     transform: translateY(-50%);
     background: #2929d1;
 }
+.item {
+    display: table-cell;
+    width: 210px;
+}
