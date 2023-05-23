@@ -128,7 +128,7 @@ layout: page
                         <td class="center">4</td>
                         <td class="center">11</td>
                         <td class="center">49</td>
-                     </tr>                     
+                     </tr>
                   </table>
          </div>
       </div>
