@@ -54,11 +54,11 @@ layout: page
 	
 <div class="part_line">&nbsp;</div>
 	
-    <div class="contents_box">
+    <div class="contents_box" style="font-size:20px">
         <div style="margin-top: 30px;">
             <span class="title">사이트 구축 참고자료</span>
         </div>
-	[Open-SDG 플랫폼] <a href="https://open-sdg.readthedocs.io/" target="_blank">https://open-sdg.readthedocs.io/</a><br>
-	[한국의 SDGs 데이터 플랫폼] <a href="https://kostat-sdg-kor.github.io/sdg-indicators" target="_blank">https://kostat-sdg-kor.github.io/</a>        
+	[Open-SDG 플랫폼]  <a href="https://open-sdg.readthedocs.io/" target="_blank">https://open-sdg.readthedocs.io/</a><br>
+	[한국의 SDGs 데이터 플랫폼]  <a href="https://kostat-sdg-kor.github.io/sdg-indicators" target="_blank">https://kostat-sdg-kor.github.io/</a>        
     </div>
 </div>
