@@ -4,6 +4,13 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
+        <div class="selectDiv">
+          <select onchange="if(this.value) window.open(this.value);" class="select">
+            <option value="#">유관기관 바로가기</option>
+            <option value="https://kostat.go.kr/argi/">경인지방통계청</option>
+            <option value="https://kostat.go.kr">통계청</option>
+          </select>
+        </div>
         <div id="footerLinks" style="font-size: large;">
 		{{ page.t.general.footer_notice }}
           <ul>
@@ -33,13 +40,6 @@
             </li>
             {%- endif -%}
           </ul>
-        </div>
-        <div class="selectDiv">
-          <select onchange="if(this.value) window.open(this.value);" class="select">
-            <option value="#">유관기관 바로가기</option>
-            <option value="https://kostat.go.kr/argi/">경인지방통계청</option>
-            <option value="https://kostat.go.kr">통계청</option>
-          </select>
         </div>
       </div>    
     </div>
