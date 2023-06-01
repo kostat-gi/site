@@ -1,8 +1,8 @@
 @media (max-width: 800px) {
-  .selectDiv {}
+  .selectDiv { margin-bottom: 10px; }
 }
 @media (min-width: 800px) {
-  .selectDiv { float: right; margin-top: -50px; }
+  .selectDiv { float: right; }
 }
 @media (max-width: 800px) {
   .select { background: #252a33; width: 100%; padding: 10px; font-size: 14px; font-weight: bold; }
