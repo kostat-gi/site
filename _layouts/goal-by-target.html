@@ -48,7 +48,7 @@
       {% assign tag_classes = tag_classes | join: " " %}
 
       <div class="col-md-12 {{ tag_classes }} goal-indicator">
-        <span class="indicator-card-number">
+        <span id="indicator_number" class="indicator-card-number">
           {{ indicator.number }}
 	  <div id="computation_coverage" class="computation_coverage"></div>
           {% include components/reportingstatus/reporting-status-label.html indicator=indicator %}
@@ -66,6 +66,7 @@
 {% include footer.html %}
 
 <script>
+  console.log(document.getElementById("indicator_number"));
   var link = document.location.href;
   if (link.indexOf('/1') != -1) {
     document.getElementById("computation_coverage").innerHTML = "[지역범위: 권역]";
