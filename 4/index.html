@@ -133,7 +133,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230615061157">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230615062125">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -161,9 +161,9 @@ var translations = {
     var isFind = false;
 
     console.log(indicatorNumber);
-    console.log(indicatorType1.lengh);
+    console.log(indicatorType1.length);
 	
-    for (var i = 0; i < indicatorType1.lengh; i++) {
+    for (var i = 0; i < indicatorType1.length; i++) {
       if (indicatorNumber.indexOf(indicatorType1[i]) != -1) {
         isFind = true;
         document.getElementById("computation_coverage" + getIndicatorNumber).innerHTML = "[지역범위: 권역]";
@@ -604,12 +604,12 @@ layout-goal-by-target
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230615061157'></script>
+<script src='/site/assets/js/sdg.js?v=20230615062125'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230615061157"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230615062125"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
