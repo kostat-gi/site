@@ -133,7 +133,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230615062125">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230615063838">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -158,6 +158,7 @@ var translations = {
   function printComputationCoverage(getIndicatorNumber) {
     var indicatorNumber = document.getElementById("indicator_number" + getIndicatorNumber).innerHTML;
     var indicatorType1 = ['1.1.1', '1.1.2', '1.2.1', '1.2.2', '1.2.3', '2.1.1', '2.1.2', '2.2.1', '2.2.2', '2.2.3', '3.1.1', '3.1.2', '3.1.3', '3.2.1', '3.2.2', '4.1.1', '4.1.2', '4.2.1', '4.2.2', '4.2.3', '4.2.4'];
+    var indicatorType2 = ['5.1.1', '5.1.2', '5.1.3', '5.2.2', '5.2.3', '5.2.5', '5.3.2', '5.3.3', '5.4.1', '5.4.2', '5.4.3', '5.4.6', '7-1-2', '10-1-3', '10-1-4', '10-1-5', '10-1-6', '10-2-1', '11-1-1', '11-2-5'];
     var isFind = false;
 
     console.log(indicatorNumber);
@@ -167,12 +168,16 @@ var translations = {
       if (indicatorNumber.indexOf(indicatorType1[i]) != -1) {
         isFind = true;
         document.getElementById("computation_coverage" + getIndicatorNumber).innerHTML = "[지역범위: 권역]";
-	console.log(indicatorNumber);
-	console.log("aaa");
         break;
-      } else {
-	console.log("bbb");
-      }
+    }
+	    
+    if (isFind) { return; }
+
+    for (var i = 0; i < indicatorType2.length; i++) {
+      if (indicatorNumber.indexOf(indicatorType2[i]) != -1) {
+        isFind = true;
+        document.getElementById("computation_coverage" + getIndicatorNumber).innerHTML = "[지역범위: 시군구]";
+        break;
     }
   }
 </script>
@@ -222,12 +227,12 @@ layout-page-not-found
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230615062125'></script>
+<script src='/site/assets/js/sdg.js?v=20230615063838'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230615062125"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230615063838"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
