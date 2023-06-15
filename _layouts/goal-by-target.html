@@ -48,14 +48,7 @@
       <div class="col-md-12 {{ tag_classes }} goal-indicator">
         <span class="indicator-card-number">
           {{ indicator.number }}
-	  <script>
-              var link = document.location.href;
-	      if (link.indexOf('1') != -1) {
-	        [지역범위: 권역]
-              } else {
-                console.log('0');
-              }
-          </script>
+	  <span id="computation_coverage"></span>
           {% include components/reportingstatus/reporting-status-label.html indicator=indicator %}
         </span>
         <a href="{{ indicator.url }}">
@@ -69,3 +62,12 @@
 </div>
 
 {% include footer.html %}
+
+<script>
+  var link = document.location.href;
+  if (link.indexOf('1') != -1) {
+    document.getElementById("computation_coverage").innerHTML = "[지역범위: 권역]";
+  } else {
+    console.log('0');
+  }
+</script>
