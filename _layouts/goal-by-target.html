@@ -50,7 +50,7 @@
       <div class="col-md-12 {{ tag_classes }} goal-indicator">
         <span id="indicator_number{{ indicator.number }}" class="indicator-card-number">
           {{ indicator.number }}
-	  <div id="computation_coverage{{ indicator.number }}" class="computation_coverage"><script>printComputationCoverage();</scirpt></div>
+	  <div id="computation_coverage{{ indicator.number }}" class="computation_coverage"><script>printComputationCoverage();</script></div>
           {% include components/reportingstatus/reporting-status-label.html indicator=indicator %}
         </span>
         <a href="{{ indicator.url }}">
