@@ -1,6 +1,8 @@
 {% include head.html %}
 {% include header.html %}
 
+<link rel="stylesheet" href="https://kostat-gi.github.io/site/assets/css/site.css">
+
 <div class="container">
 	<!--  {% include components/goal/breadcrumbs.html %}-->
   {% if site.create_goals.previous_next_links %}
@@ -48,7 +50,7 @@
       <div class="col-md-12 {{ tag_classes }} goal-indicator">
         <span class="indicator-card-number">
           {{ indicator.number }}
-	  <span id="computation_coverage"></span>
+	  <div id="computation_coverage"></div>
           {% include components/reportingstatus/reporting-status-label.html indicator=indicator %}
         </span>
         <a href="{{ indicator.url }}">
@@ -65,9 +67,11 @@
 
 <script>
   var link = document.location.href;
-  if (link.indexOf('1') != -1) {
+  if (link.indexOf('/1') != -1) {
     document.getElementById("computation_coverage").innerHTML = "[지역범위: 권역]";
-  } else {
+  } else if (link.indexOf('/2') != -1) {
+  } else if (link.indexOf('/3') != -1) {
+  } else if (link.indexOf('/4') != -1) {
     console.log('0');
   }
 </script>
