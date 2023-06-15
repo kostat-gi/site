@@ -29,7 +29,7 @@
 	    
     if (isFind) { return; }
 
-    for (var i = 0; i < indicatorType2.length; i++) {
+    for (i = 0; i < indicatorType2.length; i++) {
       if (indicatorNumber.indexOf(indicatorType2[i]) != -1) {
         isFind = true;
         document.getElementById("computation_coverage" + getIndicatorNumber).innerHTML = "[지역범위: 시군구]";
@@ -39,7 +39,7 @@
 
     if (isFind) { return; }
 
-    for (var i = 0; i < indicatorType3.length; i++) {
+    for (i = 0; i < indicatorType3.length; i++) {
       if (indicatorNumber.indexOf(indicatorType3[i]) != -1) {
         isFind = true;
         document.getElementById("computation_coverage" + getIndicatorNumber).innerHTML = "[지역범위: 시도]";
