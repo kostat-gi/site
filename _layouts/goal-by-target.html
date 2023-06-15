@@ -48,16 +48,16 @@
       <div class="col-md-12 {{ tag_classes }} goal-indicator">
         <span class="indicator-card-number">
           {{ indicator.number }}
+	  <script>
+              var link = document.location.href;
+	      if (link.indexOf('1') != -1) {
+	        [지역범위: 권역]
+              } else {
+                console.log('0');
+              }
+          </script>
           {% include components/reportingstatus/reporting-status-label.html indicator=indicator %}
         </span>
-	<script>
-  	  var link = document.location.href;
-	  if (link.indexOf('1') != -1) {
-	    console.log('1');
-	  } else {
-	    console.log('0');
-	  }
-	</script>
         <a href="{{ indicator.url }}">
           {{ indicator.name }}
         </a>
