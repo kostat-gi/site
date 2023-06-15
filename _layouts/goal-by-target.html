@@ -66,7 +66,7 @@
 {% include footer.html %}
 
 <script>
-  console.log(document.getElementById("indicator_number"));
+  console.log(document.getElementById("indicator_number").innerHTML);
   var link = document.location.href;
   if (link.indexOf('/1') != -1) {
     document.getElementById("computation_coverage").innerHTML = "[지역범위: 권역]";
