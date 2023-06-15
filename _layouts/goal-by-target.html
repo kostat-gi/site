@@ -50,7 +50,14 @@
           {{ indicator.number }}
           {% include components/reportingstatus/reporting-status-label.html indicator=indicator %}
         </span>
-	<span>{{ page.indicator[indicator_metadata.name] }}</span>
+	<script>
+  	  var link = document.location.href;
+	  if (link.index.Of('1') != -1) {
+	    console.log('1');
+	  } else {
+	    console.log('0');
+	  }
+	</script>
         <a href="{{ indicator.url }}">
           {{ indicator.name }}
         </a>
