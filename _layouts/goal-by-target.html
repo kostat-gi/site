@@ -50,6 +50,7 @@
           {{ indicator.number }}
           {% include components/reportingstatus/reporting-status-label.html indicator=indicator %}
         </span>
+	<span>{{ page.indicator[indicator_metadata.name] }}</span>
         <a href="{{ indicator.url }}">
           {{ indicator.name }}
         </a>
