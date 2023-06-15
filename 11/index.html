@@ -133,7 +133,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230615005720">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230615011559">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -350,7 +350,14 @@ layout-goal-by-target
 
 
         </span>
-	<span></span>
+	<script>
+  	  var link = document.location.href;
+	  if (link.index.Of('1') != -1) {
+	    console.log('1');
+	  } else {
+	    console.log('0');
+	  }
+	</script>
         <a href="/site/11-1-1">
           1인당 생활폐기물 배출량
         </a>
@@ -380,7 +387,14 @@ layout-goal-by-target
 
 
         </span>
-	<span></span>
+	<script>
+  	  var link = document.location.href;
+	  if (link.index.Of('1') != -1) {
+	    console.log('1');
+	  } else {
+	    console.log('0');
+	  }
+	</script>
         <a href="/site/11-1-2">
           녹지환경 만족도
         </a>
@@ -410,7 +424,14 @@ layout-goal-by-target
 
 
         </span>
-	<span></span>
+	<script>
+  	  var link = document.location.href;
+	  if (link.index.Of('1') != -1) {
+	    console.log('1');
+	  } else {
+	    console.log('0');
+	  }
+	</script>
         <a href="/site/11-1-3">
           일반폐기물 재활용률
         </a>
@@ -440,7 +461,14 @@ layout-goal-by-target
 
 
         </span>
-	<span></span>
+	<script>
+  	  var link = document.location.href;
+	  if (link.index.Of('1') != -1) {
+	    console.log('1');
+	  } else {
+	    console.log('0');
+	  }
+	</script>
         <a href="/site/11-1-4">
           재생에너지 비율
         </a>
@@ -482,7 +510,14 @@ layout-goal-by-target
 
 
         </span>
-	<span></span>
+	<script>
+  	  var link = document.location.href;
+	  if (link.index.Of('1') != -1) {
+	    console.log('1');
+	  } else {
+	    console.log('0');
+	  }
+	</script>
         <a href="/site/11-2-1">
           인구 천 명당 범죄 발생 건수
         </a>
@@ -512,7 +547,14 @@ layout-goal-by-target
 
 
         </span>
-	<span></span>
+	<script>
+  	  var link = document.location.href;
+	  if (link.index.Of('1') != -1) {
+	    console.log('1');
+	  } else {
+	    console.log('0');
+	  }
+	</script>
         <a href="/site/11-2-2">
           강력범죄 발생률
         </a>
@@ -542,7 +584,14 @@ layout-goal-by-target
 
 
         </span>
-	<span></span>
+	<script>
+  	  var link = document.location.href;
+	  if (link.index.Of('1') != -1) {
+	    console.log('1');
+	  } else {
+	    console.log('0');
+	  }
+	</script>
         <a href="/site/11-2-3">
           소방공무원 1인당 담당 주민 수
         </a>
@@ -572,7 +621,14 @@ layout-goal-by-target
 
 
         </span>
-	<span></span>
+	<script>
+  	  var link = document.location.href;
+	  if (link.index.Of('1') != -1) {
+	    console.log('1');
+	  } else {
+	    console.log('0');
+	  }
+	</script>
         <a href="/site/11-2-4">
           사회 안전에 대한 인식
         </a>
@@ -602,7 +658,14 @@ layout-goal-by-target
 
 
         </span>
-	<span></span>
+	<script>
+  	  var link = document.location.href;
+	  if (link.index.Of('1') != -1) {
+	    console.log('1');
+	  } else {
+	    console.log('0');
+	  }
+	</script>
         <a href="/site/11-2-5">
           교통사고 발생 건수
         </a>
@@ -670,12 +733,12 @@ layout-goal-by-target
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230615005720'></script>
+<script src='/site/assets/js/sdg.js?v=20230615011559'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230615005720"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230615011559"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
