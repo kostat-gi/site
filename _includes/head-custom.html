@@ -19,7 +19,11 @@
       if (indicatorNumber.indexOf(indicatorType1[i]) != -1) {
         isFind = true;
         document.getElementById("computation_coverage" + getIndicatorNumber).innerHTML = "[지역범위: 권역]";
+	console.log(indicatorNumber);
+	console.log("aaa");
         break;
+      } else {
+	console.log("bbb");
       }
     }
   }
