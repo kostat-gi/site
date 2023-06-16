@@ -3356,8 +3356,12 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   width: 50%;
   max-width: 150px; }
 
+.notosanskr * {
+  font-family: 'Noto Sans KR', sans-serif; }
+
 body {
-  background: white; }
+  background: white;
+  font-family: 'Noto Sans KR'; }
 
 td {
   word-break: break-all; }
@@ -4048,6 +4052,3 @@ footer {
   margin-top: 10px;
   margin-left: 5px;
   font-size: 26px; }
-
-.notosanskr * {
-  font-family: 'Noto Sans KR', sans-serif; }
