@@ -3992,6 +3992,12 @@ footer {
   width: 40%;
   float: right; }
 
+.navbar ul.navbar-nav > li > a {
+  margin: 2px 50px;
+  color: #333;
+  font-size: 19px;
+  font-weight: 500; }
+
 @media (min-width: 768px) {
   .top_div {
     display: flex;
@@ -4043,12 +4049,6 @@ footer {
   .navbar ul.navbar-nav {
     float: right;
     margin-top: 0px; }
-
-  .navbar ul.navbar-nav > li > a {
-    margin: 2px 50px;
-    color: #333;
-    font-size: 19px;
-    font-weight: 500; }
 
   #search {
     margin-top: -70px; } }
