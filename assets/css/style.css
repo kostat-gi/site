@@ -1,5 +1,4 @@
 /* open-sans-regular - latin */
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -3356,9 +3355,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   width: 50%;
   max-width: 150px; }
 
-.notosanskr * {
-  font-family: 'Noto Sans KR', sans-serif; }
-
 body {
   background: white;
   font-family: 'Noto Sans KR';
@@ -3992,13 +3988,13 @@ footer {
   width: 40%;
   float: right; }
 
-.navbar ul.navbar-nav > li > a {
-  margin: 2px 50px;
-  color: #333;
-  font-size: 19px;
-  font-weight: 500;
-  text-decoration: none; }
-
+/*.navbar ul.navbar-nav > li > a {
+    margin: 2px 50px;
+    color: #333;
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: none;
+}*/
 @media (min-width: 768px) {
   .top_div {
     display: flex;
