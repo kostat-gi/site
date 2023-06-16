@@ -1,7 +1,9 @@
 // Enter any custom Sass in this file.
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); .notosanskr * { font-family: 'Noto Sans KR', sans-serif; }
 
 body{
 	background: white;
+	font-family: 'Noto Sans KR';
 }
 td{
 	word-break: break-all;
@@ -547,5 +549,3 @@ footer {
     }
   }
 }
-
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); .notosanskr * { font-family: 'Noto Sans KR', sans-serif; }
