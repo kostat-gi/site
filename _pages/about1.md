@@ -66,7 +66,7 @@ layout: page
 
          <p class="contents">
             ○ 
-            <div style="margin-left:13px; margin-top:-40px">
+            <div style="margin-left: 23px; margin-top: -42px">
                경쟁력지표-발전지표-생활지표 간의 관련성은 아래 그림과 같습니다.
             </div>
          </p>
@@ -82,7 +82,7 @@ layout: page
 
          <p class="contents">
             ○ 
-            <div style="margin-left:13px; margin-top:-40px">
+            <div style="margin-left: 23px; margin-top: -42px">
                지표는 총 3개 부문, 11개 영역, 27개 하위영역, 103개 지표로 구성되어 있습니다.
             </div>
          </p>
