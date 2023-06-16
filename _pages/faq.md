@@ -9,10 +9,10 @@ layout: page
     <div class="container">
         <div class="row">
             <div class="sttl">
-                <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" />
+                <img src="{{ site.goal_image_base }}/{{ page.language }}/sub_title.png" alt="아이콘" style="max-width: 80%;" />
             </div>
             <div class="sttl">
-                <h1>자주하는 질문(FAQ)</h1>
+                <h1 style="font-size: 28px">자주하는 질문(FAQ)</h1>
             </div>
         </div>
     </div>
