@@ -33,13 +33,13 @@ layout: page
 	<b>[2022 수도권 광역지표 분석 보고서]</b> <a href="https://kostat-gi.github.io/site/assets/img/report/2022_report.pdf" target="_blank">[PDF 바로가기]</a> <a href="https://kostat-gi.github.io/site/assets/img/report/2022_report_hwp.hwpx" target="_blank">[HWP 바로가기]</a><br>
 	<b>[보도자료]</b> <a href="https://kostat-gi.github.io/site/assets/img/report/press_2022_11_10.pdf" target="_blank">수도권 광역지표 개발 및 온라인 시범서비스 시작</a>
     </div>	-->
-	
+
 <!--<div class="part_line">&nbsp;</div>-->
-	
+
 {% include components/publications/book.html %}	
-	
+
 <div class="part_line">&nbsp;</div>
-	
+
 {{ include components/publications/board.html }}
 
     <div class="contents_box" style="font-size:20px">
@@ -51,14 +51,14 @@ layout: page
         [마이크로데이터 통합서비스]  <a href="https://mdis.kostat.go.kr/index.do" target="_blank">https://mdis.kostat.go.kr/index.do</a><br>
 	[질병관리청/지역사회건강조사]  <a href="https://chs.kdca.go.kr/chs/index.do" target="_blank">https://chs.kdca.go.kr/chs/index.do</a><br>
     </div>
-	
+
 <div class="part_line">&nbsp;</div>
-	
+
     <div class="contents_box" style="font-size:20px">
         <div style="margin-top: 30px;">
             <span class="title">사이트 구축 참고자료</span>
         </div>
 	[Open-SDG 플랫폼]  <a href="https://open-sdg.readthedocs.io/" target="_blank">https://open-sdg.readthedocs.io/</a><br>
-	[한국의 SDGs 데이터 플랫폼]  <a href="https://kostat-sdg-kor.github.io/sdg-indicators" target="_blank">https://kostat-sdg-kor.github.io/</a>        
+	[한국의 SDGs 데이터 플랫폼]  <a href="https://kostat-sdg-kor.github.io/sdg-indicators" target="_blank">https://kostat-sdg-kor.github.io/</a>
     </div>
 </div>
