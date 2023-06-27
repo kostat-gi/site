@@ -154,6 +154,7 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 
 <script>
 window.onload=function(){
-  console.log({{ page.indicator[indicator_metadata.computation_coverage] }});
+  console.log({{ page.indicator.computation_coverage }});
+  console.log({{ page.t.indicator.computation_coverage }});
 }
 </script>
