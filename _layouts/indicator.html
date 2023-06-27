@@ -154,9 +154,8 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 
 <script>
 window.onload=function() {
-  var $nonStackingTabs = document.getElementsByClassName('non-stacking-tabs');
+  var nonStackingTabs = document.getElementsByClassName('non-stacking-tabs');
   var element = document.createElement('div');
-  console.log($nonStackingTabs);
   element.style.position = 'absolute';
   element.style.right = '15px';
   element.style.fontSize = '12px';
@@ -165,6 +164,6 @@ window.onload=function() {
   element.style.background = '#1d70b8';
   element.style.padding = '5px 7px 5px 7px';
   element.textContent = '지역범위: {{ page.indicator.computation_coverage }}';
-  $nonStackingTabs.after(element);
+  nonStackingTabs.append(element);
 }
 </script>
