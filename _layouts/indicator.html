@@ -164,11 +164,11 @@ window.onload=function() {
   element.style.color = '#fff';
   element.style.background = '#1d70b8';
   element.style.padding = '5px 7px 5px 7px';
-  if ({{ page.indicator.computation_coverage }} == '권역') {
+  if ('{{ page.indicator.computation_coverage }}' == '권역') {
     coverage = '권역';
-  } else if ({{ page.indicator.computation_coverage }} == '시군구') {
+  } else if ('{{ page.indicator.computation_coverage }}' == '시군구') {
     coverage = '시군구';
-  } else if ({{ page.indicator.computation_coverage }} == '시도') {
+  } else if ('{{ page.indicator.computation_coverage }}' == '시도') {
     coverage = '시도';
   }
   element.textContent = '지역범위: ' + coverage;
