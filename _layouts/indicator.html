@@ -164,6 +164,8 @@ window.onload=function() {
   element.style.background = '#1d70b8';
   element.style.padding = '5px 7px 5px 7px';
   element.textContent = '지역범위: {{ page.indicator.computation_coverage }}';
-  nonStackingTabs.append(element);
+  if (nonStackingTabs.length > 0) {
+    nonStackingTabs[0].appendChild(element);
+  }
 }
 </script>
