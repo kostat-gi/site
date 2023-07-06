@@ -1,7 +1,7 @@
 ---
-title: FAQ
+title: FAQ_old
 language: ko
-permalink: /faq/
+permalink: /faq_old/
 layout: page
 ---
 
