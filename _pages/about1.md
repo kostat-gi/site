@@ -5,8 +5,6 @@ permalink: /about1/
 layout: page
 ---
 
-<link rel="stylesheet" href="https://kostat-gi.github.io/site/assets/css/about.css">
-
 <div class="heading goal-banner goal-13">
     <div class="container">
         <div class="row">
@@ -21,8 +19,9 @@ layout: page
 </div>
 <div id="main-content" class="container" role="main">
    <div class="contents_box">
-      <div style="margin-top: 40px;">
+      <div style="margin-top: 30px;">
          <span class="title">수도권 광역지표란?</span>
+         <br><br>
          <p class="contents">
             ○ 
             <div style="margin-left: 23px; margin-top: -42px">
@@ -32,6 +31,7 @@ layout: page
              </div><br><br>
          </p>
          <span class="title">수도권 광역지표의 의의</span>		
+         <br><br>
          <p class="contents">
             ○ 
             <div style="margin-left: 23px; margin-top: -42px">
@@ -49,6 +49,7 @@ layout: page
             </div><br><br>
          </p>
          <span class="title">지표체계와 구성</span>		
+         <br><br>
          <p class="contents">
             ○ 
             <div style="margin-left: 23px; margin-top: -42px">
@@ -58,8 +59,8 @@ layout: page
 
          <div class="goal-tiles add">
             <div class="row no-gutters">
-               <div class="col-xs-12 goal-tile center">
-                  <img src="/site/assets/img/indicator.jpg" id="goal-18" style="width: 85%" alt="수도권 광역지표 체계" />
+               <div class="col-xs-12 goal-tile">
+                  <img src="/site/assets/img/about_01.jpg" id="goal-18" alt="수도권 광역지표 체계" />
                </div>
             </div>
          </div>
@@ -86,51 +87,39 @@ layout: page
                지표는 총 3개 부문, 11개 영역, 27개 하위영역, 103개 지표로 구성되어 있습니다.
             </div>
          </p>
+
+         <div class="goal-tiles add">
+            <div class="row no-gutters">
                <div class="col-xs-12 goal-tile">
-                  <table class="aboutTable">
-                     <colgroup>
-                        <col style="width: 13%">
-                        <col style="width: auto">
-                        <col style="width: 10%">
-                        <col style="width: 10%">
-                        <col style="width: 10%">
-                     </colgroup>
-                     <tr>
-                        <th class="center">부문</th>
-                        <th class="center">지표정의</th>
-                        <th class="center">영역<br />(11)</th>
-                        <th class="center">하위영역<br />(27)</th>
-                        <th class="center">세부지표<br />(103)</th>
-                     </tr>
-                     <tr>
-                        <td class="center">경쟁력지표</td>
-                        <td>
-                           국내외적으로 다른 광역에 비해 더 우수한 자원과 역량을 갖춘 결과 물질/비물질적으로 반영하고 내외적으로 매력을 발휘할 수 있는 상태 측정
-                        </td>
-                        <td class="center">4</td>
-                        <td class="center">8</td>
-                        <td class="center">21</td>
-                     </tr>
-                     <tr>
-                        <td class="center">발전지표</td>
-                        <td>
-                           경제 발전 결과로 일자리와 소득이 증가하고 주민 욕구 충족이 가능하도록 광역단위의 경제 및 사회체계가 부작용 없이 활발하고 효율적으로 기능을 하는 상태 및 과정을 측정
-                        </td>
-                        <td class="center">3</td>
-                        <td class="center">8</td>
-                        <td class="center">33</td>
-                     </tr>
-                     <tr>
-                        <td class="center">생활지표</td>
-                        <td>
-                           물질적 생활, 내 삶의 기회 등 양적 개념과 일상적 삶의 질 등 질적 개념을 포함하여 광역주민들의 생활을 다면적으로 측정
-                        </td>
-                        <td class="center">4</td>
-                        <td class="center">11</td>
-                        <td class="center">49</td>
-                     </tr>
-                  </table>
+                  <img src="/site/assets/img/about_02.jpg" id="goal-18" alt="수도권 광역지표 구성" />
+               </div>
+            </div>
          </div>
+         <br>
+         <div class="goal-tiles add">
+            <div class="row no-gutters">
+               <div class="col-xs-12 goal-tile">
+                  <img src="/site/assets/img/about_03.jpg" id="goal-18" alt="1.경쟁력지표" />
+               </div>
+            </div>
+         </div>
+         <br>
+         <div class="goal-tiles add">
+            <div class="row no-gutters">
+               <div class="col-xs-12 goal-tile">
+                  <img src="/site/assets/img/about_04.jpg" id="goal-18" alt="2.발전지표" />
+               </div>
+            </div>
+         </div>
+         <br>
+         <div class="goal-tiles add">
+            <div class="row no-gutters">
+               <div class="col-xs-12 goal-tile">
+                  <img src="/site/assets/img/about_05.jpg" id="goal-18" alt="3.생활지표" />
+               </div>
+            </div>
+         </div>
+         
       </div>
    </div>
 </div>
