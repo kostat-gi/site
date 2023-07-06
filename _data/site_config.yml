@@ -205,10 +205,6 @@ menu:
   - path: /goals
     translation_key: general.goals
     dropdown: []
-
-  - path: /infographic
-    translation_key: menu.infographic
-    dropdown: []
     
   - path: /reporting-status
     translation_key: menu.reporting_status
