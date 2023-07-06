@@ -1,7 +1,7 @@
 ---
 title: FAQ
 language: ko
-permalink: /faq/
+permalink: /faq1/
 layout: page
 ---
 
