@@ -207,7 +207,7 @@ menu:
     dropdown: []
 
   - path: /infographic
-    translation_key: general.infographic
+    translation_key: menu.infographic
     dropdown: []
     
   - path: /reporting-status
