@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230914043513">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230914062114">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -673,7 +673,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('data_preparation_year', "2005년, 2010년, 2015년~2020년");
+        var currentValue = normalizeCurrentValue('data_preparation_year', "2005년, 2010년, 2015년~2021년");
         var propertyEditor = editor.getEditor('root.data_preparation_year');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -771,7 +771,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/kostat-gi/data/commit/0d1c8924a8278562a61447db25c6fc61b4a44c02");
+        var currentValue = normalizeCurrentValue('national_data_update_url', "https://github.com/kostat-gi/data/commit/86dd2d2818a173ada78877acc5bd73a6bf95d774");
         var propertyEditor = editor.getEditor('root.national_data_update_url');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -910,12 +910,12 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230914043513'></script>
+<script src='/site/assets/js/sdg.js?v=20230914062114'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230914043513"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230914062114"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
