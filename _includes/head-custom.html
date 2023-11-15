@@ -44,4 +44,12 @@
       }
     }	  
   }
+
+  opensdg.dataRounding = function(value, context) {
+    console.log('run1');
+    if (context.indicatorId === 'indicator_5-1-1') {
+      console.log('run2');
+      return Math.round(value * 10) / 10;
+    }
+  }
 </script>
