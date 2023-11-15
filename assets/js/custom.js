@@ -36,3 +36,11 @@ $(document).on('keyup', '#indicator_search', function() {
     $("input[name=q]").eq(1).val($("input[name=q]").eq(1).val().toUpperCase());
     console.log($("input[name=q]").eq(1).val());
 });
+
+opensdg.dataRounding = function(value, context) {
+    console.log('run1');
+    if (context.indicatorId === 'indicator_5-1-1') {
+        console.log('run2');
+        return Math.round(value * 10) / 10;
+    }
+}
