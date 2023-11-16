@@ -127,18 +127,10 @@ $(function() {
 
 });
 
-console.log('run---');
-console.log({{ page.indicator.Id }});
-console.log({{ page.indicator.Id }});
-console.log({{ page.goal }});
-console.log({{ page.indicator.number }});
-/*opensdg.dataRounding = function(value, context) {
-  console.log('run1');
-  console.log(value);
-  console.log(context);
-  if (context.indicatorId === 'indicator_5-1-1') {
-    console.log('run2');
+opensdg.dataRounding = function(value, context) {
+  if ('{{ page.indicator.number }}' === '5-1-1') {
+    console.log('find');
     return Math.round(value * 10) / 10;
   }
-}*/
+}
 </script>
