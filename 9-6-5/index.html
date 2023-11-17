@@ -107,7 +107,7 @@ var translations = {
         
         지표 9.6.5 -
         
-        공공임대주택 수 - 수도권 광역지표
+        주택당 평균 거주인 수 - 수도권 광역지표
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20231117050006">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20231117054949">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -510,7 +510,7 @@ function copyUrl(){
                         
                         <span class="lead-copy2">주거</span>
                         
-                        공공임대주택 수
+                        주택당 평균 거주인 수
                     </h1>
                 </div>
             </div>
@@ -536,7 +536,7 @@ function copyUrl(){
   
   
   
-  <li class="active">주거 - 공공임대주택 수</li>
+  <li class="active">주거 - 주택당 평균 거주인 수</li>
   
 </ol>
 
@@ -565,9 +565,9 @@ function copyUrl(){
   data-indicatorid='indicator_9-6-5'
   data-id="9-6-5"
   data-country="Korea"
-  data-charttitle="공공임대주택 수"
+  data-charttitle="주택당 평균 거주인 수"
   data-charttitles="[]"
-  data-measurementunit="호"
+  data-measurementunit="명"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -581,7 +581,7 @@ function copyUrl(){
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;시도&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;0.전국&quot;,&quot;1.수도권&quot;,&quot;2.서울특별시&quot;,&quot;3.인천광역시&quot;,&quot;4.경기도&quot;]},&quot;title&quot;:&quot;시도&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;시군구&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;가평군&quot;,&quot;강남구&quot;,&quot;강동구&quot;,&quot;강북구&quot;,&quot;강서구&quot;,&quot;강화군&quot;,&quot;계양구&quot;,&quot;고양시&quot;,&quot;과천시&quot;,&quot;관악구&quot;,&quot;광명시&quot;,&quot;광주시&quot;,&quot;광진구&quot;,&quot;구로구&quot;,&quot;구리시&quot;,&quot;군포시&quot;,&quot;금천구&quot;,&quot;김포시&quot;,&quot;남동구&quot;,&quot;남양주시&quot;,&quot;노원구&quot;,&quot;도봉구&quot;,&quot;동구&quot;,&quot;동대문구&quot;,&quot;동두천시&quot;,&quot;동작구&quot;,&quot;마포구&quot;,&quot;미추홀구&quot;,&quot;부천시&quot;,&quot;부평구&quot;,&quot;서구&quot;,&quot;서대문구&quot;,&quot;서초구&quot;,&quot;성남시&quot;,&quot;성동구&quot;,&quot;성북구&quot;,&quot;송파구&quot;,&quot;수원시&quot;,&quot;시흥시&quot;,&quot;안산시&quot;,&quot;안성시&quot;,&quot;안양시&quot;,&quot;양주시&quot;,&quot;양천구&quot;,&quot;양평군&quot;,&quot;여주시&quot;,&quot;연수구&quot;,&quot;연천군&quot;,&quot;영등포구&quot;,&quot;오산시&quot;,&quot;옹진군&quot;,&quot;용산구&quot;,&quot;용인시&quot;,&quot;은평구&quot;,&quot;의왕시&quot;,&quot;의정부시&quot;,&quot;이천시&quot;,&quot;종로구&quot;,&quot;중구&quot;,&quot;중랑구&quot;,&quot;파주시&quot;,&quot;평택시&quot;,&quot;포천시&quot;,&quot;하남시&quot;,&quot;화성시&quot;]},&quot;title&quot;:&quot;시군구&quot;},{&quot;name&quot;:&quot;시도&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;0.전국&quot;,&quot;1.수도권&quot;,&quot;2.서울특별시&quot;,&quot;3.인천광역시&quot;,&quot;4.경기도&quot;]},&quot;title&quot;:&quot;시도&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
 >
@@ -615,7 +615,7 @@ function copyUrl(){
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>공공임대주택 수</caption>
+      <caption>주택당 평균 거주인 수</caption>
       <thead>
         
       </thead>
@@ -631,7 +631,7 @@ function copyUrl(){
     <p>지역: </p>
     
     
-    <p>세부지표: 호</p>
+    <p>세부지표: 명</p>
     
     
     <p>주석: </p>
@@ -719,7 +719,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">공공임대주택 수</h4>
+          <h4 id="chart-heading" class="chart-title">주택당 평균 거주인 수</h4>
           <div id="chart" class="plot-container">
             
               
@@ -988,7 +988,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>호</dd>
+        <dd>명</dd>
         
 
         
@@ -1031,7 +1031,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>호</dd>
+        <dd>명</dd>
         
 
         
@@ -1160,7 +1160,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">지 표 명 </th>
         <td>
           
-            <p>공공임대주택 수</p>
+            <p>주택당 평균 거주인 수</p>
 
           
         </td>
@@ -1176,7 +1176,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">정   의 </th>
         <td>
           
-            <p>임대 또는 임대후, 분양 전환을 목적으로 공급하는 공공주택재고량의 합</p>
+            <p>주택당 평균 거주인 수</p>
 
           
         </td>
@@ -1192,7 +1192,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">의   의 </th>
         <td>
           
-            <p>지자체등에서 임대주택의 건설실적, 재고, 분양전환실적등을 파악하여 주택정책수립에 필요한 기초자료를 제공함</p>
+            <p>변화하는 가구 구성에 맞추어 주거환경의 질을 파악할 수 있으며, 문화관련 정책 수립 및 집행의 기초자료로 활용이 가능함</p>
 
           
         </td>
@@ -1208,7 +1208,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">산   식 </th>
         <td>
           
-            <p>공공부문 임대주택의 합</p>
+            <p>총거주인 수÷거주인 1명 이상인 주택</p>
 
           
         </td>
@@ -1224,7 +1224,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">원출처 </th>
         <td>
           
-            <p>국토교통부 「주거실태조사」<br /> <a href="https://kosis.kr/statHtml/statHtml.do?orgId=116&amp;tblId=DT_MLTM_6825&amp;conn_path=I3" target="_blank">&lt;URL 바로가기&gt;</a></p>
+            <p>통계청 「주택총조사」<br /> <a href="https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1JU1503&amp;conn_path=I3" target="_blank">&lt;URL 바로가기&gt;</a></p>
 
           
         </td>
@@ -1240,7 +1240,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">단   위 </th>
         <td>
           
-            <p>호</p>
+            <p>명</p>
 
           
         </td>
@@ -1256,7 +1256,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">지역범위 </th>
         <td>
           
-            <p>시도</p>
+            <p>시군구</p>
 
           
         </td>
@@ -1278,7 +1278,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">작성연도 </th>
         <td>
           
-            <p>2009년 ~ 2021년</p>
+            <p>2015년 ~ 2021년</p>
 
           
         </td>
@@ -1421,8 +1421,8 @@ data-event-label="Change to indicator.national_metadata tab"
             
 
             
-              <a href="https://github.com/kostat-gi/data/commit/1c5a1775ef3f1091019e8959b8edb25ebcf2fa8b" target="_blank">
-                2023-03-29: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-gi/data/commit/d72042ab6a31de886e92d7fc9335e143dbdf6c96" target="_blank">
+                2023-11-17: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1628,7 +1628,7 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20231117050006'></script>
+<script src='/site/assets/js/sdg.js?v=20231117054949'></script>
 <script>
   console.log('run');
   
@@ -1645,7 +1645,7 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 
     
     
-    <script src="/site/assets/js/custom.js?v=20231117050006"></script><script>
+    <script src="/site/assets/js/custom.js?v=20231117054949"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1749,11 +1749,11 @@ window.onload=function() {
   element.style.color = '#fff';
   element.style.background = '#1d70b8';
   element.style.padding = '5px 7px 5px 7px';
-  if ('시도' == '권역') {
+  if ('시군구' == '권역') {
     coverage = '권역';
-  } else if ('시도' == '시군구') {
+  } else if ('시군구' == '시군구') {
     coverage = '시군구';
-  } else if ('시도' == '시도') {
+  } else if ('시군구' == '시도') {
     coverage = '시도';
   }
   element.textContent = '지역범위: ' + coverage;

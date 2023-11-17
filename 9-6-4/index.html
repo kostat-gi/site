@@ -107,7 +107,7 @@ var translations = {
         
         지표 9.6.4 -
         
-        주택당 평균 거주인 수 - 수도권 광역지표
+        자가 점유 가구 비율 - 수도권 광역지표
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20231117050006">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20231117054949">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -510,7 +510,7 @@ function copyUrl(){
                         
                         <span class="lead-copy2">주거</span>
                         
-                        주택당 평균 거주인 수
+                        자가 점유 가구 비율
                     </h1>
                 </div>
             </div>
@@ -536,7 +536,7 @@ function copyUrl(){
   
   
   
-  <li class="active">주거 - 주택당 평균 거주인 수</li>
+  <li class="active">주거 - 자가 점유 가구 비율</li>
   
 </ol>
 
@@ -565,9 +565,9 @@ function copyUrl(){
   data-indicatorid='indicator_9-6-4'
   data-id="9-6-4"
   data-country="Korea"
-  data-charttitle="주택당 평균 거주인 수"
+  data-charttitle="자가 점유 가구 비율"
   data-charttitles="[]"
-  data-measurementunit="명"
+  data-measurementunit="%"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -615,7 +615,7 @@ function copyUrl(){
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>주택당 평균 거주인 수</caption>
+      <caption>자가 점유 가구 비율</caption>
       <thead>
         
       </thead>
@@ -631,7 +631,7 @@ function copyUrl(){
     <p>지역: </p>
     
     
-    <p>세부지표: 명</p>
+    <p>세부지표: %</p>
     
     
     <p>주석: </p>
@@ -719,7 +719,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">주택당 평균 거주인 수</h4>
+          <h4 id="chart-heading" class="chart-title">자가 점유 가구 비율</h4>
           <div id="chart" class="plot-container">
             
               
@@ -988,7 +988,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>명</dd>
+        <dd>%</dd>
         
 
         
@@ -1031,7 +1031,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>단위:</dt>
-        <dd>명</dd>
+        <dd>%</dd>
         
 
         
@@ -1160,7 +1160,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">지 표 명 </th>
         <td>
           
-            <p>주택당 평균 거주인 수</p>
+            <p>자가 점유 가구 비율</p>
 
           
         </td>
@@ -1176,7 +1176,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">정   의 </th>
         <td>
           
-            <p>주택당 평균 거주인 수</p>
+            <p>전체 가구(일반 가구) 중 자신이 소유한 주택에 살고 있는 가구의 비율</p>
 
           
         </td>
@@ -1192,7 +1192,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">의   의 </th>
         <td>
           
-            <p>변화하는 가구 구성에 맞추어 주거환경의 질을 파악할 수 있으며, 문화관련 정책 수립 및 집행의 기초자료로 활용이 가능함</p>
+            <p>지역별 자신이 소유한 주택에 살고 있는 가구의 특성을 파악하여, 세밀한 지역 주택시장 분석이 가능함</p>
 
           
         </td>
@@ -1208,7 +1208,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">산   식 </th>
         <td>
           
-            <p>총거주인 수÷거주인 1명 이상인 주택</p>
+            <p>(자가 점유 가구÷일반가구)×100<br /> *일반가구: 집단가구, 집단시설가구, 외국인가구 및 특별조사구 제외</p>
 
           
         </td>
@@ -1224,7 +1224,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">원출처 </th>
         <td>
           
-            <p>통계청 「주택총조사」<br /> <a href="https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1JU1503&amp;conn_path=I3" target="_blank">&lt;URL 바로가기&gt;</a></p>
+            <p>*통계청「인구총조사」<br /> (2015년) <a href="https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1PE1502&amp;conn_path=I3" target="_blank">&lt;URL 바로가기&gt;</a><br /> (2020년) <a href="https://kosis.kr/statHtml/statHtml.do?orgId=101&amp;tblId=DT_1PE2002&amp;conn_path=I3" target="_blank">&lt;URL 바로가기&gt;</a></p>
 
           
         </td>
@@ -1240,7 +1240,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">단   위 </th>
         <td>
           
-            <p>명</p>
+            <p>%</p>
 
           
         </td>
@@ -1278,7 +1278,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">작성연도 </th>
         <td>
           
-            <p>2015년 ~ 2021년</p>
+            <p>2005~2010년(전수), 2015년~2020년(표본)</p>
 
           
         </td>
@@ -1294,7 +1294,7 @@ data-event-label="Change to indicator.national_metadata tab"
         <th scope="row" style="white-space: nowrap">작성주기 </th>
         <td>
           
-            <p>1년</p>
+            <p>5년</p>
 
           
         </td>
@@ -1421,8 +1421,8 @@ data-event-label="Change to indicator.national_metadata tab"
             
 
             
-              <a href="https://github.com/kostat-gi/data/commit/fef9bbf584afb602d09a8f172e88567092d716e4" target="_blank">
-                2023-02-16: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
+              <a href="https://github.com/kostat-gi/data/commit/8605040bd3a93f9cc3a1ff2cdced27b7c68b3a70" target="_blank">
+                2023-11-17: see changes on GitHub <span class="visuallyhidden">새 창에서 열기</span>
               </a>
             
 
@@ -1628,7 +1628,7 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20231117050006'></script>
+<script src='/site/assets/js/sdg.js?v=20231117054949'></script>
 <script>
   console.log('run');
   
@@ -1645,7 +1645,7 @@ document.getElementById('date').innerText = today.toLocaleDateString();
 
     
     
-    <script src="/site/assets/js/custom.js?v=20231117050006"></script><script>
+    <script src="/site/assets/js/custom.js?v=20231117054949"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

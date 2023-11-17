@@ -727,7 +727,7 @@
         },
         {
           "id": "9-6-4",
-          "title": "주택당 평균 거주인 수",
+          "title": "자가 점유 가구 비율",
           "description": "",
           "keywords": "",
           "href": "/site/9-6-4",
@@ -735,7 +735,7 @@
         },
         {
           "id": "9-6-5",
-          "title": "공공임대주택 수",
+          "title": "주택당 평균 거주인 수",
           "description": "",
           "keywords": "",
           "href": "/site/9-6-5",
@@ -743,7 +743,7 @@
         },
         {
           "id": "9-6-6",
-          "title": "월세/전세 가격지수",
+          "title": "공공임대주택 수",
           "description": "",
           "keywords": "",
           "href": "/site/9-6-6",
@@ -751,7 +751,7 @@
         },
         {
           "id": "9-6-7",
-          "title": "자가 점유 가구 비율",
+          "title": "월세/전세 가격지수",
           "description": "",
           "keywords": "",
           "href": "/site/9-6-7",
