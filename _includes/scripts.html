@@ -139,5 +139,9 @@ if ('{{ page.indicator.number }}' == '5.1.1') {
   opensdg.dataRounding = function(value, context) {
     return Math.round(value * 10) / 10;
   }
+} else if ('{{ page.indicator.number }}' == '11.2.2') {
+  opensdg.dataRounding = function(value, context) {
+    return Math.round(value * 10) / 10;
+  }
 }
 </script>
