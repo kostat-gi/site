@@ -142,11 +142,5 @@ switch ('{{ page.indicator.number }}') {
       return Math.round(value * 100) / 100;
     }
     break;
-
-  case '2.2.1':
-    opensdg.dataRounding = function(value, context) {
-      return value.toLocaleString('ko-KR');
-    }
-    break;
 }
 </script>
