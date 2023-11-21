@@ -145,7 +145,7 @@ switch ('{{ page.indicator.number }}') {
 
   case '2.2.1':
     opensdg.dataRounding = function(value, context) {
-      return dataRounding.toLocaleString('ko-KR');
+      return value.toLocaleString('ko-KR');
     }
     break;
 }
