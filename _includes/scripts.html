@@ -138,9 +138,14 @@ switch ('{{ page.indicator.number }}') {
     break;
 
   case '4.2.3':
-    console.log('4.2.3 action');
     opensdg.dataRounding = function(value, context) {
       return Math.round(value * 100) / 100;
+    }
+    break;
+
+  case '2.2.1':
+    opensdg.dataRounding = function(value, context) {
+      return dataRounding.toLocaleString('ko-KR');
     }
     break;
 }
