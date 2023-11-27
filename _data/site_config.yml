@@ -23,7 +23,7 @@ breadcrumbs:
       label: general.home
     - path: /news
       label: menu.updates
-      
+
 chartjs_3: false
 contrast_type: single
 cookie_consent_form:
@@ -41,7 +41,7 @@ create_indicators:
 create_pages:
   - filename: ''
     folder: /
-    layout: frontpage
+    layout: frontpage2
     title: ''
   - filename: ''
     folder: /goals
@@ -209,19 +209,19 @@ menu:
   - path: /infographic
     translation_key: menu.infographic
     dropdown: []
-    
+
   - path: /reporting-status
     translation_key: menu.reporting_status
     dropdown: []
-    
+
   - path: /publications
     translation_key: menu.publications
-    dropdown: []    
-    
+    dropdown: []
+
   - path: /faq
     translation_key: menu.faq
-    dropdown: []    
-    
+    dropdown: []
+
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
