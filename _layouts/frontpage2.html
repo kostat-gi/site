@@ -1,0 +1,167 @@
+{% include head.html %}
+{% include header.html %}
+
+<link rel="stylesheet" href="assets/swiper/swiper.min.css" />
+<link rel="stylesheet" href="assets/css/main/main.css" crossorigin="">
+<script src="assets/swiper/swiper.min.js"></script>
+<script src="assets/js/main/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+<header role="banner" class="header-default">
+	<div class="container2">
+		<div class="bg-left"></div><div class="bg-right"></div>
+		<div class="main-bg">
+			<h1>수도권 광역지표</h1>
+			<h2>온라인서비스</h2>
+			<p></p>
+			<ul class="lst">
+				<li onclick="scrollTo2('#t001')"><p>경제력 지표</p></li>
+				<li onclick="scrollTo2('#t002')"><p>발전 지표</p></li>
+				<li onclick="scrollTo2('#t003')"><p>생활 지표</p></li>
+			</ul>
+			<div class="map"></div>
+		</div>
+	</div>
+</header>
+<div id="main-content" class="container" role="main">
+	<div id="t001" class="row no-gutters section sec01">
+		<div class="goal-tiles add">
+			<h3>경쟁력 지표</h3>
+			<h4>타 광역권과 수도권 비교를 위한 세분화 지표</h4>
+			<ul class="gbuttons">
+				<li class="gbutton" onclick="goPage('/1')">
+					<img src="./assets/img/main/ico01.svg" alt="자원" />
+					<p>자원</p>
+					<button class="golink"></button>
+				</li>
+				<li class="gbutton" onclick="goPage('/2')">
+					<img src="./assets/img/main/ico02.svg" alt="역량" />
+					<p>역량</p>
+					<button class="golink"></button>
+				</li>
+			</ul>
+			<ul class="gbuttons">
+				<li class="gbutton" onclick="goPage('/3')">
+					<img src="./assets/img/main/ico03.svg" alt="번영" />
+					<p>번영</p>
+					<button class="golink"></button>
+				</li>
+				<li class="gbutton" onclick="goPage('/4')">
+					<img src="./assets/img/main/ico04.svg" alt="매력" />
+					<p>매력</p>
+					<button class="golink"></button>
+				</li>
+			</ul>
+			<div class="swiper">
+				<ul class="dbuttons swiper-wrapper">
+					<li class="dbutton dbtn01 swiper-slide" onclick="goPage('/1-1-1')">
+						<p>인구성장지수<span class="desc">(단위: 2001년=100)</span></p>
+					</li>
+					<li class="dbutton dbtn02 swiper-slide" onclick="goPage('/3-1-1')">
+						<p>지역내 실질 총생산(GRDP)<span class="desc">(단위: 백억원)</span></p>
+					</li>
+					<li class="dbutton dbtn03 swiper-slide" onclick="goPage('/4-1-1')">
+						<p>인구 순유입률<span class="desc">(단위: %)</span></p>
+					</li>
+				</ul>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+
+		</div>
+	</div>
+	<div id="t002" class="row no-gutters section sec02">
+		<div class="goal-tiles add">
+			<h3>발전 지표</h3>
+			<h4>지역행정 지원을 위한 시의성 높은 세분화 지표</h4>
+			<ul class="gbuttons">
+				<li class="gbutton" onclick="goPage('/5')">
+					<img src="./assets/img/main/ico05.svg" alt="기초역량과 여건" />
+					<p>기초역량과 여건</p>
+					<button class="golink"></button>
+				</li>
+				<li class="gbutton" onclick="goPage('/6')">
+					<img src="./assets/img/main/ico06.svg" alt="경제적 성과" />
+					<p>경제적 성과</p>
+					<button class="golink"></button>
+				</li>
+			</ul>
+			<ul class="gbuttons">
+				<li class="gbutton" onclick="goPage('/7')">
+					<img src="./assets/img/main/ico07.svg" alt="지속가능성" />
+					<p>지속가능성</p>
+					<button class="golink"></button>
+				</li>
+			</ul>
+			<div class="swiper">
+				<ul class="dbuttons swiper-wrapper">
+					<li class="dbutton dbtn04 swiper-slide" onclick="goPage('/5-1-1')">
+						<p>재정자립도<span class="desc">(단위: %)</span></p>
+					</li>
+					<li class="dbutton dbtn05 swiper-slide" onclick="goPage('/6-3-3')">
+						<p>가구당 순자산<span class="desc">(단위: 만원)</span></p>
+					</li>
+					<li class="dbutton dbtn06 swiper-slide" onclick="goPage('/7-1-2')">
+						<p>초미세먼지 대기오염도<span class="desc">(단위: μg/m<sup>3</sup>)</span></p>
+					</li>
+				</ul>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+
+		</div>
+	</div>
+	<div id="t003" class="row no-gutters section sec03">
+		<div class="goal-tiles add">
+			<h3>생활 지표</h3>
+			<h4>시민이 필요로 하고, 체감할 수 있는 생활 관련 세분화 지표</h4>
+			<ul class="gbuttons">
+				<li class="gbutton" onclick="goPage('/8')">
+					<img src="./assets/img/main/ico09.svg" alt="내면세계" />
+					<p>내면세계</p>
+					<button class="golink"></button>
+				</li>
+				<li class="gbutton" onclick="goPage('/9')">
+					<img src="./assets/img/main/ico10.svg" alt="개인생활" />
+					<p>개인생활</p>
+					<button class="golink"></button>
+				</li>
+			</ul>
+			<ul class="gbuttons">
+				<li class="gbutton" onclick="goPage('/10')">
+					<img src="./assets/img/main/ico11.svg" alt="공동생활" />
+					<p>공동생활</p>
+					<button class="golink"></button>
+				</li>
+				<li class="gbutton" onclick="goPage('/11')">
+					<img src="./assets/img/main/ico12.svg" alt="환경" />
+					<p>환경</p>
+					<button class="golink"></button>
+				</li>
+			</ul>
+			<div class="swiper">
+				<ul class="dbuttons swiper-wrapper">
+					<li class="dbutton dbtn07 swiper-slide" onclick="goPage('/8-1-1')">
+						<p>삶의 만족도<span class="desc">(단위: %)</span></p>
+					</li>
+					<li class="dbutton dbtn08 swiper-slide" onclick="goPage('/9-1-4')">
+						<p>스트레스 인지율<span class="desc">(단위: %)</span></p>
+					</li>
+					<li class="dbutton dbtn09 swiper-slide" onclick="goPage('/11-1-1')">
+						<p>1인당 생활폐기물 배출량<span class="desc">(단위: kg/일)</span></p>
+					</li>
+				</ul>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 팝업창 호출 부분 -->
+<!-- {% include components/popup.html %} -->
+
+{% include footer.html %}
