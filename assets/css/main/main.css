@@ -403,6 +403,7 @@ li.dbutton.dbtn02>p {
 li.dbutton>p>span.desc {
 	font-size: 9px;
 	padding-left: 5px;
+	font-weight: normal;
 }
 li.dbutton.dbtn01 {
 	background-image: url(../../img/main/d01.svg);
