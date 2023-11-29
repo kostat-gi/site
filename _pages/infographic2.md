@@ -25,6 +25,6 @@ layout: page
            <li class="liUnSelect"><a href="https://kostat-gi.github.io/site/infographic1">발전지표</a></li>
            <li class="liSelect">생활지표</li>
        </ul>
-       <img src="/site/assets/img/infographic03.png" width="100%" id="goal-18" alt="생활지표 인포그래픽" />
+       <img src="/site/assets/img/infographic_2023_03.jpg" width="97%" id="goal-18" style="margin: 50px 20px;" alt="생활지표 인포그래픽" />
    </div>
 </div>
