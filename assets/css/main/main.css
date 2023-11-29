@@ -395,13 +395,22 @@ li.dbutton>p {
 	margin: 0;
     text-align: left;
 	cursor: pointer;
+	transform-origin: 0 0;
 }
 li.dbutton.dbtn02>p {
-	transform: scaleX(0.85);
-    transform-origin: 0 0;
+	transform: scaleX(0.83);
+	width: 150%;
+}
+li.dbutton.dbtn06>p {
+	transform: scaleX(0.9);
+	width: 150%;
+}
+li.dbutton.dbtn09>p {
+	transform: scaleX(0.9);
+	width: 150%;
 }
 li.dbutton>p>span.desc {
-	font-size: 9px;
+	font-size: 12px;
 	padding-left: 5px;
 	font-weight: normal;
 }
@@ -674,6 +683,8 @@ li.dbutton.dbtn09 {
 	}
 	li.dbutton>p {
 		padding-left: 10px;
+		font-size: 16px;
+		line-height: 48px;
 	}
 
 	.swiper {
