@@ -135,7 +135,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20231129054347">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20231129074243">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -613,7 +613,7 @@ layout-config-builder
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_calculations', "최종소비자가 직접 사용한 1차 에너지 + 전환과정을 거친 2차 에너지");
+        var currentValue = normalizeCurrentValue('computation_calculations', "최종소비자가 직접 사용한 1차 에너지 + 전환과정을 거친 2차 에너지<br> *toe(ton of oil equivalent), 석유 1톤을 연소시킬때의 발열랑(1000만kcal)");
         var propertyEditor = editor.getEditor('root.computation_calculations');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -910,7 +910,7 @@ layout-config-builder
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20231129054347'></script>
+<script src='/site/assets/js/sdg.js?v=20231129074243'></script>
 <script>
   console.log('run');
   
@@ -927,7 +927,7 @@ layout-config-builder
 
     
     
-    <script src="/site/assets/js/custom.js?v=20231129054347"></script><script>
+    <script src="/site/assets/js/custom.js?v=20231129074243"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
