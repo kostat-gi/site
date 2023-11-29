@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 function goPage(h) {
-	location.href=h;
+	location.href='/site'+h;
 }
 function scrollTo2(el) {
 	if($(el).length==0) return;
