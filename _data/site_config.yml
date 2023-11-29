@@ -41,7 +41,7 @@ create_indicators:
 create_pages:
   - filename: ''
     folder: /
-    layout: frontpage
+    layout: frontpage2
     title: ''
   - filename: ''
     folder: /goals
