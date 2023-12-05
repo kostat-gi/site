@@ -27,12 +27,11 @@ layout: page
             <span class="title">읽을거리</span>
         </div>
     </div>
-
     <br>
     <!--<div class="contents_box">
 	<b>[2022 수도권 광역지표 분석 보고서]</b> <a href="https://kostat-gi.github.io/site/assets/img/report/2022_report.pdf" target="_blank">[PDF 바로가기]</a> <a href="https://kostat-gi.github.io/site/assets/img/report/2022_report_hwp.hwpx" target="_blank">[HWP 바로가기]</a><br>
 	<b>[보도자료]</b> <a href="https://kostat-gi.github.io/site/assets/img/report/press_2022_11_10.pdf" target="_blank">수도권 광역지표 개발 및 온라인 시범서비스 시작</a>
-    </div>	-->
+    </div>-->
 
 <!--<div class="part_line">&nbsp;</div>-->
 
@@ -53,7 +52,6 @@ layout: page
     </div>
 
 <div class="part_line">&nbsp;</div>
-
     <div class="contents_box" style="font-size:20px">
         <div style="margin-top: 30px;">
             <span class="title">사이트 구축 참고자료</span>
