@@ -36,7 +36,7 @@ layout: page
         <label class="hidden-md hidden-lg">{{ page.t.global_goals.1-short }} - </label>
         1.1
     </span>
-    {{ page.t.global_targets.5-1-title }}
+    {{ page.t.global_targets.1-1-title }}
 </div>
 
 <div class="indicator-cards col-md-6 row no-gutters">
