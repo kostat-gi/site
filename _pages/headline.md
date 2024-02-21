@@ -185,7 +185,7 @@ layout: page
     </div>
 </div>
 
-<div class="part_line">&nbsp;</div>
+<div class="under_line">&nbsp;</div>
 
 <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
