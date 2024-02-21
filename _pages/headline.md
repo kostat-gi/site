@@ -20,6 +20,228 @@ layout: page
 
 <div id="main-content" class="container goal-indicators goal-1 goal-by-target" role="main">
 
+<div class="title2">▣ 경쟁력지표</div>
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- {{ page.t.global_goals.1-short }} {{ page.t.general.goal }}</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.1-short }} - </label>
+        1.1
+    </span>
+    {{ page.t.global_targets.5-1-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            1.1.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/1-1-1">
+            {{ page.t.global_indicators.1-1-1-title }}
+        </a>
+    </div>
+</div>
+  
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.1-short }} - </label>
+        1.2
+    </span>
+    {{ page.t.global_targets.1-2-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            1.2.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/1-2-2">
+            {{ page.t.global_indicators.1-2-2-title }}
+        </a>
+    </div>
+</div>
+
+<div class="under_line">&nbsp;</div>
+    
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- {{ page.t.global_goals.2-short }} {{ page.t.general.goal }}</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>    
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.2-short }} - </label>
+        2.1
+    </span>
+    {{ page.t.global_targets.2-1-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            2.1.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/2-1-2">
+            {{ page.t.global_indicators.2-1-2-title }}
+        </a>
+    </div>
+</div>  
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.2-short }} - </label>
+        2.2
+    </span>
+    {{ page.t.global_targets.2-2-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            2.2.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/2-2-1">
+            {{ page.t.global_indicators.2-2-1-title }}
+        </a>
+    </div>
+</div>
+
+<div class="under_line">&nbsp;</div>
+
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- {{ page.t.global_goals.3-short }} {{ page.t.general.goal }}</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>    
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.3-short }} - </label>
+        3.1
+    </span>
+    {{ page.t.global_targets.3-1-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            3.1.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/3-1-1">
+            {{ page.t.global_indicators.3-1-1-title }}
+        </a>
+    </div>
+</div>  
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.3-short }} - </label>
+        3.2
+    </span>
+    {{ page.t.global_targets.3-2-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            3.2.2
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/3-2-2">
+            {{ page.t.global_indicators.3-2-2-title }}
+        </a>
+    </div>
+</div>
+
+<div class="part_line">&nbsp;</div>
+
+<div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+        <h2>- {{ page.t.global_goals.4-short }} {{ page.t.general.goal }}</h2>
+    </div>
+    <div class="col-md-6">
+        <h2>&nbsp;</h2>
+    </div>
+</div>    
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.4-short }} - </label>
+        4.1
+    </span>
+    {{ page.t.global_targets.4-1-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            4.1.1
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/4-1-1">
+            {{ page.t.global_indicators.4-1-1-title }}
+        </a>
+    </div>
+</div>  
+
+<div class="indicator-cards target goal-target col-md-6">
+    <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">{{ page.t.global_goals.4-short }} - </label>
+        4.2
+    </span>
+    {{ page.t.global_targets.4-2-title }}
+</div>
+
+<div class="indicator-cards col-md-6 row no-gutters">
+    <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+            4.2.3
+            <span class="status complete">
+                <span class="status-inner">이용가능</span>
+            </span>
+        </span>
+        <a href="/site/4-2-3">
+            {{ page.t.global_indicators.4-2-3-title }}
+        </a>
+    </div>
+</div>
+
+<div class="part_line">&nbsp;</div>
+
 <div class="title2">▣ 발전지표</div>
     
 <div class="visible-md-block visible-lg-block">
